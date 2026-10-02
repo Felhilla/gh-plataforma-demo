@@ -1,0 +1,1740 @@
+[
+  {
+    "id": "accion-01",
+    "componente": "componente-1",
+    "titulo": "Complementar política de derechos humanos",
+    "descripcion": "La Política de Derechos Humanos de SOLGAS establece compromisos fundamentales para su respeto y protección; sin embargo, carece de una referencia explícita que vincule dichos compromisos con un mecanismo operativo que permita su implementación efectiva en todas las áreas de la empresa. \n\nEn este sentido, se propone complementar la política con el siguiente párrafo:\n\n“Los compromisos asumidos por SOLGAS en materia de derechos humanos se implementan a través un proceso de Debida Diligencia, el cual integra la identificación, prevención, mitigación, seguimiento y remediación de riesgos en todas las operaciones de la organización, así como en su cadena de suministro, y se articula plenamente con los sistemas de gestión existentes.”\n\nSi bien, la política menciona el compromiso de promover el respeto por los derechos humanos entre proveedores y contratistas, no establece un mecanismo que asegure la debida aplicación de este compromiso en la cadena de valor. Se recomienda complementar con el siguiente párrafo:\n\n“Los lineamientos establecidos en esta política son de obligatorio cumplimiento para proveedores, contratistas y aliados comerciales, quienes deberán implementar medidas equivalentes de debida diligencia en derechos humanos. SOLGAS verificará el cumplimiento mediante procesos de evaluación, monitoreo y fortalecimiento de capacidades en la cadena de suministro.”\n\nLa política establece lineamientos generales, pero no menciona mecanismos de seguimiento ni de divulgación de resultados de la debida diligencia y la gestión en derechos humanos. Para cerrar esta brecha, se recomienda incluir el siguiente párrafo:\n\n“La aplicación de esta política será objeto de seguimiento continuo mediante indicadores de cumplimiento y evaluaciones periódicas. SOLGAS publicará información relevante sobre la gestión de derechos humanos en sus informes de gestión en sostenibilidad, asegurando transparencia y participación de los grupos de interés.”\n\nAdemás, se recomienda que SOLGAS establezca de forma explícita los siguientes compromisos en el marco de la política de derechos humanos : \n\n“En implementación de su compromiso con los derechos humanos, SOLGAS implementará un proceso de debida diligencia que permita:\n\nIdentificar, evaluar y gestionar de manera continua los riesgos reales o potenciales en derechos humanos asociados a sus operaciones, contratistas, proveedores, intermediarios logísticos y demás relaciones comerciales.\nPrevenir y mitigar impactos adversos, asignando medidas proporcionales según la naturaleza del riesgo y el nivel de exposición de las personas afectadas.\nGarantizar un entorno laboral seguro, inclusivo y respetuoso, libre de discriminación, trabajo forzoso, trabajo infantil y cualquier forma de violencia o acoso.\nPromover estándares de derechos humanos en la cadena de suministro, exigiendo a los proveedores el cumplimiento de criterios equivalentes y fomentando capacidades para su incorporación progresiva.\nEscuchar y dialogar con los grupos de interés, especialmente comunidades locales y grupos en situación de vulnerabilidad.\nGarantizar mecanismos de quejas accesibles, confidenciales y libres de represalias, que permitan recibir, investigar y resolver denuncias relacionadas con afectaciones a derechos humanos.\nReportar de manera transparente los avances y desafíos de la gestión de derechos humanos, integrándolos a los reportes de sostenibilidad de la organización”.",
+    "riesgos": [],
+    "ejes": [
+      "etapa-ocde-1"
+    ],
+    "responsable": "Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de políticas y procedimientos actualizados en DDHH",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador",
+      "responsable"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 47,
+      "fila": 1
+    },
+    "vinculos_estimados": true
+  },
+  {
+    "id": "accion-02",
+    "componente": "componente-1",
+    "titulo": "Complementar política de sostenibilidad",
+    "descripcion": "La política establece compromisos amplios en materia ambiental, social y de gobernanza; sin embargo, carece de un vínculo explícito con los mecanismos necesarios para implementar la debida diligencia en DDHH conforme a los estándares internacionales. En este sentido, se propone complementar el documento con el siguiente componente:\n\nDerechos humanos:\n\n“SOLGAS reconoce que el respeto por los derechos humanos es un principio esencial para el desarrollo sostenible y una condición para la operación responsable en los territorios donde la empresa actúa. \n\nEn coherencia con los Principios Rectores sobre Empresas y Derechos Humanos de las Naciones Unidas, la Guía de Debida Diligencia de la OCDE y su Política Corporativa de Derechos Humanos, la organización incorpora la gestión de los derechos humanos como un eje estratégico transversal a todas las áreas, procesos, actividades y relaciones comerciales.\n\nSOLGAS reafirma su compromiso, establecido la política de derechos humanos, de prevenir, mitigar y remediar posibles afectaciones a los derechos humanos derivadas de sus actividades, así como de promover estándares de conducta empresarial responsable a lo largo de su cadena de valor”.",
+    "riesgos": [],
+    "ejes": [
+      "etapa-ocde-1"
+    ],
+    "responsable": "Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de políticas y procedimientos actualizados en DDHH",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador",
+      "responsable"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 47,
+      "fila": 2
+    },
+    "vinculos_estimados": true
+  },
+  {
+    "id": "accion-03",
+    "componente": "componente-1",
+    "titulo": "Complementar procedimiento de debida diligencia",
+    "descripcion": "El Procedimiento de Debida Diligencia de SOLGAS presenta un enfoque limitado a riesgos legales, crediticios y reputacionales, sin integrar mecanismos para identificar, gestionar, mitigar o remediar riesgos reales o potenciales en derechos humanos en clientes, proveedores, colaboradores o proyectos. \n\nEn este sentido se recomienda complementar el procedimiento mediante la incorporación de un sistema estructurado que contenga: mecanismo de evaluación de riesgos en DDHH, indicadores de seguimiento, rutas de remediación en caso de afectaciones a los derechos humanos, y mecanismos de monitoreo continuo por cada uno de los grupos de interés, alineado a estándares internacionales y aplicable a toda la cadena de valor.\n\nCriterios a tener en cuenta por grupo de interés:\n\nClientes / Distribuidores\n\nRiesgos por evaluar en derechos humanos:\n\nEn relación con el procedimiento de debida diligencia en el caso de los clientes y proveedores se recomienda incluir los siguientes riesgos a evaluar en materia de derechos humanos:\nDiscriminación o prácticas laborales abusivas.\nAfectación a comunidades durante el proceso de distribución.\nRiesgo de seguridad en el transporte (GLP y cilindros).\nRiesgo de contribución indirecta a trabajo forzoso o trata.\n\nSe recomienda que este proceso se desarrolle durante el proceso de vinculación y renovación de relaciones comerciales. \n\nIndicadores para el seguimiento:\n\nPara la evaluación de los riesgos propuestos se recomiendan los siguientes indicadores:\n% de clientes evaluados en DDHH.\nNº de alertas tempranas registradas por riesgos sociales o laborales.\nNº de incidentes relacionados con seguridad del transporte.\n% de distribuidores con denuncias en el mecanismo de quejas.\nNº de casos donde se exigió plan de mejora social.\n\nMecanismos de remediación:\n\nEn caso de presentarse o identificarse alguna afectación en materia de derechos humanos se proponen los siguientes mecanismos de remediación:\nActivación inmediata del Comité de Sostenibilidad.\nInvestigación conjunta con el equipo comercial y legal.\nMedidas de mitigación:\nSuspensión de rutas.\nCapacitación obligatoria.\nPlan de mejora social.\nReparación cuando hay víctimas:\nIndemnización.\nRestauración de condiciones laborales.\nGarantías de no repetición.\nTerminación del vínculo si no se corrigen las afectaciones.\n\nMecanismo de seguimiento\n\nPara el monitoreo de clientes y proveedores se proponen los siguientes mecanismos:\nRevisión semestral de riesgos\nAlertas automáticas (denuncias, incidentes de seguridad)\nSeguimiento a incumplimientos de DDHH\n\nProveedores\n\nRiesgos por evaluar en derechos humanos:\n\nEn relación al procedimiento de debida diligencia en el caso de proveedores se recomienda tener en cuenta los siguientes riesgos en derechos humanos:\nCumplimiento laboral.\nContratación y subcontratación.\nSeguridad industrial.\nCondiciones de transporte y manipulación de GLP.\nDiscriminación y acoso.\nTrabajo infantil o forzoso.\nLibertad sindical.\n\nIndicadores para el seguimiento:\n\nSe recomienda que este proceso tenga en cuenta un carácter de priorización basado en la criticidad de los proveedores, con un enfoque regional y de seguridad. \n\nPara la evaluación de los criterios propuestos se recomiendan los siguientes indicadores:\n% de proveedores evaluados con criterios de DDHH.\nNº de auditorías sociales realizadas.\nNº de no conformidades sociales detectadas.\n% de proveedores con cláusulas contractuales DDHH.\nNº de denuncias relacionadas con proveedores.\n\nMecanismos de remediación:\n\nEn caso de materializarse o identificarse algún tipo de afectación a los derechos humanos, se proponen los siguientes mecanismos de remediación:\nEvaluar gravedad del hallazgo mediante la metodología propuesta por Pacto Global (crítico, alto, medio).\nExigir plan de mejora con plazos específicos.\nSupervisión del cumplimiento (visitas, evidencias).\nEn casos graves:\nInhabilitación temporal.\nAuditorías especiales.\nTerminación del contrato.\nAcompañamiento formativo para proveedores medianos o pequeños.\n\nMecanismo de seguimiento\n\nPara el monitoreo de la debida diligencia en el caso de los proveedores se recomiendan los siguientes mecanismos:\nAuditorías sociales anuales.\nAutoevaluaciones cada 6 meses.\nSeguimiento a la implementación de planes de mejora.\n\n\nColaboradores\n\nRiesgos por evaluar en derechos humanos:\n\nEn relación al procedimiento de debida diligencia en el caso de colaboradores se recomienda evaluar los siguientes aspectos en derechos humanos:\nRiesgos de discriminación.\nRiesgos psicosociales.\nExposición a violencia física o amenazas.\nCondiciones laborales inseguras.\nBrecha salarial o inequidad de oportunidades.\nRiesgos para población vulnerable (madres gestantes, jóvenes, migrantes).\n\nSe recomienda que este proceso se desarrolle a lo largo de todo el ciclo laboral, con una periodicidad mínima de 6 meses. \n\nIndicadores para el seguimiento:\n\nPara la evaluación de los criterios propuestos se recomiendan los siguientes indicadores:\nNº de denuncias recibidas.\n% de investigaciones cerradas con remediación.\nTasa de rotación de grupos vulnerables.\nÍndice de riesgo psicosocial.\nÍndice de riesgos sociolaborales.\n% de brecha salarial por género.\n\nMecanismos de remediación:\n\nFrente a la identificación o materialización de algún impacto respecto a los derechos humanos al interior de la operación:\nActivación inmediata del protocolo de investigación.\nGarantías de confidencialidad y no represalia.\nMedidas urgentes de protección (si hay amenaza).\nSanciones disciplinarias.\nReparación al trabajador afectado.\nAjustes organizacionales cuando corresponda.\n\nMecanismo de seguimiento:\n\nComo mecanismos de monitoreo se preponen:\nEncuestas semestrales de clima y riesgo psicosocial.\nSistema de seguimiento de incidentes.\nRevisión anual del sistema de gestión laboral.\n\n\nProyectos, transacciones u operaciones\n\nEvaluación de impacto en Derechos Humanos:\n\nEn relación al procedimiento de debida diligencia en el caso de proyectos, transacciones u operaciones se recomienda incluir una Evaluación de Impacto en Derechos Humanos (HRIA) adaptada a las características de cada proyectos que incluya:\n\nEvaluación previa:\nImpactos a comunidades locales.\nDesplazamiento o afectación territorial.\nSeguridad y relaciones con autoridades.\nRiesgos ambientales con relevancia para DDHH (agua, aire, ruido).\nRiesgos sociales derivados de obras o contratistas.\n\nDurante la ejecución:\nMonitoreo comunitario.\nEvaluación del cumplimiento de compromisos sociales.\n\nAl cierre\nMedición de impactos residuales.\nRutinas de reparación si corresponde.\n\nIndicadores para el seguimiento:\n\nPara la evaluación de los criterios propuestos se recomiendan los siguientes indicadores:\nNº de proyectos evaluados con HRIA.\nNº de impactos sociales identificados vs mitigados.\nNº de quejas comunitarias.\nCumplimiento de compromisos sociales del proyecto.\n\nMecanismos de remediación:\n\nFrente a la identificación o materialización impactos relacionados a los derechos humanos se recomiendan los siguientes mecanismos:\nActivación de mesas de diálogo con comunidades\nAjustes al diseño del proyecto\nMedidas de compensación social\nRevisión del plan de manejo socioambiental\nMedidas correctivas para contratistas\n\nMecanismo de seguimiento:\n\nPara el monitoreo de la debida diligencia en los proyectos, transacciones u operaciones, se recomienda:\nReportes semestrales de riesgos sociales a comité de sostenibilidad\nVisitas de campo\nActualización de la matriz de riesgos anualmente\n\nAdemás de estos ajustes específicos y de manera general se sugiere integrar el Procedimiento de Debida Diligencia con los procesos de toma de decisiones estratégicas, exigiendo evaluaciones de riesgos de anticorrupción y derechos humanos antes de expandir operaciones, cerrar acuerdos comerciales o aprobar la entrada de nuevos proveedores o distribuidores de alto impacto.",
+    "riesgos": [],
+    "ejes": [
+      "etapa-ocde-1"
+    ],
+    "responsable": "Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de políticas y procedimientos actualizados en DDHH",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador",
+      "responsable"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 47,
+      "fila": 3
+    },
+    "vinculos_estimados": true
+  },
+  {
+    "id": "accion-04",
+    "componente": "componente-1",
+    "titulo": "Complementar procedimiento de denuncias",
+    "descripcion": "El Procedimiento de Denuncias de SOLGAS establece el mecanismo para la presentación, recepción, tratamiento y cierre y reporte de la gestión de las denuncias; sin embargo, carece de un enfoque en para el tratamiento de denuncias en materia de derechos humanos. \n\nEn respecto a esta brecha se recomienda la anexión de la siguiente definición a lo que respecta a una denuncia en derechos humanos:\n\n“Para efectos del presente procedimiento, se entenderá por afectaciones a los derechos humanos cualquier impacto real o potencial sobre los derechos fundamentales de colaboradores, contratistas, proveedores, comunidades o terceros, incluyendo vulneraciones relacionadas con discriminación, trabajo infantil, trabajo forzoso, libertad sindical, condiciones inseguras, acoso, violencia de género, afectaciones ambientales con impacto social y otros riesgos definidos en la política de derechos humanos de SOLGAS.”",
+    "riesgos": [],
+    "ejes": [
+      "etapa-ocde-1",
+      "etapa-ocde-6"
+    ],
+    "responsable": "Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de políticas y procedimientos actualizados en DDHH",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador",
+      "responsable"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 47,
+      "fila": 4
+    },
+    "vinculos_estimados": true
+  },
+  {
+    "id": "accion-05",
+    "componente": "componente-1",
+    "titulo": "Complementar procedimiento de atención de quejas o reclamos",
+    "descripcion": "El procedimiento tiene un diseño adecuado para la gestión operativa de reclamos de clientes, pero presenta brechas significativas para funcionar como un mecanismo de atención de afectaciones a derechos humanos. En este sentido, se sugiere que dicho procedimiento se complemente de la siguiente manera:\n\nAl final del numeral 1, con el fin de fortalecer el objetivo del procedimiento hacia la gestión de quejas o reclamos en materia de derechos humanos, se propone agregar el siguiente párrafo:\n\n“El presente procedimiento también regula la recepción, análisis, gestión y seguimiento de quejas o reclamos relacionados con posibles afectaciones a los derechos humanos derivadas de las actividades, decisiones, operaciones y relaciones comerciales de SOLGAS, incluyendo impactos vinculados a colaboradores, contratistas, proveedores, distribuidores, comunidades locales y otros grupos de interés.”\n\nCon el fin de asegurar el alcance del procedimiento a lo largo de toda la cadena de valor de SOLGAS, se recomienda agregar el siguiente párrafo en el numeral 2:\n\n“El mecanismo será aplicable a todos los procesos bajo el Sistema de Gestión de Calidad y se extiende a la atención de quejas o reclamos derivados de la operación de SOLGAS y su cadena de suministro.”\n\nCon el fin de establecer la definición que es una queja o reclamo en materia de derechos humanos, se propone agregar el siguiente párrafo en el del numeral 2 del procedimiento:\n\n“Queja o reclamo en materia de derechos humanos: Manifestación verbal o escrita de una persona o grupo respecto a un impacto real o potencial que haya vulnerado o pueda vulnerar sus derechos humanos, tales como: discriminación, acoso, afectaciones a la integridad física o psicosocial, trabajo infantil, trabajo forzoso, riesgos a la salud y seguridad, impactos ambientales que afecten condiciones de vida, violencias basadas en género, vulneraciones por prácticas de proveedores, contratistas o terceros relacionados con SOLGAS.”\n\nCon el fin de dar especial manejo de las quejas o reclamos recibidos en materia de derechos humanos, se propone agregar como anexo al numeral 6 la siguiente ruta especial de atención:\n\nSOLGAS establece una Ruta Especializada de Atención de Quejas en Derechos Humanos, que comprende:\nRegistro seguro y confidencial.\nEvaluación preliminar de riesgo.\nInvestigación con enfoque en víctimas.\nImplementación de medidas de protección.\nMedidas de remediación (reparación, rehabilitación y garantías de no repetición).\nSeguimiento a la efectividad del caso.\nCierre y retroalimentación a la persona afectada.\n\nDe igual manera se recomienda agregar al final del numeral los siguientes párrafos:\n\n“SOLGAS garantiza que ninguna persona que presente una queja o reclamo en materia de derechos humanos será objeto de represalia, sanción, intimidación o trato perjudicial.”\n\n“Los reclamos en DDHH podrán ser recibidos mediante cualquier canal existente (correo, verbal, escrito), y adicionalmente mediante canales accesibles para proveedores, contratistas y comunidades locales, garantizando formatos simples, lenguaje claro y atención oportuna.”",
+    "riesgos": [],
+    "ejes": [
+      "etapa-ocde-1",
+      "etapa-ocde-6"
+    ],
+    "responsable": "Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de políticas y procedimientos actualizados en DDHH",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador",
+      "responsable"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 47,
+      "fila": 5
+    },
+    "vinculos_estimados": true
+  },
+  {
+    "id": "accion-06",
+    "componente": "componente-1",
+    "titulo": "Identificación participativa de riesgos en proveedores y distribuidores",
+    "descripcion": "Proceso participativo de identificación de riesgos en derechos humanos en proveedores y distribuidores, el cual tenga las siguientes características:\nPriorización de proveedores y distribuidores críticos para la organización por posibilidad de impacto en los derechos humanos o importancia para el desarrollo de la actividad operativa de la organización.\nPlan para la extensión del proceso de identificación de riesgos a todos los proveedores y distribuidores de la cadena de valor en el mediano plazo. Esto a través del desarrollo de matrices de identificación de riesgo por proveedores.",
+    "riesgos": [],
+    "ejes": [
+      "etapa-ocde-2"
+    ],
+    "responsable": "Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de proveedores y distribuidores evaluados en DDHH",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador",
+      "responsable"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "parrafos": [
+        770,
+        772
+      ]
+    },
+    "vinculos_estimados": true
+  },
+  {
+    "id": "accion-07",
+    "componente": "componente-1",
+    "titulo": "Promoción, seguimiento y cultura de DDHH en la cadena de valor",
+    "descripcion": "Diseño de un modelo de promoción de la debida diligencia y la gestión en derechos humanos en la cadena de valor, que tenga en cuenta:\nPlan de comunicaciones y socialización de los compromisos asumidos por SOLGAS en la materia.\nModelos de seguimiento al cumplimiento que incluyan: auditorías, supervisión de implementación de cláusulas contractuales e informes de gestión frente a riesgos identificados.\nModelo de cultura para proveedores y distribuidores en debida diligencia en empresa y derechos humanos.",
+    "riesgos": [],
+    "ejes": [
+      "etapa-ocde-1",
+      "etapa-ocde-4",
+      "etapa-ocde-5"
+    ],
+    "responsable": "Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de proveedores acompañados en gestión de DDHH",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador",
+      "responsable"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "parrafos": [
+        773,
+        776
+      ]
+    },
+    "vinculos_estimados": true
+  },
+  {
+    "id": "accion-08",
+    "componente": "componente-2",
+    "titulo": "Constituir el subcomité de debida diligencia y derechos humanos",
+    "descripcion": "Con el fin de articular la debida diligencia y la gestión de riesgos en derechos humanos, se propone un sub-comité de debida diligencia y derechos humanos, bajo la dirección del Comité de Sostenibilidad de la organización, el cual tiene las siguientes características:\nObjetivo:\nIncorporación de la debida diligencia en materia de empresa y derechos humanos al interior de SOLGAS y sus operaciones, a través de:\nDefinición y actualización del marco de políticas en derechos humanos con base en los avances normativos y del contexto de operación de la organización.\nIdentificación y evaluación de riesgos en materia de derechos humanos en la operación y la cadena de suministro.\nDesarrollo de planes de acción y procedimientos para la gestión de los riesgos en derechos humanos identificados.\nSeguimiento al proceso de debida diligencia y comunicación en materia de DDHH.",
+    "riesgos": [],
+    "ejes": [
+      "etapa-ocde-1"
+    ],
+    "responsable": "Sostenibilidad",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Subcomité de DDHH constituido y en funcionamiento",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "parrafos": [
+        779,
+        785
+      ]
+    },
+    "vinculos_estimados": true
+  },
+  {
+    "id": "accion-09",
+    "componente": "componente-2",
+    "titulo": "Implementar las funciones del subcomité de DDHH",
+    "descripcion": "Estructuración y actualización del marco de políticas en materia de empresa y derechos humanos. Acciones que deben ser aprobadas por la alta dirección de SOLGAS\nDefinición del plan de acción y los procedimientos empresariales en materia de derechos humanos, de conformidad con los riesgos y posibles impactos identificados en el marco de los procesos de debida diligencia.\nSeguimiento semestral al desarrollo del proceso de debida diligencia en materia de derechos humanos de la operación y la cadena de suministro.\nSeguimiento a la implementación del plan de acción y los procedimientos empresariales definidos para respetar y promover los derechos en la operación y la cadena de suministro de conformidad con los riesgos e impactos identificados en los procesos de debida diligencia.\nHacer seguimiento a las peticiones, quejas, reclamaciones y solicitudes relacionadas con los derechos humanos.\nProponer mejoras continuas en materia de gestión derechos humanos al interior de la organización y el proyecto.\nDefinir las medidas de reparación y remediación en caso de que se genere un impacto en materia de derechos humanos.\nComunicación de las políticas, acciones y estrategias en materia de empresa y derechos humanos.\nGeneración de capacidades al interior de la organización respecto de empresa y derechos humanos.",
+    "riesgos": [],
+    "ejes": [
+      "etapa-ocde-1",
+      "etapa-ocde-2",
+      "etapa-ocde-3",
+      "etapa-ocde-4",
+      "etapa-ocde-5",
+      "etapa-ocde-6"
+    ],
+    "responsable": "Sostenibilidad",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "parrafos": [
+        789,
+        797
+      ]
+    },
+    "vinculos_estimados": true
+  },
+  {
+    "id": "accion-10",
+    "componente": "componente-2",
+    "titulo": "Coordinar la debida diligencia desde Sostenibilidad",
+    "descripcion": "Dirección técnica: se propone que esté a cargo del Área de Sostenibilidad y se encargará de:\nCoordinar en conjunto con las demás áreas de la organización el proceso de debida diligencia de conformidad con el protocolo de debida diligencia de la organización.\nProponer el desarrollo y/o actualización de políticas, protocolos, controles, planes de acción, actividades y demás medidas necesarias con el fin de gestionar los riesgos identificados en el proceso de debida diligencia en materia de derechos humanos.\nCoordinar y brindar soporte a la implementación del plan de acción en materia de empresa y derechos humanos para la operación y la cadena de suministro.\nRealizar seguimiento, de conformidad con el mecanismo de medición y seguimiento, a la implementación plan acción en materia de empresa y derechos humanos en la operación y la cadena de suministro.\nRealizar de conformidad con el mecanismo de reporte, comunicación en materia de empresa y derechos humanos.\nInformar a Gerencia General, para su aprobación, de la gestión de la organización en materia de empresa y derechos humanos.",
+    "riesgos": [],
+    "ejes": [
+      "etapa-ocde-1",
+      "etapa-ocde-4",
+      "etapa-ocde-5"
+    ],
+    "responsable": "Sostenibilidad",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "parrafos": [
+        800,
+        806
+      ]
+    },
+    "vinculos_estimados": true
+  },
+  {
+    "id": "accion-11",
+    "componente": "componente-2",
+    "titulo": "Desarrollar formación y comunicación en DDHH desde Gestión Humana",
+    "descripcion": "Acompañamiento técnico: se propone que esté a cargo del área de gestión humana y será la encargada de:\nDesarrollar los procesos de comunicaciones, formación y generación de capacidades respecto de los empleados y proveedores y contratistas de SOLGAS en materia de empresa y derechos humanos.",
+    "riesgos": [],
+    "ejes": [
+      "etapa-ocde-1",
+      "etapa-ocde-5"
+    ],
+    "responsable": "Gestión Humana",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de empleados, contratistas y proveedores capacitados en DDHH",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "parrafos": [
+        807,
+        808
+      ]
+    },
+    "vinculos_estimados": true
+  },
+  {
+    "id": "accion-12",
+    "componente": "componente-2",
+    "titulo": "Aprobar medidas de DDHH y articular la participación de otras áreas",
+    "descripcion": "Gerencia general: se encargará de aprobar políticas, protocolos, controles, planes de acción, actividades y demás medidas necesarias con el fin de gestionar los riesgos identificados en el proceso de debida diligencia en materia de derechos humanos.\nAsimismo, el comité contará con la participación de otras áreas de la organización con el fin de acompañar en el desarrollo de políticas, protocolos, controles, planes de acción, actividades y demás medidas necesarias con el fin de gestionar los riesgos identificados en el proceso de debida diligencia en materia de derechos humanos desde su rol.",
+    "riesgos": [],
+    "ejes": [
+      "etapa-ocde-1"
+    ],
+    "responsable": "Gerencia general",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "parrafos": [
+        809,
+        810
+      ]
+    },
+    "vinculos_estimados": true
+  },
+  {
+    "id": "accion-13",
+    "componente": "componente-3",
+    "titulo": "Control digital de horarios y alertas de exceso de jornada",
+    "descripcion": "Implementar un sistema digital integrado de control de horarios, que alerte automáticamente cuando un trabajador supere el límite de 12 h / 4h extra, y que genere reportes semanales al área de Sostenibilidad y Talento Humano.\nImplementar evaluaciones breves antes del turno (checklist), administradas por supervisores capacitados, para detectar trabajadores fatigados y reasignar tareas o suspender turnos si es necesario.\nAuditorías enfocadas exclusivamente en jornadas laborales y riesgos de DDHH, con reportes al Comité de Sostenibilidad.",
+    "riesgos": [
+      "riesgo-01"
+    ],
+    "ejes": [],
+    "responsable": "Por definir / Gerencia de Personas / Gerencia de Comercialización",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 1
+    },
+    "actor_genera": "Operadores"
+  },
+  {
+    "id": "accion-14",
+    "componente": "componente-3",
+    "titulo": "Bienestar de conductores y canales para reportar condiciones laborales",
+    "descripcion": "Crear un programa de bienestar específico para conductores que aborde fatiga, pausas activas, hidratación, ergonomía, salud mental y educación vial.\nIntegrar una vía accesible para que conductores y ayudantes reporten violaciones a sus derechos (jornadas excesivas, presiones, condiciones inseguras).",
+    "riesgos": [
+      "riesgo-01"
+    ],
+    "ejes": [],
+    "responsable": "Por definir / Gerencia de Personas / Gerencia de Comercialización",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 2
+    },
+    "actor_genera": "Distribuidores"
+  },
+  {
+    "id": "accion-15",
+    "componente": "componente-3",
+    "titulo": "Formación a supervisores sobre denuncias, confidencialidad y no represalia",
+    "descripcion": "Formación obligatoria y periódica en el canal de denuncias, el procedimiento de investigación y las obligaciones de confidencialidad y no represalia.\nDesarrollar capacitaciones en el Código de Ética dentro de procesos de inducción y reforzamientos trimestrales.\nSe recomienda complementar estas acciones con entrenamientos sobre liderazgo respetuoso, gestión de conflictos y cultura organizacional.",
+    "riesgos": [
+      "riesgo-02"
+    ],
+    "ejes": [],
+    "responsable": "Por definir / Gerencia de Personas",
+    "plazo": "2027-07-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 3
+    },
+    "vinculos_estimados": true,
+    "actor_genera": "Supervisores"
+  },
+  {
+    "id": "accion-16",
+    "componente": "componente-3",
+    "titulo": "Capacitación a colaboradores sobre denuncias y Código de Ética",
+    "descripcion": "Desarrollo de capacitaciones sobre el canal de denuncias y el proceso de investigación \nFortalecimiento del Código de Ética en la inducción y en refrescamientos semestrales refuerza la conducta esperada. \nPromoción de una cultura preventiva mediante espacios formativos sobre comportamiento respetuoso, diversidad, inclusión y resolución pacífica de conflictos.",
+    "riesgos": [
+      "riesgo-02"
+    ],
+    "ejes": [],
+    "responsable": "Por definir / Gerencia de Personas",
+    "plazo": "2027-07-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 4
+    },
+    "vinculos_estimados": true,
+    "actor_genera": "Colaboradores"
+  },
+  {
+    "id": "accion-17",
+    "componente": "componente-3",
+    "titulo": "Capacitación operativa sobre denuncias y protección frente al acoso",
+    "descripcion": "Desarrollo de capacitaciones operativas adaptadas a su entorno laboral, enfocadas en el uso del canal de denuncias, los procedimientos de investigación y los mecanismos de protección.\nFormación inicial y periódica en el Código de Ética.\nDesarrollo de capacitaciones continuas en cultura organizacional que refuercen estándares de convivencia, sensibilización frente a conductas de riesgo y protocolos para reportar casos durante la operación.",
+    "riesgos": [
+      "riesgo-02"
+    ],
+    "ejes": [],
+    "responsable": "Por definir / Gerencia de Personas",
+    "plazo": "2027-07-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 5
+    },
+    "vinculos_estimados": true,
+    "actor_genera": "Operadores"
+  },
+  {
+    "id": "accion-18",
+    "componente": "componente-3",
+    "titulo": "Formación a jefes de planta para investigar denuncias y preservar evidencia",
+    "descripcion": "Capacitación reforzada en el canal de denuncias y el proceso de investigación, incluyendo criterios técnicos para preservar evidencia, garantizar la confidencialidad y activar rutas de remediación. \nFormación continua en cultura organizacional debe enfocarse en liderazgo seguro, prevención de riesgos psicosociales y estrés laboral.",
+    "riesgos": [
+      "riesgo-02"
+    ],
+    "ejes": [],
+    "responsable": "Por definir / Gerencia de Personas",
+    "plazo": "2027-07-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 6
+    },
+    "vinculos_estimados": true,
+    "actor_genera": "Jefes de planta"
+  },
+  {
+    "id": "accion-19",
+    "componente": "componente-3",
+    "titulo": "Socialización del canal ético y valores corporativos con proveedores",
+    "descripcion": "Socialización del canal ético disponible en la página web y la línea directa con el oficial de cumplimiento.\nSocialización periódica del marco corporativo y los valores de SOLGAS.\nEstablecimiento de cláusulas contractuales de prevención de acoso.\nDesarrollo de inducciones y capacitaciones periódicas que integren estándares internacionales, ejemplos prácticos y obligaciones contractuales en materia de prevención del acoso.",
+    "riesgos": [
+      "riesgo-09"
+    ],
+    "ejes": [],
+    "responsable": "Gerencia de Comercialización / Por definir",
+    "plazo": "2027-07-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 7
+    },
+    "vinculos_estimados": true,
+    "actor_genera": "Proveedores"
+  },
+  {
+    "id": "accion-20",
+    "componente": "componente-3",
+    "titulo": "Prevención contractual del acoso y seguimiento a distribuidores",
+    "descripcion": "Difusión del canal de comunicación de buenas prácticas y la cláusula contractual sobre prevención del acoso \nEstablecimiento de evaluaciones periódicas de cumplimiento y mecanismos de verificación independiente. \nDesarrollo de capacitaciones periódicas sobre prevención del acoso verbal, laboral y sexual.",
+    "riesgos": [
+      "riesgo-09"
+    ],
+    "ejes": [],
+    "responsable": "Gerencia de Comercialización / Por definir",
+    "plazo": "2027-07-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 8
+    },
+    "vinculos_estimados": true,
+    "actor_genera": "Distribuidores"
+  },
+  {
+    "id": "accion-21",
+    "componente": "componente-3",
+    "titulo": "Fortalecimiento del programa de prevención ergonómica para operadores",
+    "descripcion": "Fortalecimiento del programa de prevención ergonómica que incluya capacitaciones periódicas sobre pausas activas, técnicas seguras de levantamiento y uso correcto de herramientas de apoyo. \nFortalecer el sistema de rotación de puestos para reducir la exposición acumulada a esfuerzos musculoesqueléticos.\nIncorporar evaluaciones ergonómicas periódicas del puesto de trabajo.",
+    "riesgos": [
+      "riesgo-03"
+    ],
+    "ejes": [],
+    "responsable": "Área de Sostenibilidad / Por definir / Gerencia de Personas / Gerencia de Comercialización",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 9
+    },
+    "actor_genera": "Operadores"
+  },
+  {
+    "id": "accion-22",
+    "componente": "componente-3",
+    "titulo": "Capacitación y cláusulas ergonómicas para distribuidores",
+    "descripcion": "Establecer un programa de capacitación en pausas activas y manipulación segura de cilindros debe adaptarse a contextos de distribución\nLas cláusulas ergonómicas en los contratos de distribución deben establecer obligaciones claras sobre equipos de apoyo, número máximo de cilindros manipulados por jornada, tiempos mínimos de descanso y estándares de reporte en caso de lesiones o fatiga muscular. \nSe recomienda implementar auditorías ergonómicas a los distribuidores, acompañadas de capacitación continua y un mecanismo de reporte que permita identificar riesgos de sobreesfuerzo.",
+    "riesgos": [
+      "riesgo-03"
+    ],
+    "ejes": [],
+    "responsable": "Área de Sostenibilidad / Por definir / Gerencia de Personas / Gerencia de Comercialización",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 10
+    },
+    "actor_genera": "Distribuidores"
+  },
+  {
+    "id": "accion-23",
+    "componente": "componente-3",
+    "titulo": "Capacitación a gerentes sobre la política de compensaciones",
+    "descripcion": "Capacitaciones periódicas de política de compensaciones.",
+    "riesgos": [
+      "riesgo-04"
+    ],
+    "ejes": [],
+    "responsable": "Gerencia de Personas / Por definir / Gerencia de Comercialización",
+    "plazo": "2027-07-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 11
+    },
+    "actor_genera": "Gerentes"
+  },
+  {
+    "id": "accion-24",
+    "componente": "componente-3",
+    "titulo": "Capacitación a jefes de planta sobre la política de compensaciones",
+    "descripcion": "Capacitaciones periódicas de política de compensaciones.",
+    "riesgos": [
+      "riesgo-04"
+    ],
+    "ejes": [],
+    "responsable": "Gerencia de Personas / Por definir / Gerencia de Comercialización",
+    "plazo": "2027-07-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 12
+    },
+    "actor_genera": "Jefes de planta"
+  },
+  {
+    "id": "accion-25",
+    "componente": "componente-3",
+    "titulo": "Verificación y auditorías laborales a proveedores",
+    "descripcion": "Establecer mecanismos verificables que aseguren el cumplimiento de estándares laborales nacionales e internacionales.\nDesarrollar auditorías laborales aleatorias orientadas a identificar señales de trabajo precario o pagos por debajo del estándar.\nFortalecer la debida diligencia, a través de una “declaración anual de cumplimiento en DDHH y trabajo decente” firmada por los proveedores, acompañada de capacitaciones sobre salario justo, contratación formal y prohibición de prácticas abusivas",
+    "riesgos": [
+      "riesgo-04"
+    ],
+    "ejes": [],
+    "responsable": "Gerencia de Personas / Por definir / Gerencia de Comercialización",
+    "plazo": "2027-07-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 13
+    },
+    "actor_genera": "Proveedores"
+  },
+  {
+    "id": "accion-26",
+    "componente": "componente-3",
+    "titulo": "Transparencia y cláusulas salariales para distribuidores",
+    "descripcion": "Establecer requisitos de transparencia y verificación continua.\nIncluir cláusulas específicas sobre prohibición de trabajo no remunerado, pagos inferiores al mínimo legal, y descuentos indebidos.\nImplementar capacitaciones anuales para distribuidores sobre estándares de trabajo decente, trabajo digno y no discriminación salarial",
+    "riesgos": [
+      "riesgo-04"
+    ],
+    "ejes": [],
+    "responsable": "Gerencia de Personas / Por definir / Gerencia de Comercialización",
+    "plazo": "2027-07-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 14
+    },
+    "actor_genera": "Distribuidores"
+  },
+  {
+    "id": "accion-27",
+    "componente": "componente-3",
+    "titulo": "Trazabilidad y verificación de inspecciones de criticidad en operaciones",
+    "descripcion": "Fortalecer la trazabilidad y verificación continua de los programas de inspección de criticidad, incluyendo registros digitalizados, alertas en tiempo real y auditorías internas periódicas.\nEstablecer protocolos de mantenimiento predictivo basados en análisis de riesgo, priorizando líneas de envasado, válvulas, mangueras y puntos de transferencia críticos.\nIntegrar capacitaciones trimestrales especializadas en manipulación segura de GLP, que incluyan escenarios avanzados y lecciones aprendidas de incidentes previos.\nImplementar simulacros diferenciados por tipo de riesgo (fuga, incendio, explosión), evaluando la efectividad y tiempos de reacción de brigadas y supervisores.\nReforzar el uso obligatorio de EPP mediante controles de cumplimiento documentados, sanciones progresivas y retroalimentación operativa.",
+    "riesgos": [
+      "riesgo-05"
+    ],
+    "ejes": [],
+    "responsable": "Área de Sostenibilidad / Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 15
+    },
+    "actor_genera": "Operadores"
+  },
+  {
+    "id": "accion-28",
+    "componente": "componente-3",
+    "titulo": "Verificación de cilindros, válvulas y sellos antes de la carga",
+    "descripcion": "Establecer requisitos de transparencia y verificación continua durante las inspecciones previas a la carga, incluida la revisión de cilindros devueltos, válvulas y sellos para detectar adulteración.\nImplementar capacitaciones periódicas sobre protocolos de transporte seguro, gestión de fugas en ruta, actuación ante incendios y comunicación de emergencias.\nExigir la adopción de listas de chequeo obligatorias para cada etapa del proceso de distribución, verificadas por supervisores antes de la salida y en la entrega final.\nIncluir cláusulas contractuales específicas sobre manipulación segura de cilindros y responsabilidad en la prevención de adulteración, con sanciones por incumplimiento.",
+    "riesgos": [
+      "riesgo-05"
+    ],
+    "ejes": [],
+    "responsable": "Área de Sostenibilidad / Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 16
+    },
+    "actor_genera": "Distribuidores"
+  },
+  {
+    "id": "accion-29",
+    "componente": "componente-3",
+    "titulo": "Mantenimiento preventivo e inspecciones técnicas en clientes B2B",
+    "descripcion": "Reforzar el programa de mantenimiento preventivo mediante inspecciones técnicas certificadas, asegurando el cumplimiento de normas de instalación, ventilación, sellado y ubicación de equipos.\nEstablecer protocolos obligatorios de revisión anual de las instalaciones internas de GLP, documentados y aprobados por personal competente.\nImplementar capacitaciones periódicas para personal B2B sobre uso seguro de cilindros, detección de fugas y procedimientos de evacuación, asegurando comprensión y apropiación operativa.\nCrear una guía de buenas prácticas para clientes B2B, enfocada en evitar conexiones ilegales, manipulación de válvulas y almacenamiento inadecuado.",
+    "riesgos": [
+      "riesgo-05"
+    ],
+    "ejes": [],
+    "responsable": "Área de Sostenibilidad / Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 17
+    },
+    "actor_genera": "Clientes B2B"
+  },
+  {
+    "id": "accion-30",
+    "componente": "componente-3",
+    "titulo": "Capacitación especializada en manejo seguro de sustancias químicas",
+    "descripcion": "Fortalecer el programa de capacitación especializada en manejo seguro de sustancias químicas, incorporando metodologías prácticas, simulaciones de escenarios y actualizaciones anuales basadas en nuevas fichas de seguridad (MSDS).\nImplementar un sistema de verificación continua del uso de EPP, mediante listas de chequeo por turno, registros fotográficos y sanciones progresivas ante incumplimientos reiterados.\nConsolidar un plan de mantenimiento preventivo y correctivo para equipos que manejan sustancias peligrosas, integrando revisiones de válvulas, sistemas de ventilación, cabinas de pintura y extractores.\nEstructurar inspecciones de planta con enfoque químico, incorporando indicadores visuales de almacenamiento, etiquetado GHS, segregación y compatibilidad entre sustancias.\nRealizar pruebas periódicas de hermeticidad y correcto funcionamiento en equipos de pintura, así como auditorías internas para asegurar cumplimiento de estándares nacionales e internacionales.",
+    "riesgos": [
+      "riesgo-06"
+    ],
+    "ejes": [],
+    "responsable": "Por definir / Área de Sostenibilidad",
+    "plazo": "2027-07-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 18
+    },
+    "actor_genera": "Operadores"
+  },
+  {
+    "id": "accion-31",
+    "componente": "componente-3",
+    "titulo": "Homologación de proveedores por calidad química y seguridad",
+    "descripcion": "Implementar un proceso de homologación de proveedores basado en criterios de calidad química y seguridad, priorizando aquellos certificados y con trazabilidad plena de fabricación, transporte y almacenamiento.\nIncluir cláusulas contractuales que exijan estándares mínimos de gestión de sustancias peligrosas, así como la obligación de informar cambios en formulaciones, riesgos o documentos técnicos.\nSolicitar a proveedores programas de capacitación conjunta, garantizando que personal interno reciba información directa sobre usos seguros, técnicas de manipulación y medidas de emergencia.",
+    "riesgos": [
+      "riesgo-06"
+    ],
+    "ejes": [],
+    "responsable": "Por definir / Área de Sostenibilidad",
+    "plazo": "2027-07-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 19
+    },
+    "actor_genera": "Proveedores"
+  },
+  {
+    "id": "accion-32",
+    "componente": "componente-3",
+    "titulo": "Capacitación a distribuidores sobre sustancias químicas",
+    "descripcion": "Desarrollar capacitaciones básicas para distribuidores sobre el manejo, almacenamiento y transporte seguro de sustancias químicas asociadas a su operación, asegurando comprensión de riesgos y medidas preventivas.\nIncorporar cláusulas de gestión de sustancias peligrosas en los contratos de distribución, definiendo responsabilidades, estándares de desempeño y obligaciones de informar incidentes.\nEvaluar periódicamente a los distribuidores mediante auditorías de cumplimiento, verificando que se implementan las buenas prácticas y se gestionan adecuadamente los riesgos químicos asociados.",
+    "riesgos": [
+      "riesgo-06"
+    ],
+    "ejes": [],
+    "responsable": "Por definir / Área de Sostenibilidad",
+    "plazo": "2027-07-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 20
+    },
+    "actor_genera": "Distribuidores"
+  },
+  {
+    "id": "accion-33",
+    "componente": "componente-3",
+    "titulo": "Cláusulas y verificación de edad para prevenir trabajo infantil en proveedores",
+    "descripcion": "Fortalecer las cláusulas contractuales existentes incorporando exigencias explícitas sobre: verificación documental de edad, prohibición de trabajo infantil en toda la cadena subordinada y consecuencias contractuales por incumplimiento.\nEstablecer un proceso obligatorio de debida diligencia laboral para proveedores, incluyendo revisiones documentales, entrevistas aleatorias y validación de registros de nómina para prevenir el uso de mano de obra infantil.\nImplementar un programa anual de capacitación especializada sobre prevención del trabajo infantil, con enfoque en normativa nacional, estándares internacionales y detección temprana de señales de riesgo.",
+    "riesgos": [
+      "riesgo-07"
+    ],
+    "ejes": [],
+    "responsable": "Gerencia de Comercialización / Por definir",
+    "plazo": "2027-07-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 21
+    },
+    "actor_genera": "Proveedores"
+  },
+  {
+    "id": "accion-34",
+    "componente": "componente-3",
+    "titulo": "Monitoreo contractual contra trabajo infantil en distribución",
+    "descripcion": "Reforzar las cláusulas contractuales de prohibición del trabajo infantil, incorporando obligaciones de monitoreo propio, controles de subcontratación y reportes trimestrales de cumplimiento.\nImplementar un sistema de verificación de edad y documentación para todo el personal asociado a actividades de distribución, incluyendo ayudantes, cargadores o personal temporal.\nDesarrollar capacitaciones continuas para distribuidores, orientadas a riesgos, responsabilidades legales, mecanismos de denuncia y pautas para reconocer posibles casos de trabajo infantil indirecto.\nIncorporar inspecciones en ruta y auditorías de campo, verificando condiciones reales de operación, subcontratistas y terceros no formales asociados a la distribución.",
+    "riesgos": [
+      "riesgo-07"
+    ],
+    "ejes": [],
+    "responsable": "Gerencia de Comercialización / Por definir",
+    "plazo": "2027-07-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 22
+    },
+    "actor_genera": "Distribuidores"
+  },
+  {
+    "id": "accion-35",
+    "componente": "componente-3",
+    "titulo": "Cláusulas exigibles sobre condiciones laborales de proveedores",
+    "descripcion": "Incorporar cláusulas contractuales exigibles sobre condiciones laborales mínimas, asegurando que proveedores garanticen jornadas que no excedan el marco legal, pausas activas y disponibilidad de hidratación y sanitarios.\nFortalecer los procesos de capacitación inicial, ampliando los contenidos a derechos laborales, riesgos psicosociales y mecanismos de denuncia disponibles tanto para personal propio como tercerizado.\nImplementar un sistema de monitoreo continuo, con revisiones documentales (nómina, turnos, descansos) y entrevistas confidenciales a trabajadores como mecanismo de verificación independiente.",
+    "riesgos": [
+      "riesgo-08"
+    ],
+    "ejes": [],
+    "responsable": "Gerencia de Comercialización / Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 23
+    },
+    "actor_genera": "Proveedores"
+  },
+  {
+    "id": "accion-36",
+    "componente": "componente-3",
+    "titulo": "Formalización de políticas de conducción segura para distribuidores",
+    "descripcion": "Formalizar las políticas de conducción segura mediante manuales operativos, inducciones obligatorias y sanciones progresivas documentadas para quienes incumplan los estándares de descanso y horas máximas.\nAmpliar las capacitaciones y charlas de seguridad, incorporando contenidos sobre ergonomía, riesgos psicosociales, prevención de fatiga y derechos laborales en el contexto del transporte de GLP.\nEstablecer auditorías laborales a distribuidores, incluyendo visitas en ruta y revisión de condiciones reales de descanso, tiempos de espera, infraestructura disponible y trato entre supervisores y operarios.",
+    "riesgos": [
+      "riesgo-08"
+    ],
+    "ejes": [],
+    "responsable": "Gerencia de Comercialización / Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 24
+    },
+    "actor_genera": "Distribuidores"
+  },
+  {
+    "id": "accion-37",
+    "componente": "componente-3",
+    "titulo": "Homologación sociolaboral de contratistas",
+    "descripcion": "Fortalecer la verificación inicial mediante un sistema de homologación sociolaboral, que incluya revisión de antecedentes laborales, certificaciones de seguridad social, registros de inspección laboral y políticas internas de trabajo decente.\nEstructurar un mecanismo de monitoreo continuo, que complemente la debida diligencia inicial con auditorías trimestrales, entrevistas confidenciales a trabajadores y revisión documentada de jornadas, descansos, salarios y cotizaciones.\nFortalecer la trazabilidad de sustentos para valorizaciones mensuales, incorporando validación cruzada entre nóminas, horas trabajadas, pagos de seguridad social y reportes de cumplimiento sociolaboral.\nIncluir cláusulas contractuales específicas sobre estándares sociolaborales, alineadas a OIT, Principios Rectores y normativas nacionales, con sanciones progresivas y terminación responsable del contrato en casos graves.",
+    "riesgos": [
+      "riesgo-10"
+    ],
+    "ejes": [],
+    "responsable": "Gerencia de Comercialización / Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 25
+    },
+    "actor_genera": "Contratistas"
+  },
+  {
+    "id": "accion-38",
+    "componente": "componente-3",
+    "titulo": "Homologación y evidencia de cumplimiento sociolaboral de distribuidores",
+    "descripcion": "Consolidar un proceso de homologación robusto para distribuidores, que exija evidencia documental del cumplimiento sociolaboral antes de la firma del contrato: planillas de pago, afiliaciones, reglamento interno y políticas de prevención de riesgos.\nAmpliar la debida diligencia durante la contratación, integrando visitas de campo y análisis de subcontratistas, asegurando que toda la cadena cumpla con estándares sociolaborales mínimos.\nConvertir las reuniones correctivas en un procedimiento formal, que requiera análisis de causas raíz, acciones inmediatas de remediación y reporte escrito al área de cumplimiento y sostenibilidad.\nFortalecer el uso de cartas fianza, integrando este instrumento a un protocolo de protección de derechos laborales que garantice la restitución efectiva y oportuna para los trabajadores.",
+    "riesgos": [
+      "riesgo-10"
+    ],
+    "ejes": [],
+    "responsable": "Gerencia de Comercialización / Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 26
+    },
+    "actor_genera": "Distribuidores"
+  },
+  {
+    "id": "accion-39",
+    "componente": "componente-3",
+    "titulo": "Monitoreo continuo de obligaciones laborales de proveedores pequeños",
+    "descripcion": "Estructurar un proceso de monitoreo continuo para proveedores pequeños, con revisiones periódicas que validen el cumplimiento sostenido de obligaciones laborales, especialmente en segmentos donde la informalidad es común.\nReforzar las cláusulas de prohibición de subcontratación, estableciendo sanciones claras y un mecanismo de auditoría para identificar prácticas de tercerización no autorizadas o condiciones precarias ocultas.\nDesarrollar un programa de fortalecimiento empresarial para proveedores pequeños, con capacitaciones sobre formalización laboral, obligaciones legales, seguridad social y gestión básica de recursos humanos.",
+    "riesgos": [
+      "riesgo-11"
+    ],
+    "ejes": [],
+    "responsable": "Gerencia de Comercialización / Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 27
+    },
+    "actor_genera": "Proveedores"
+  },
+  {
+    "id": "accion-40",
+    "componente": "componente-3",
+    "titulo": "Control de subcontratación y auditorías a distribuidores",
+    "descripcion": "Profundizar las cláusulas de prohibición de subcontratación, incluyendo la obligación de reportar cualquier contratación adicional y la posibilidad de realizar auditorías no anunciadas para verificar la ausencia de intermediación informal.\nImplementar auditorías laborales periódicas a distribuidores, con especial atención en pequeñas empresas informales o semi-formales, verificando jornadas, pagos, afiliaciones y condiciones reales de trabajo en campo.\nAmpliar los controles laborales durante la contratación, incorporando verificaciones presenciales y documentales que permitan identificar posibles esquemas de informalidad, falta de contratos o subcontratación no reportada.",
+    "riesgos": [
+      "riesgo-11"
+    ],
+    "ejes": [],
+    "responsable": "Gerencia de Comercialización / Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 28
+    },
+    "actor_genera": "Distribuidores"
+  },
+  {
+    "id": "accion-41",
+    "componente": "componente-3",
+    "titulo": "Diversificación y homologación de proveedores para continuidad del suministro de GLP",
+    "descripcion": "Consolidar la diversificación de proveedores de GLP mediante un sistema de homologación que asegure continuidad operativa, trazabilidad y estándares de seguridad en toda la cadena, evitando dependencia excesiva de un solo proveedor o zona geográfica.\nEstructurar un protocolo de transporte alternativo, contemplando barcazas, vehículos especializados, alianzas territoriales y mecanismos de abastecimiento temporal para zonas aisladas durante bloqueos, derrumbes o manifestaciones sociales.\nFormalizar el mecanismo de habilitación de rutas críticas, incluyendo criterios de priorización, validación con autoridades locales, aspectos de seguridad para el personal y procedimientos de comunicación con comunidades afectadas.",
+    "riesgos": [
+      "riesgo-12"
+    ],
+    "ejes": [],
+    "responsable": "Gerencia de Distribución / Gerencia de Comercialización / Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 29
+    },
+    "actor_genera": "SOLGAS"
+  },
+  {
+    "id": "accion-42",
+    "componente": "componente-3",
+    "titulo": "Mapeo territorial de puntos críticos para distribución",
+    "descripcion": "Estructurar un mapeo territorial de puntos críticos (escuelas, centros de salud, zonas residenciales densas, calles angostas o deterioradas), integrando esta información en el sistema de planificación de rutas para minimizar afectaciones por ruido, vibraciones y congestión vehicular.\nComplementar las capacitaciones comunitarias existentes con espacios participativos que permitan recoger percepciones, quejas y propuestas de las comunidades afectadas, generando un ciclo de retroalimentación y mejora continua en la gestión del tránsito.\nEstablecer auditorías de comunidad y recorridos participativos, en los cuales representantes comunitarios, municipalidades y SOLGAS verifiquen las zonas de mayor afectación y ajusten en conjunto estrategias de mitigación.",
+    "riesgos": [
+      "riesgo-13"
+    ],
+    "ejes": [],
+    "responsable": "Gerencia de Distribución",
+    "plazo": "2027-07-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 30
+    },
+    "actor_genera": "Distribuidores"
+  },
+  {
+    "id": "accion-43",
+    "componente": "componente-3",
+    "titulo": "Protocolo de inclusión laboral y ajustes razonables para personas con discapacidad",
+    "descripcion": "Implementar un protocolo de inclusión laboral para personas con discapacidad, asegurando ajustes razonables, acompañamiento durante la inducción, adecuaciones de puestos de trabajo y lineamientos para supervisores y compañeros de equipo.\nIntegrar indicadores de inclusión en el sistema de gestión de personas, tales como: número de ajustes razonables implementados, trabajadores con discapacidad vinculados, quejas recibidas por discriminación y medidas adoptadas. Esto permitirá monitorear avances y detectar brechas continuamente.",
+    "riesgos": [
+      "riesgo-14"
+    ],
+    "ejes": [],
+    "responsable": "Por definir / Gerencia de Personas",
+    "plazo": "2027-07-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 31
+    },
+    "actor_genera": "SOLGAS"
+  },
+  {
+    "id": "accion-44",
+    "componente": "componente-3",
+    "titulo": "Actualización de prevención de delitos ante riesgos emergentes",
+    "descripcion": "Actualizar la Política y Manual de Prevención de Delitos para incorporar riesgos emergentes (fraude digital, manipulación de documentación, colusión en procesos de compras) y asegurar su aplicabilidad explícita a proveedores, distribuidores y contratistas.\nIntegrar el Procedimiento de Debida Diligencia con los procesos de toma de decisiones estratégicas, exigiendo evaluaciones de riesgo anticorrupción antes de expandir operaciones, cerrar acuerdos comerciales o aprobar la entrada de nuevos proveedores de alto impacto.\nActualizar la Política y Manual de Prevención de Delitos para incorporar riesgos emergentes (fraude digital, manipulación de documentación, colusión en procesos de compras) y asegurar su aplicabilidad explícita a proveedores, distribuidores y contratistas.\nIntegrar el Procedimiento de Debida Diligencia con los procesos de toma de decisiones estratégicas, exigiendo evaluaciones de riesgo anticorrupción antes de expandir operaciones, cerrar acuerdos comerciales o aprobar la entrada de nuevos proveedores de alto impacto.",
+    "riesgos": [
+      "riesgo-15"
+    ],
+    "ejes": [],
+    "responsable": "Por definir",
+    "plazo": "2026-07-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador",
+      "responsable"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 32
+    },
+    "actor_genera": "Gerentes"
+  },
+  {
+    "id": "accion-45",
+    "componente": "componente-3",
+    "titulo": "Trazabilidad documental de decisiones de compra",
+    "descripcion": "Crear un sistema de trazabilidad de decisiones de compra, asegurando que cada aprobación tenga respaldo documental, trazabilidad de criterios usados, evidencia verificable de cotizaciones comparables y registro del análisis de riesgos de integridad.\nImplementar un sistema de alertas tempranas mediante análisis de datos (precios irregulares, facturación duplicada, proveedores recurrentes sin justificación), permitiendo identificar patrones sospechosos y activar investigaciones internas.\nDesarrollar un mecanismo de monitoreo a proveedores de alto riesgo, integrando revisiones periódicas de integridad, verificación in situ y análisis de cumplimiento contractual",
+    "riesgos": [
+      "riesgo-15"
+    ],
+    "ejes": [],
+    "responsable": "Por definir",
+    "plazo": "2026-07-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador",
+      "responsable"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 33
+    },
+    "actor_genera": "Áreas de compras"
+  },
+  {
+    "id": "accion-46",
+    "componente": "componente-3",
+    "titulo": "Comunicación bidireccional y retroalimentación de grupos de interés",
+    "descripcion": "Integrar un mecanismo de comunicación bidireccional, que permita no solo informar a los grupos de interés sino también recibir retroalimentación estructurada, quejas, percepciones de riesgo y alertas tempranas sobre impactos reales o potenciales.\nEstablecer un protocolo de divulgación de información relevante, incluyendo planes de abastecimiento, cambios operativos, situaciones de emergencia, horarios de tránsito y avances en sostenibilidad y derechos humanos, reforzando la transparencia corporativa.\nImplementar reportes periódicos sobre desempeño social y ambiental, con información clara, verificable y alineada a DDHH, incluyendo las medidas adoptadas, resultados obtenidos y compromisos de mejora continua.",
+    "riesgos": [
+      "riesgo-16"
+    ],
+    "ejes": [],
+    "responsable": "Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador",
+      "responsable"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 34
+    },
+    "actor_genera": "SOLGAS"
+  },
+  {
+    "id": "accion-47",
+    "componente": "componente-3",
+    "titulo": "Capacitación para identificar y reportar afectaciones en DDHH",
+    "descripcion": "Reforzar las capacitaciones internas, integrando módulos específicos sobre identificación temprana de afectaciones en DDHH, cómo reportarlas, uso correcto del canal de denuncias y responsabilidades individuales de colaboradores, supervisores y contratistas.\nImplementar una estrategia de sensibilización continua, difundiendo mensajes sobre la importancia del reporte oportuno, la confidencialidad del mecanismo y las garantías de no represalia, con especial énfasis en áreas operativas, bodegas y distribución.\nIntegrar la trazabilidad de reportes al sistema de debida diligencia, asegurando que todas las denuncias, consultas, casi-incidentes y preocupaciones sobre DDHH queden registradas para su análisis en la matriz de riesgos y para mejorar las medidas de gestión.\nIncorporar mecanismos de participación de trabajadores y comunidades, como talleres de socialización del canal, comités mixtos de seguimiento y espacios de retroalimentación sobre la efectividad del sistema de reporte.",
+    "riesgos": [
+      "riesgo-17"
+    ],
+    "ejes": [],
+    "responsable": "Por definir / Gerencia de Comercialización",
+    "plazo": "2027-07-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 35
+    },
+    "actor_genera": "SOLGAS"
+  },
+  {
+    "id": "accion-48",
+    "componente": "componente-3",
+    "titulo": "Cláusulas de libertad sindical y negociación colectiva con proveedores",
+    "descripcion": "Fortalecer las cláusulas contractuales existentes, incorporando obligaciones explícitas de respeto a la libertad sindical, la negociación colectiva y la afiliación voluntaria, alineadas a los Convenios 87 y 98 de la OIT, con prohibición expresa de represalias, discriminación o interferencia en la conformación de organizaciones de trabajadores.\nRealizar capacitaciones periódicas a proveedores, orientadas a sensibilizar sobre derechos de libertad sindical, negociación colectiva y participación laboral, así como sobre las consecuencias legales y reputacionales de vulnerarlos.\nEstablecer sanciones contractuales progresivas, desde planes de acción obligatorios hasta la terminación responsable del contrato en caso de prácticas antisindicales comprobadas.",
+    "riesgos": [
+      "riesgo-18"
+    ],
+    "ejes": [],
+    "responsable": "Por definir / Gerencia de Comercialización",
+    "plazo": "2027-07-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 36
+    },
+    "actor_genera": "Proveedores"
+  },
+  {
+    "id": "accion-49",
+    "componente": "componente-3",
+    "titulo": "Seguimiento de riesgos sindicales y conflictos laborales en distribución",
+    "descripcion": "Profundizar el alcance del comité de crisis, incorporando análisis de riesgos sindicales, seguimiento a incidentes, resolución de conflictos laborales y revisión de prácticas gerenciales que puedan afectar el derecho de asociación.\nRealizar auditorías laborales específicas en la cadena de distribución, verificando condiciones reales de trabajo, mecanismos de participación laboral y respeto a la organización sindical, especialmente en zonas donde exista historial de conflictividad laboral.",
+    "riesgos": [
+      "riesgo-18"
+    ],
+    "ejes": [],
+    "responsable": "Por definir / Gerencia de Comercialización",
+    "plazo": "2027-07-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de gestión implementadas para esta acción",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 48,
+      "fila": 37
+    },
+    "actor_genera": "Distribuidores"
+  },
+  {
+    "id": "accion-50",
+    "componente": "componente-4",
+    "titulo": "Implementar el procedimiento de reparación ante vulneraciones de DDHH",
+    "descripcion": "En caso de una afectación a los derechos humanos como consecuencia de la operación de SOLGAS, se restituirá en caso de que sea posible, a la persona o personas afectadas al estado en que se encontrarían si el impacto negativo no hubiere ocurrido y buscará una reparación proporcional a la magnitud y la escala del impacto negativo.\nPara dicho fin, SOLGAS tendrá en cuenta:\nEl marco normativo nacional e internacional con el fin de identificar la forma adecuada de reparación.\nPrecedentes: teniendo en cuenta como se han reparado impactos en casos similares.\nPreferencias de los afectados respecto de lo que puede ser una reparación adecuada al derecho humano afectado y a sus consecuencias.\nEvaluar el nivel de satisfacción de quienes hayan presentado reclamos mediante el proceso ofrecido por la organización y sobre sus resultados.\nColaborar con mecanismos de reparación judicial o extrajudicial a través de los cuales los grupos de interés y los titulares de derechos humanos afectados puedan presentar reclamos y conseguir que sean abordados por la organización.\nEn aquellos casos en que SOLGAS no haya causado o contribuido a causar un impacto negativo sobre los derechos humanos, pero esté directamente vinculada con el impacto, la organización buscará aportar en la medida de lo posible, en que su relación comercial establezca o participe de los procesos de reparación respecto de las consecuencias negativas sobre los derechos humanos y/o en los casos con los que sea pertinente y cuente con información, entregará la misma con el fin de facilitar las investigaciones, el diálogo y la reparación de los impactos negativos.",
+    "riesgos": [],
+    "ejes": [
+      "etapa-ocde-6"
+    ],
+    "responsable": "Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de medidas de reparación implementadas",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador",
+      "responsable"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "parrafos": [
+        823,
+        830
+      ]
+    },
+    "vinculos_estimados": true
+  },
+  {
+    "id": "accion-51",
+    "componente": "componente-4",
+    "titulo": "Implementar un mecanismo operativo de reclamación en DDHH",
+    "descripcion": "Reclamación a nivel operativo: Este se fundamenta en los criterios de legitimidad, accesibilidad, previsibilidad, equidad, transparencia y diálogo. Asimismo, considera la perspectiva de género para mejorar la legitimidad, la accesibilidad, la equidad y la compatibilidad de derechos.\nEste mecanismo complementa el sistema de PQRS de la organización, estableciendo un procedimiento específico para la recepción de peticiones, quejas y reclamos relacionadas con los derechos humanos, cuyo diseño cuenta con la participación de grupos de interés representativos.\nEste mecanismo no impide el acceso a recursos judiciales para víctimas de violaciones de derechos humanos ni interfiere en asuntos civiles o penales o investigaciones sore vulneraciones a derechos humanos que se adelanten en el marco de las operaciones y las relaciones de la organización.",
+    "riesgos": [],
+    "ejes": [
+      "etapa-ocde-6"
+    ],
+    "responsable": "Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de reclamos de DDHH recibidos y respondidos",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador",
+      "responsable"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "parrafos": [
+        833,
+        837
+      ]
+    },
+    "vinculos_estimados": true
+  },
+  {
+    "id": "accion-52",
+    "componente": "componente-4",
+    "titulo": "Incorporar mecanismos no operativos de reclamación para la cadena de suministro",
+    "descripcion": "Mecanismos no operativos para abordar las quejas en la cadena de suministro de vulneración a los derechos humanos: SOLGAS podrá tener en cuenta mecanismos alternativos de solución de controversias en DDHH que tengan en cuenta criterios de legitimidad, accesibilidad, previsibilidad, equidad, transparencia y estar basado en el diálogo.",
+    "riesgos": [],
+    "ejes": [
+      "etapa-ocde-6"
+    ],
+    "responsable": "Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de reclamos de la cadena de suministro abordados",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador",
+      "responsable"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "parrafos": [
+        839,
+        839
+      ]
+    },
+    "vinculos_estimados": true
+  },
+  {
+    "id": "accion-53",
+    "componente": "componente-5",
+    "titulo": "Medir gestión en debida diligencia",
+    "descripcion": "Incorporación y apropiación del compromiso corporativo en materia de derechos humanos\n\nRealización del proceso de debida diligencia en materia de derechos humanos con base en la periodicidad prevista por el presente protocolo.\nNúmero de espacios de socialización y comunicación de los compromisos y políticas corporativas en materia de derechos humanos a empleados de la organización\nNúmero de espacios de socialización y comunicación de los compromisos y políticas corporativas en materia de derechos humanos a proveedores y contratistas\nNúmero de espacios de socialización y comunicación de los compromisos y políticas corporativas en materia de derechos humanos a comunidades del área de influencia del proyecto\nNúmero de espacios de socialización y comunicación de los compromisos y políticas corporativas en materia de derechos humanos a otros grupos de interés.\nNúmero de empleados capacitados respecto a riesgos y mecanismos de gestión en materia de derechos humanos\nNúmero de contratistas y proveedores capacitados respecto a riesgos y mecanismos de gestión en materia de derechos humanos. \nAcuerdos y contratos de inversión significativos con cláusulas sobre derechos humanos o sometidos a evaluación de derechos humanos.\n\nEvaluaciones periódicas a relaciones comerciales frente a la implementación de medidas de gestión de riesgos e impactos a derechos humanos\nNúmero de proveedores estratégicos o con alto potencial de impacto o con alto relacionamiento con comunidades evaluados en materia de gestión de riesgos e impactos sobre los derechos humanos.\nNúmero de proveedores acompañados en la implementación de medidas de identificación y gestión de riesgos en materia de derechos humanos.\n\nEfectividad respecto del abordaje de los riesgos en materia de derechos humanos\nNúmero de protocolos, planes y programas implementados para la gestión de riesgos e impactos en materia de derechos humanos\nNúmero de riesgos sobre los derechos humanos materializados\nNúmero de quejas o reclamaciones en materia de derechos humanos recibidas\nNúmero de respuesta a quejas o reclamaciones en materia de derechos humanos.\nNúmero de medidas de reparación sobre impactos a los derechos humanos que se han materializado.",
+    "riesgos": [],
+    "ejes": [
+      "etapa-ocde-4"
+    ],
+    "responsable": "Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Porcentaje de indicadores definidos con medición y seguimiento",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador",
+      "responsable"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 49,
+      "fila": 1
+    },
+    "vinculos_estimados": true
+  },
+  {
+    "id": "accion-54",
+    "componente": "componente-5",
+    "titulo": "Medir prevención de impactos en derechos humanos",
+    "descripcion": "Número de peticiones, quejas y reclamos relacionadas con\nExposición a condiciones físicas exigentes con potencial de accidentes y problemas de salud ocupacional\nEventos de acoso laboral\nEventos estrés laboral\nNo pago de salario digno.\nRestricción de la libertad de asociación.\nViolencia de género y acoso\nExposición a excesivas horas de trabajo\nPresencia de menores en la cadena de suministro\nFalta de condiciones de trabajo adecuadas\nDiscriminación por condición de género, origen, raza, entre otras.\nFalta de representación de mujeres en cargos directivos\nRepresalias a los trabajadores por quejas y denuncias en materia de derechos humanos.\nAfectaciones a la privacidad o el habeas data",
+    "riesgos": [],
+    "ejes": [
+      "etapa-ocde-4"
+    ],
+    "responsable": "Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Porcentaje de indicadores definidos con medición y seguimiento",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador",
+      "responsable"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 49,
+      "fila": 2
+    },
+    "vinculos_estimados": true
+  },
+  {
+    "id": "accion-55",
+    "componente": "componente-6",
+    "titulo": "Comunicar compromisos de DDHH a trabajadores",
+    "descripcion": "Enfoque:\nSensibilizar y capacitar a los trabajadores colaboradores sobre los compromisos y prácticas en debida diligencia y derechos humanos.\n\nAcciones recomendadas:\nSocialización compromisos en DDHH y canales de PQRS:\nSesiones informativas con cada área operativa.\nPublicación en los canales de comunicación de la organización.\nCapacitaciones en derechos humanos y debida diligencia\nTalleres sobre identificación y gestión de riesgos.\nSimulacros de casos reales y resolución de conflictos.",
+    "riesgos": [],
+    "ejes": [
+      "etapa-ocde-5"
+    ],
+    "responsable": "Gestión Humana",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de espacios de comunicación en DDHH con trabajadores",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 50,
+      "fila": 1
+    },
+    "vinculos_estimados": true
+  },
+  {
+    "id": "accion-56",
+    "componente": "componente-6",
+    "titulo": "Comunicar compromisos de DDHH a proveedores y distribuidores",
+    "descripcion": "Enfoque:\nAsegurar que los proveedores comprendan y cumplan con los compromisos en derechos humanos asumidos por parte de SOLGAS.\n\nAcciones recomendadas:\nFirma de compromiso en empresa y DDHH con los proveedores\nSocialización marco de políticas de SOLGAS\nCapacitación y acompañamiento:\nTalleres trimestrales sobre debida diligencia\nParticipación conjunta en iniciativas de empresa y derechos humanos",
+    "riesgos": [],
+    "ejes": [
+      "etapa-ocde-5"
+    ],
+    "responsable": "Gestión Humana",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de espacios de comunicación en DDHH con proveedores y distribuidores",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 50,
+      "fila": 2
+    },
+    "vinculos_estimados": true
+  },
+  {
+    "id": "accion-57",
+    "componente": "componente-6",
+    "titulo": "Comunicar compromisos de DDHH a clientes",
+    "descripcion": "Enfoque:\nSocializar a los clientes los compromisos asumidos por parte de SOLGAS en debida diligencia y gestión de los derechos humanos.\n\nAcciones recomendadas:\nSocialización marco de políticas corporativas en debida diligencia y derechos humanos.\nEntrega informe anual de sostenibilidad.",
+    "riesgos": [],
+    "ejes": [
+      "etapa-ocde-5"
+    ],
+    "responsable": "Por definir",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Número de espacios de comunicación en DDHH con clientes",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador",
+      "responsable"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "tabla": 50,
+      "fila": 3
+    },
+    "vinculos_estimados": true
+  },
+  {
+    "id": "accion-58",
+    "componente": "componente-6",
+    "titulo": "Incluir la debida diligencia en DDHH en el informe de sostenibilidad",
+    "descripcion": "Se recomienda que SOLGAS incluye en su informe de sostenibilidad un capítulo con el fin de documentar el proceso de debida diligencia en derechos humanos el cual recoja los siguientes aspectos:\nLos resultados de las revisiones o evaluaciones de riesgos e impactos respecto a los derechos humanos frente a las actividades del concesionario y sus proyectos.\nLas acciones de gestión con el fin de prevenir los riesgos e impactos identificados en materia de derechos humanos en el proceso de debida diligencia, así como las demás acciones para respetar y promover los derechos humanos.\nEl mecanismo y los resultados de la participación de los grupos de interés, en la identificación de riesgos e impactos en derechos humanos y las medidas de gestión para la prevención de dichos impactos, garantizar el respeto de dichos derechos y su promoción.\nLos procesos de formación de colaboradores: empleados, contratistas y proveedores en materia de derechos humanos.\nLos convenios, acuerdos y contratos de inversión significativos con cláusulas de derechos humanos o sometidos a evaluación de derechos humanos.",
+    "riesgos": [],
+    "ejes": [
+      "etapa-ocde-5"
+    ],
+    "responsable": "Sostenibilidad",
+    "plazo": "2027-01-01",
+    "estado": "pendiente",
+    "avance": 0,
+    "indicador": "Capítulo de DDHH publicado en el informe de sostenibilidad",
+    "origen": "fuente",
+    "campos_propuestos": [
+      "titulo",
+      "plazo",
+      "estado",
+      "avance",
+      "indicador"
+    ],
+    "fuente": {
+      "archivo": "20251216Informe de resultados y estrategía.docx",
+      "parrafos": [
+        863,
+        868
+      ]
+    },
+    "vinculos_estimados": true
+  }
+]

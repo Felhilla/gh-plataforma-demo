@@ -1,0 +1,26 @@
+{
+  "escala": {
+    "minimo": 0,
+    "maximo": 5
+  },
+  "cortes": [
+    {
+      "menor_que": 3.0,
+      "nombre": "naranja",
+      "color": "#9A3412"
+    },
+    {
+      "menor_que": 4.0,
+      "nombre": "amarillo",
+      "color": "#806000"
+    },
+    {
+      "menor_que": null,
+      "nombre": "verde",
+      "color": "#166534"
+    }
+  ],
+  "hipotesis": true,
+  "origen": "propuesta",
+  "nota": "Umbrales y colores por confirmar. Tonos oscuros legibles sobre fondo claro."
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "eval-2025-12",
+    "nombre": "Evaluación de brechas 2025-12",
+    "fecha": "2025-12",
+    "origen": "fuente",
+    "puntajes": {
+      "etapa-ocde-1": 2.916666666666667,
+      "etapa-ocde-2": 2.946113782051282,
+      "etapa-ocde-3": 2.916666666666667,
+      "etapa-ocde-4": 2.770833333333333,
+      "etapa-ocde-5": 3,
+      "etapa-ocde-6": 3.8333333333333335,
+      "tema-ddhh-1": 3.75,
+      "tema-ddhh-2": 4,
+      "tema-ddhh-3": 4.071428571428571,
+      "tema-ddhh-4": 3,
+      "tema-ddhh-5": 4.0625,
+      "tema-ddhh-6": 4.4,
+      "tema-ddhh-7": 4.3,
+      "tema-ddhh-8": 4.5,
+      "tema-ddhh-9": 4.166666666666667,
+      "tema-ddhh-10": 3.7777777777777777
+    }
+  },
+  {
+    "id": "eval-ejemplo-2026",
+    "nombre": "Evaluación de ejemplo 2026",
+    "fecha": "2026-12",
+    "origen": "ejemplo",
+    "puntajes": {
+      "etapa-ocde-1": 3.5,
+      "etapa-ocde-2": 3.5,
+      "etapa-ocde-3": 3.4,
+      "etapa-ocde-4": 3.5,
+      "etapa-ocde-5": 3.3,
+      "etapa-ocde-6": 4.0,
+      "tema-ddhh-1": 3.9,
+      "tema-ddhh-2": 4.0,
+      "tema-ddhh-3": 4.2,
+      "tema-ddhh-4": 3.5,
+      "tema-ddhh-5": 4.2,
+      "tema-ddhh-6": 4.5,
+      "tema-ddhh-7": 4.4,
+      "tema-ddhh-8": 4.4,
+      "tema-ddhh-9": 4.3,
+      "tema-ddhh-10": 4.0
+    }
+  }
+]

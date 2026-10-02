@@ -1,0 +1,49 @@
+{
+  "componentes": [
+    {
+      "id": "componente-1",
+      "nombre": "Fortalecimiento del compromiso organizacional"
+    },
+    {
+      "id": "componente-2",
+      "nombre": "Articulación estructurada de gestión en empresa y derechos humanos"
+    },
+    {
+      "id": "componente-3",
+      "nombre": "Acciones de gestión y manejo de los riesgos e impactos en DDHH"
+    },
+    {
+      "id": "componente-4",
+      "nombre": "Mecanismo de reclamación y reparación"
+    },
+    {
+      "id": "componente-5",
+      "nombre": "Mecanismo de medición y seguimiento"
+    },
+    {
+      "id": "componente-6",
+      "nombre": "Modelo de comunicación y reporte"
+    }
+  ],
+  "estados": [
+    "pendiente",
+    "en-curso",
+    "cumplida"
+  ],
+  "fecha_base": "2026-01-01",
+  "plazo_propuesto": {
+    "unidad": "meses",
+    "por_criticidad": {
+      "Alta": 6,
+      "Media": 12,
+      "Baja": 18
+    },
+    "sin_riesgo": 12
+  },
+  "origen": "fuente",
+  "campos_propuestos": [
+    "estados",
+    "fecha_base",
+    "plazo_propuesto"
+  ]
+}

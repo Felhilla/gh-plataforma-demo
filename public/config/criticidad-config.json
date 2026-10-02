@@ -1,0 +1,177 @@
+{
+  "gravedad": {
+    "criterios": [
+      "escala",
+      "alcance",
+      "irreparable"
+    ],
+    "escala": {
+      "minimo": 1,
+      "maximo": 3,
+      "enteros": true
+    },
+    "agregacion": "promedio",
+    "cortes": [
+      {
+        "nivel": "Baja",
+        "menor_que": 1.5
+      },
+      {
+        "nivel": "Media",
+        "menor_que": 2.5
+      },
+      {
+        "nivel": "Alta",
+        "menor_que": null
+      }
+    ],
+    "parametros": {
+      "escala": [
+        {
+          "valor": 3,
+          "descripcion": "Causara muerte o efectos adversos en la salud que puedan llevar a una reducción significativa  en la calidad de vida y/o duración de esta."
+        },
+        {
+          "valor": 2,
+          "descripcion": "Infracción tangible a derecho humano de acceso a necesidades básicas (Educación, Calidad de vida, etc.). // Impacto cultural, economico, natural y social a infraestructura, activos o bienes, que se han identificado como altamente valiosos por los grupos identificados o por expertos en la materia en el proceso de evaluación del impacto.// Impacto a los servicios ecosistémicos identificados como prioridad para la vida, la salud, la seguridad o la cultura en el proceso de evaluación de impacto."
+        },
+        {
+          "valor": 1,
+          "descripcion": "Todos los otros impactos"
+        }
+      ],
+      "alcance": [
+        {
+          "valor": 3,
+          "descripcion": "Mayor al 20% del total de la población en el área de impacto o mayor al 50% de un grupo identificable."
+        },
+        {
+          "valor": 2,
+          "descripcion": "Mayor al 10% del total de la población en el área de impacto o mayor al 11 - 50% de un grupo identificable."
+        },
+        {
+          "valor": 1,
+          "descripcion": "Mayor al 5% del total de la población en el área de impacto o mayor al 10% de un grupo identificable."
+        }
+      ],
+      "irreparable": [
+        {
+          "valor": 3,
+          "descripcion": "Difícil: Requerimientos técnicos complejos, poca aceptación de remediación por los grupos identificados, baja capacidad por parte del socio a cargo de la implementación, sin remplazo viable por la perdida ocasionada por los impactos."
+        },
+        {
+          "valor": 2,
+          "descripcion": "Moderado: Requerimientos técnicos más sencillos, aceptación por los grupos identificados, el socio encargado de la implementación puede cumplir si se desarrollan o construyen capacidades."
+        },
+        {
+          "valor": 1,
+          "descripcion": "Fácil: Requerimientos técnicos simples, aceptación por los grupos identificados, el socio encargado de la implementación puede cumplir con la reparación."
+        }
+      ]
+    }
+  },
+  "probabilidad": [
+    "alta",
+    "media",
+    "baja"
+  ],
+  "vinculacion": {
+    "causa": {
+      "nivel": "alta",
+      "medidas": {
+        "impacto_potencial": "– Cesar y/o poner fin\n– Prevenir y/o mitigar",
+        "impacto_manifestado": "– Reparar"
+      }
+    },
+    "contribuye": {
+      "nivel": "media",
+      "medidas": {
+        "impacto_potencial": "– Cesar y/o poner fin\n– Prevenir y/o mitigar\n– Ejercicio de influencia",
+        "impacto_manifestado": "– Reparar \n– Colaborar en reparar"
+      }
+    },
+    "directamente-vinculada": {
+      "nivel": "baja",
+      "medidas": {
+        "impacto_potencial": "– Ejercicio de influencia",
+        "impacto_manifestado": "– Ejercicio de influencia"
+      }
+    }
+  },
+  "matriz": {
+    "x": "probabilidad",
+    "y": "gravedad"
+  },
+  "agregacion_riesgo": "maximo",
+  "ambitos": [
+    {
+      "id": "operacion-propia",
+      "etiqueta": "Operación propia"
+    },
+    {
+      "id": "cadena-suministro",
+      "etiqueta": "Cadena de suministro"
+    },
+    {
+      "id": "cadena-distribucion",
+      "etiqueta": "Cadena de distribución"
+    }
+  ],
+  "normalizaciones_ambito": {
+    "1. Operación\n2. Cadena de distribución": [
+      "operacion-propia",
+      "cadena-distribucion"
+    ],
+    "1. Operación": [
+      "operacion-propia"
+    ],
+    "1. Operación\n2. Cadena de distribución\n3. Proveedores": [
+      "operacion-propia",
+      "cadena-distribucion",
+      "cadena-suministro"
+    ],
+    "1. Operación\n2. Instalaciones de clientes B2B\n3. Cadena de distribución.\n4. Comunidades receptoras": [
+      "operacion-propia",
+      "cadena-distribucion"
+    ],
+    "1. Cadena de distribución": [
+      "cadena-distribucion"
+    ],
+    "1. Cadena de proveedores\n2. Cadena de distribución": [
+      "cadena-suministro",
+      "cadena-distribucion"
+    ],
+    "1. Operación\n2. Operación de contratistas": [
+      "operacion-propia",
+      "cadena-suministro"
+    ],
+    "1. Cadena de suministros\n2. Contratistas en obras y servicios": [
+      "cadena-suministro"
+    ],
+    "1. Cadena de suministros\n2. Cadena de distribución": [
+      "cadena-suministro",
+      "cadena-distribucion"
+    ],
+    "1. Operación (ámbito administrativo)": [
+      "operacion-propia"
+    ],
+    "1. Cadena de distribución.\n2. Proveedores": [
+      "cadena-distribucion",
+      "cadena-suministro"
+    ]
+  },
+  "normalizaciones_estimadas": {
+    "origen": "estimado",
+    "asignaciones": {
+      "Instalaciones de clientes B2B": "cadena-distribucion",
+      "Comunidades receptoras": "cadena-distribucion",
+      "Operación de contratistas": "cadena-suministro",
+      "Contratistas en obras y servicios": "cadena-suministro"
+    }
+  },
+  "origen": "fuente",
+  "campos_propuestos": [
+    "gravedad.cortes"
+  ],
+  "nota": "Cortes definidos por el encargo; se corrige el caso exacto 2,5 de la fórmula Excel: Alta. Vinculación y probabilidad no intervienen en la criticidad."
+}

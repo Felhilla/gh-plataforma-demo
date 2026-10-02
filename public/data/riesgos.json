@@ -1,0 +1,713 @@
+[
+  {
+    "id": "riesgo-01",
+    "nombre": "Exceso de horas de trabajo durante picos de demanda o contingencias operativas",
+    "derecho_humano": "Derecho a la vida",
+    "localizacion": "1. Todas las plantas (mención específica de la Planta Trujillo)",
+    "actividades": "1. Envasado de GLP.\n2. Despacho de cargamentos.\n3. Ausencias o licencias que generan la necesidad de horas extra.\n4. Distribución de cargamentos en zonas alejadas.",
+    "medidas_control": "1. Relojes de marcación y cruce con planillas con un tope máx. 12 h y 4 h extra.\n2. Autorización y control de nómina.\n3. Consulta previa a los trabajadores para realizar horas extra.\n4. Contratos temporales en caso de picos de demanda y ausencias prolongadas de trabajadores.\n5. Rediseño de la línea de producción.\n\n1. Relojes de marcación y cruce con planillas con un tope máx. 12 h y 4 h extra.\n2. Autorización y control de nómina.\n3. Consulta previa a los trabajadores para realizar horas extra.\n4. Comunicaciones de buenas prácticas con distribuidores.",
+    "analisis_controles": "Los controles existentes son operativos y administrativos, pero no abordan el riesgo desde un enfoque de trabajo decente ni de debida diligencia en derechos humanos, lo que deja brechas significativas.\n\nEn la cadena de distribución —donde SOLGAS tiene menor capacidad de supervisión— no existe verificación efectiva de jornadas ni mecanismos para evitar excesos, aumentando considerablemente la probabilidad del riesgo.",
+    "accion_recomendada": "1. Desarrollo del Plan de acción en debida diligencia en derechos humanos.\n2. Aplicación del procedimiento de debida diligencia en DDHH.\n3. Articulación al mecanismo de medición y reporte.\n\n1. Aplicación del procedimiento de debida diligencia en DDHH.\n2. Uso del procedimiento de debida diligencia para proveedores.\n3. Articulación al mecanismo de medición y reporte.",
+    "ambitos": [
+      "operacion-propia",
+      "cadena-distribucion"
+    ],
+    "responsables": [
+      "Por definir",
+      "Gerencia de Personas",
+      "Gerencia de Comercialización"
+    ],
+    "evaluaciones": [
+      {
+        "actor_genera": "1. Colaboradores",
+        "actor_reporta": "1. Operarios\n2. Jefes de planta",
+        "escala": 1,
+        "alcance": 3,
+        "irreparable": 1,
+        "vinculacion": "causa",
+        "probabilidad": "media",
+        "fila_fuente": 12
+      },
+      {
+        "actor_genera": "1. Distribuidores",
+        "actor_reporta": "1. Distribuidores",
+        "escala": 2,
+        "alcance": 1,
+        "irreparable": 1,
+        "vinculacion": "causa",
+        "probabilidad": "alta",
+        "fila_fuente": 15
+      }
+    ],
+    "origen": "fuente",
+    "fuente": {
+      "archivo": "20260116 Anexo 2 Matriz de Riesgos en Derechos Humanos Solgas Consolidada Validada.xlsx",
+      "hoja": "Matriz de riesgos DDHH",
+      "filas": [
+        12,
+        15
+      ]
+    }
+  },
+  {
+    "id": "riesgo-02",
+    "nombre": "Acoso, hostigamiento y trato irrespetuoso en las operaciones internas de SOLGAS",
+    "derecho_humano": "Derecho a la igualdad y no discriminación",
+    "localizacion": "1. Todas las plantas",
+    "actividades": "1. Mal manejo de situaciones de estrés.\n2. Picos de demanda o contingencias operativas.\n3. Relaciones superior subordinado",
+    "medidas_control": "1. Canal de denuncias.\n2. Procesos de investigación establecidos.\n3. Capacitación del código de ética en procesos de inducción.\n4. Capacitación constante en materia de cultura organizativa.",
+    "analisis_controles": "SOLGAS cuenta con controles relevantes para la prevención y abordaje del acoso laboral (canal de denuncias, procesos de investigación, capacitación ética), lo cual mitiga parcialmente el riesgo. Sin embargo, estos controles no están integrados en un enfoque de debida diligencia en DDHH, no existe monitoreo sistemático, ni mecanismos diferenciados para gestionar impactos, ni reporte estructurado. Por ello, aunque hay barreras útiles, persiste la probabilidad de que el riesgo se materialice dada la ausencia de una gestión preventiva robusta.",
+    "accion_recomendada": "1. Articulación de los mecanismos de gestión en empresa y derechos humanos. Para integrar todas las herramientas existentes dentro de un enfoque explícito de DDHH.\n2. Aplicación del procedimiento de debida diligencia en DDHH. El riesgo de acoso debe ser incorporado en la matriz de DDHH con acciones específicas para prevención, monitoreo y respuesta.\n3. Aplicación del procedimiento de debida diligencia en DDHH.",
+    "ambitos": [
+      "operacion-propia"
+    ],
+    "responsables": [
+      "Por definir",
+      "Gerencia de Personas"
+    ],
+    "evaluaciones": [
+      {
+        "actor_genera": "1. Supervisores\n2. Colaboradores.\n3. Operadores.\n4. Jefes de planta.",
+        "actor_reporta": "1. Colaboradores\n2. Operadores",
+        "escala": 1,
+        "alcance": 1,
+        "irreparable": 2,
+        "vinculacion": "causa",
+        "probabilidad": "baja",
+        "fila_fuente": 18
+      }
+    ],
+    "origen": "fuente",
+    "fuente": {
+      "archivo": "20260116 Anexo 2 Matriz de Riesgos en Derechos Humanos Solgas Consolidada Validada.xlsx",
+      "hoja": "Matriz de riesgos DDHH",
+      "filas": [
+        18
+      ]
+    }
+  },
+  {
+    "id": "riesgo-03",
+    "nombre": "Riesgos ergonómicos por manipulación de cilindros pesados (25–45 kg)",
+    "derecho_humano": "Derecho a condiciones de trabajo dignas",
+    "localizacion": "1. Plantas de provincias con mayor manualidad en los procesos.",
+    "actividades": "1. Carga y descarga de cilindros, especialmente en líneas de envasado en provincia donde las actividades son más manuales.\n2. Distribución de cilindros.",
+    "medidas_control": "1. Programa de capacitación para pausas activas.\n2. oración de puestos para reducir exposición a trabajos de fuerza.\n3. Exámenes médicos de aptitud (ingreso/anuales).\n\n1. Programa de capacitación para pausas activas.\n2. Rotación de puestos para reducir exposición a trabajos de fuerza.\n3. Exámenes médicos de aptitud (ingreso/anuales).\n4. Clausulas ergonómicas en los contratos de distribuidores.\n5. Capacitación de correcta manipulación de cilindros.",
+    "analisis_controles": "Los controles actuales  son relevantes para la prevención de lesiones por manipulación de cargas y existe un enfoque preventivo estructural. Sin embargo no hay un enfoque especifico de debida diligencia en DDHH para abordar este riesgo como afectación al derecho a condiciones de trabajo seguras y saludables.\n\nAunque la cadena de distribución cuenta con capacitaciones y cláusulas contractuales, no existe verificación, monitoreo ni mecanismos de debida diligencia en DDHH que aseguren que la manipulación de cilindros pesados se realice en condiciones seguras. Lo que hace que el riesgo sea altamente probable, especialmente en contextos de alta demanda, falta de ayudas mecánicas y condiciones laborales diversas entre distribuidores.",
+    "accion_recomendada": "1. Desarrollo del Plan de acción en debida diligencia en derechos humanos. Para integrar la ergonomía en el marco de DDHH y establecer indicadores sobre fatiga, lesiones y capacidad de carga.\n2. Aplicación del procedimiento de debida diligencia en DDHH. Para identificar titulares de derechos más expuestos (trabajadores jóvenes, mayores, con historial médico, etc.) y monitorear el riesgo de forma sistemática.\n3. Articulación al mecanismo de medición y reporte.\n\n1. Uso del procedimiento de gestión en debida diligencia para proveedores.\n2. Desarrollo del Plan de acción en debida diligencia en derechos humanos. En el cual este riesgo debe ser clasificado como riesgo prioritario dado su nivel de impacto físico y frecuencia potencial.\n3. Articulación al mecanismo de medición y reporte.",
+    "ambitos": [
+      "operacion-propia",
+      "cadena-distribucion"
+    ],
+    "responsables": [
+      "Área de Sostenibilidad",
+      "Por definir",
+      "Gerencia de Personas",
+      "Gerencia de Comercialización"
+    ],
+    "evaluaciones": [
+      {
+        "actor_genera": "1. Operadores.",
+        "actor_reporta": "1. Jefes de planta\n2. Operadores",
+        "escala": 2,
+        "alcance": 2,
+        "irreparable": 2,
+        "vinculacion": "causa",
+        "probabilidad": "baja",
+        "fila_fuente": 22
+      },
+      {
+        "actor_genera": "1.Distribuidores",
+        "actor_reporta": "1. Distribuidores",
+        "escala": 2,
+        "alcance": 1,
+        "irreparable": 1,
+        "vinculacion": "causa",
+        "probabilidad": "media",
+        "fila_fuente": 25
+      }
+    ],
+    "origen": "fuente",
+    "fuente": {
+      "archivo": "20260116 Anexo 2 Matriz de Riesgos en Derechos Humanos Solgas Consolidada Validada.xlsx",
+      "hoja": "Matriz de riesgos DDHH",
+      "filas": [
+        22,
+        25
+      ]
+    }
+  },
+  {
+    "id": "riesgo-04",
+    "nombre": "Pago insuficiente o no justo",
+    "derecho_humano": "Derecho a condiciones laborales justas y equitativa",
+    "localizacion": "1. Todas las plantas",
+    "actividades": "1. Desconocimiento de horas extras",
+    "medidas_control": "1. Controles relacionados a cartas fianza.\n2. El contrato de distribución responsabiliza al distribuidor sobre su fuerza labor mediante clausulas contra actuales.\n3. Los contratados de intermediación laboral están protegidos por la legislación nacional.",
+    "analisis_controles": "Los controles actuales se centran en obligaciones contractuales y en cumplimiento legal básico, pero no abordan de manera específica el pago justo en las operaciones internas, ni existe un enfoque de derechos humanos para identificar brechas salariales, inequidades o condiciones de vulnerabilidad.\nLa falta de monitoreo sistemático, indicadores de equidad salarial y mecanismos de reparación hacen que el riesgo pueda materializarse, aunque existan controles administrativos indirectos.",
+    "accion_recomendada": "1. Articulación de los mecanismos de gestión en empresa y DDHH. Para integrar el concepto de “salario justo” dentro del sistema organizacional y vincularlo a políticas internas, ética y relaciones laborales.\n2. Gestión del Sub-comité de DDHH. Para supervisar la implementación y garantizar que el riesgo salarial se trate como un riesgo de derechos humanos, no solo como tema contractual.\n3. Articulación al mecanismo de medición y reporte.",
+    "ambitos": [
+      "operacion-propia",
+      "cadena-distribucion",
+      "cadena-suministro"
+    ],
+    "responsables": [
+      "Gerencia de Personas",
+      "Por definir",
+      "Gerencia de Comercialización"
+    ],
+    "evaluaciones": [
+      {
+        "actor_genera": "1. Gerentes.\n2. Jefes de planta.\n3. Proveedores.\n4. Distribuidores.",
+        "actor_reporta": "1. Colaboradores\n2. Operadores",
+        "escala": 1,
+        "alcance": 1,
+        "irreparable": 1,
+        "vinculacion": "causa",
+        "probabilidad": "media",
+        "fila_fuente": 28
+      }
+    ],
+    "origen": "fuente",
+    "fuente": {
+      "archivo": "20260116 Anexo 2 Matriz de Riesgos en Derechos Humanos Solgas Consolidada Validada.xlsx",
+      "hoja": "Matriz de riesgos DDHH",
+      "filas": [
+        28
+      ]
+    }
+  },
+  {
+    "id": "riesgo-05",
+    "nombre": "Exposición a GLP, fugas, incendios y explosiones tanto en operaciones internas de Solgas como por prácticas externas de adulteración de cilindros.",
+    "derecho_humano": "Derecho a la vida",
+    "localizacion": "1. Todas las plantas.\n2. Instalaciones de clientes B2B",
+    "actividades": "1. Envasado de GLP(exposición continua a gas).\n2. Manipulación de esferas y tanques.\n3. Distribución y transporte a granel y cilindros.\n4. Instalaciones a clientes B2B durante montaje y abastecimiento.\n5. Adulteración de cilindros por terceros (relleno ilegal, manipulación no autorizada)",
+    "medidas_control": "1. Simulacros continuos de gestión de crisis.\n2. Brigadas de atención y capacitación.\n3. Botón de paro de emergencia en línea lineas de envasado.\n4. Entrega y capacitaciones recurrentes del correcto uso de EPPs.\n5. Monitoreo y seguimiento en el proceso de distribución formal.\n6. Capacitaciones y campañas de comunicación sobre mitigación y prevención de riesgos\n7. Inspecciones de criticidad de cilindros\n8. Inspecciones de criticidad a las plantas\n9. Seguimiento al programa de mantenimiento de las plantas e instalaciones B2B",
+    "analisis_controles": "Aunque SOLGAS cuenta con controles técnicamente robustos (simulacros, brigadas, mantenimiento, inspecciones), no existe un enfoque de debida diligencia en derechos humanos para gestionar el riesgo más crítico del negocio: impactos severos a la vida y seguridad de trabajadores, clientes y comunidades.\nLa brecha más grave —debilidad en la cadena de distribución y vulnerabilidad ante adulteración— está completamente descubierta.",
+    "accion_recomendada": "1. Desarrollo del Plan de acción en debida diligencia en DDHH. Debe ser el primer riesgo en incluirse en el plan, dado su severidad y probabilidad.\n2. Aplicación del procedimiento de debida diligencia en proveedores.\n3. Desarrollo de acciones de manejo del riesgo.\n4. Gestión del Subcomité de DDHH.\n5. Articulación al mecanismo de medición y reporte.",
+    "ambitos": [
+      "operacion-propia",
+      "cadena-distribucion"
+    ],
+    "responsables": [
+      "Área de Sostenibilidad",
+      "Por definir"
+    ],
+    "evaluaciones": [
+      {
+        "actor_genera": "1. Operadores.\n2. Distribuidores.\n3. Clientes B2B.",
+        "actor_reporta": "1. Jefes de planta\n2. Operadores\n3. Alta dirección",
+        "escala": 3,
+        "alcance": 1,
+        "irreparable": 2,
+        "vinculacion": "causa",
+        "probabilidad": "media",
+        "fila_fuente": 31
+      }
+    ],
+    "origen": "fuente",
+    "fuente": {
+      "archivo": "20260116 Anexo 2 Matriz de Riesgos en Derechos Humanos Solgas Consolidada Validada.xlsx",
+      "hoja": "Matriz de riesgos DDHH",
+      "filas": [
+        31
+      ]
+    },
+    "campos_propuestos": [
+      "ambitos"
+    ]
+  },
+  {
+    "id": "riesgo-06",
+    "nombre": "Exposición de los trabajadores a sustancias químicas y peligrosas",
+    "derecho_humano": "Derecho a la salud",
+    "localizacion": "1. Todas las plantas",
+    "actividades": "1. Procesos de aromatización de GLP\n2. Procesos de pintura y mantenimiento de cilindros",
+    "medidas_control": "1. Capacitaciones y entrenamientos\n2. Verificación del uso de EPPs\n3. Programas de mantenimiento\n4. Inspecciones de planta \n5. Plan y prueba de mantenimiento de equipos de pintura\n6. Gestión de hoja de seguridad del producto y compra de producto de calidad (MSDS)",
+    "analisis_controles": "SOLGAS tiene controles sólidos en materia de seguridad industrial, lo que contribuye a reducir la probabilidad de exposición directa. Sin embargo, el riesgo no está integrado en un enfoque de debida diligencia en derechos humanos, faltan mecanismos de monitoreo sistemático, identificación de grupos vulnerables, mecanismos de reparación y reporte de riesgos severos a la salud.",
+    "accion_recomendada": "1. Articulación de los mecanismos de gestión en empresa y DDHH. Para vincular controles de SST con estándares de DDHH, especialmente derechos a la salud y a un ambiente laboral seguro.\n2. Aplicación del procedimiento de debida diligencia en DDHH.\n3. Articulación al mecanismo de medición y reporte.",
+    "ambitos": [
+      "operacion-propia"
+    ],
+    "responsables": [
+      "Por definir",
+      "Área de Sostenibilidad"
+    ],
+    "evaluaciones": [
+      {
+        "actor_genera": "1. Operadores\n2. Proveedores\n3. Distribuidores.",
+        "actor_reporta": "1. Jefes de planta\n2. Operadores\n3. Alta dirección",
+        "escala": 1,
+        "alcance": 1,
+        "irreparable": 1,
+        "vinculacion": "causa",
+        "probabilidad": "baja",
+        "fila_fuente": 35
+      }
+    ],
+    "origen": "fuente",
+    "fuente": {
+      "archivo": "20260116 Anexo 2 Matriz de Riesgos en Derechos Humanos Solgas Consolidada Validada.xlsx",
+      "hoja": "Matriz de riesgos DDHH",
+      "filas": [
+        35
+      ]
+    }
+  },
+  {
+    "id": "riesgo-07",
+    "nombre": "Presencia de menores de edad en las actividades proveedores y la cadena de distribución",
+    "derecho_humano": "Derechos del niño",
+    "localizacion": "1. Alcance nacional",
+    "actividades": "1. Contratación de proveedores no verificados.\n2. Seguimiento deficiente de la fuerza laboral en actividades tercerizado.\n3. Contratación de pequeños distribuidores que operan fuera de los sistemas formales de contratación.",
+    "medidas_control": "1. Clausulas contractuales de prohibición del trabajo infantil.\n2. Capacitación a distribuidores para la prevención de trabajo infantil.",
+    "analisis_controles": "Los controles existentes —cláusulas contractuales y capacitaciones— son insuficientes para evitar la presencia de menores de edad en la cadena de distribución, especialmente sin mecanismos de verificación o monitoreo.",
+    "accion_recomendada": "1. Aplicación del procedimiento de debida diligencia para proveedores.\n2. Desarrollo del Plan de acción en debida diligencia en DDHH.\n3. Desarrollo de acciones de manejo del riesgo.\n- Protocolos de verificación mensual de nóminas de distribuidores.\n- Auditorías aleatorias.\n- Registro obligatorio de trabajadores autorizados.\n4. Aplicación del mecanismo de reparación y remediación Si se detecta un caso, SOLGAS debe:\n- Activar protocolos con autoridades competentes.\n- Garantizar medidas que protejan al menor.\n- Remediar impactos a través de apoyo social o educativo (según estándares OCDE).",
+    "ambitos": [
+      "cadena-distribucion"
+    ],
+    "responsables": [
+      "Gerencia de Comercialización",
+      "Por definir"
+    ],
+    "evaluaciones": [
+      {
+        "actor_genera": "1. Distribuidores\n2. Proveedores",
+        "actor_reporta": "1. Distribuidores\n2. Autoridades locales",
+        "escala": 2,
+        "alcance": 1,
+        "irreparable": 1,
+        "vinculacion": "directamente-vinculada",
+        "probabilidad": "alta",
+        "fila_fuente": 37
+      }
+    ],
+    "origen": "fuente",
+    "fuente": {
+      "archivo": "20260116 Anexo 2 Matriz de Riesgos en Derechos Humanos Solgas Consolidada Validada.xlsx",
+      "hoja": "Matriz de riesgos DDHH",
+      "filas": [
+        37
+      ]
+    }
+  },
+  {
+    "id": "riesgo-08",
+    "nombre": "Deficiencias en condiciones de trabajo en la cadena de valor (jornadas, descansos, servicios)",
+    "derecho_humano": "Derecho a condiciones de trabajo dignas",
+    "localizacion": "Red de distribución a nivel nacional",
+    "actividades": "1. Presencia de jornadas prolongadas.\n2. Ausencia de controles relacionados con horas de trabajo y descansos.\nAusencia de mecanismo de verificación de condiciones básicas (descanso, alimentación, SST.)",
+    "medidas_control": "1. Políticas de conducción (máx. 10 h, paradas cada 4 h)\n2. Comité mensual de contratistas para la verificación de condiciones laborales de los trabajadores.\n3. Mecanismos de seguimiento como cámaras en unidades de transporte.\n4. Capacitación y charlas de seguridad durante el proceso de contratación.",
+    "analisis_controles": "Aunque existen controles administrativos, estos no garantizan el cumplimiento real de condiciones laborales dignas en la cadena de valor.\nSOLGAS no ejerce control directo sobre tiempos reales de trabajo, descansos, servicios disponibles, o condiciones físicas durante la jornada.\nLas brechas críticas en trabajo digno y debida diligencia en cadena de suministro elevan significativamente la probabilidad de materialización del riesgo.",
+    "accion_recomendada": "1. Uso del procedimiento de debida diligencia para proveedores. Debe incluir:\n- Verificación documental de jornadas, descansos, contratos y roles.\n- Auditorías laborales periódicas a proveedores y distribuidores.\n-Evaluación del cumplimiento de condiciones básicas (servicios sanitarios, agua, zonas de descanso).\n- Clasificación de proveedores según riesgo.\n2. Aplicación del procedimiento de debida diligencia en DDHH. Asegurar:\n- Mapeo de vulnerabilidades (conductores jóvenes, tercerizados, jornadas extendidas).\n- Seguimiento con enfoque preventivo de salud y bienestar.\n- Integración de cámaras con análisis de fatiga y pausas.\n3. Gestión del Subcomité de DDHH para:\n- Supervisar hallazgos de auditorías a proveedores.\n- Escalar casos críticos.\n- Validar acciones de remediación.",
+    "ambitos": [
+      "cadena-suministro",
+      "cadena-distribucion"
+    ],
+    "responsables": [
+      "Gerencia de Comercialización",
+      "Por definir"
+    ],
+    "evaluaciones": [
+      {
+        "actor_genera": "1. Distribuidores\n2. Proveedores",
+        "actor_reporta": "1. Distribuidores\n2. Proveedores\n3. Autoridades locales",
+        "escala": 3,
+        "alcance": 1,
+        "irreparable": 2,
+        "vinculacion": "directamente-vinculada",
+        "probabilidad": "media",
+        "fila_fuente": 40
+      }
+    ],
+    "origen": "fuente",
+    "fuente": {
+      "archivo": "20260116 Anexo 2 Matriz de Riesgos en Derechos Humanos Solgas Consolidada Validada.xlsx",
+      "hoja": "Matriz de riesgos DDHH",
+      "filas": [
+        40
+      ]
+    }
+  },
+  {
+    "id": "riesgo-09",
+    "nombre": "Acoso, hostigamiento y trato irrespetuoso en las operaciones de la cadena de valor.",
+    "derecho_humano": "Derecho a condiciones de trabajo dignas",
+    "localizacion": "1. Todas las plantas (mención específica de la Planta Trujillo)",
+    "actividades": "1. Estrés operativo que puede derivar en  conversaciones acaloradas.\n2. Bromas o comentarios inadecuados.\n3. Caso reportado de maltrato a proveedores (sanción y salida del cargo).\n4. Denuncias por acoso (laboral/sexual) gestionadas por canal ético y el comité de hostigamiento sexual.",
+    "medidas_control": "1. Canal ético para recepción de denuncias a través de la página web.\n2. Línea directa con el oficial de cumplimiento.\n3.Comité de hostigamiento sexual encargado de desarrollar investigaciones y establecer sanciones.\n4. Inducciones y capacitaciones periódicas de prevención y capacitación contra el acoso verbal, laboral y sexual.\n5. Canal de comunicación de buenas practicas con distribuidores.\n6. Clausula contractual de prevención de acoso y responsabilidad con personal.",
+    "analisis_controles": "Aunque SOLGAS cuenta con mecanismos importantes (canal ético, comité, capacitaciones), estos controles:\n- Son principalmente reactivos.\n- No cubren la cadena de valor de manera efectiva.\n- No están integrados en un enfoque de DDHH.\n- No se verifica el cumplimiento real en proveedores.\n- No protegen suficientemente a grupos vulnerables.\nLa presencia del riesgo en la cadena de suministro lo convierte en un riesgo de alta probabilidad, especialmente ante:\n- Informalidad\n- Asimetrías de poder\n- Falta de supervisión directa\n- Falta de mecanismos preventivos sólidos",
+    "accion_recomendada": "1. Aplicación del procedimiento de debida diligencia para proveedores. Debe incluir:\n- Evaluación psicosocial de proveedores.\n- Revisión de procesos disciplinarios y protocolos internos.\n- Mecanismos de denuncia específicos para trabajadores tercerizados.\n- Auditorías que incluyan entrevistas y revisión documental.\n2. Desarrollo del Plan de acción en debida diligencia en DDHH. Debe clasificar este riesgo como riesgo alto y contemplar:\n- Medidas de protección reforzada para trabajadores vulnerables.\n- Análisis de contextos de riesgo por proveedor o zona geográfica.\n3. Desarrollo de acciones de gestión y manejo del riesgo. Acciones concretas:\n- Tolerancia cero comunicada y monitoreada.\n- Obligatoriedad de protocolos internos de los proveedores.\n- Mecanismos seguros de denuncia para tercerizados.\n- Evaluación periódica del clima laboral en la cadena.\n- Sanciones y desvinculación de proveedores reincidentes.\n4. Gestión del Subcomité de DDHH. Debe:\n- Supervisar casos.\n- Validar medidas disciplinarias.\n- Monitorear reincidencias por proveedor.\n- Tomar decisiones sobre continuidad contractual.\n5. Articulación al mecanismo de medición y reporte",
+    "ambitos": [
+      "operacion-propia",
+      "cadena-suministro"
+    ],
+    "responsables": [
+      "Gerencia de Comercialización",
+      "Por definir"
+    ],
+    "evaluaciones": [
+      {
+        "actor_genera": "1. Proveedores\n2. Distribuidores",
+        "actor_reporta": "1. Distribuidores\n2. Proveedores",
+        "escala": 2,
+        "alcance": 1,
+        "irreparable": 1,
+        "vinculacion": "causa",
+        "probabilidad": "media",
+        "fila_fuente": 44
+      }
+    ],
+    "origen": "fuente",
+    "fuente": {
+      "archivo": "20260116 Anexo 2 Matriz de Riesgos en Derechos Humanos Solgas Consolidada Validada.xlsx",
+      "hoja": "Matriz de riesgos DDHH",
+      "filas": [
+        44
+      ]
+    },
+    "campos_propuestos": [
+      "ambitos"
+    ]
+  },
+  {
+    "id": "riesgo-10",
+    "nombre": "Incumplimientos sociolaborales por parte de contratistas y proveedores",
+    "derecho_humano": "Derecho al mínimo vital",
+    "localizacion": "1. Todas las plantas",
+    "actividades": "1. No pago oportuno a proveedores de servicios (se menciona el casos con empresa de vigilancia)\n2. No entrega y capacitación en materia de uso de EPPs.\n3. Débil seguimientos durante las relaciones comerciales .",
+    "medidas_control": "1. Verificación inicial y debida diligencia durante el proceso de contratación.\n2. Reuniones correctivas cuando se han identificado casos de incumplimiento.\n3. Cartas fianza activadas para cubrir salarios.\n4. Presentación de sustentos para pagos de valorizaciones mensuales.\n5. Clausulas contractuales en el caso de distribuidores.",
+    "analisis_controles": "Los controles existentes son administrativos y reactivamente activados, no preventivos ni integrados en un enfoque de DDHH.\nLa ausencia de un sistema de supervisión sociolaboral continuo en proveedores y contratistas genera una alta probabilidad de que:\n- No se cumplan obligaciones laborales.\n- Haya jornadas excesivas.\n- No se garanticen descansos.\n- Se presenten brechas en pagos y beneficios.\n- Se presenten incumplimientos persistentes que no son detectados a tiempo.",
+    "accion_recomendada": "1. Aplicación del procedimiento de debida diligencia para proveedores. Debe incluir:\n- Auditorías sociolaborales semestrales.\n- Verificación directa en campo de condiciones laborales.\n- Validación de contratos, pagos, jornadas y beneficios.\n-Matriz de clasificación de proveedores según riesgo sociolaboral.\n2. Articulación al mecanismo de medición y reporte",
+    "ambitos": [
+      "cadena-suministro"
+    ],
+    "responsables": [
+      "Gerencia de Comercialización",
+      "Por definir"
+    ],
+    "evaluaciones": [
+      {
+        "actor_genera": "1. Contratistas\n2. Subcontratistas\n3. Distribuidores",
+        "actor_reporta": "1. Distribuidores\n2. Proveedores\n3. Autoridades locales",
+        "escala": 2,
+        "alcance": 2,
+        "irreparable": 1,
+        "vinculacion": "directamente-vinculada",
+        "probabilidad": "alta",
+        "fila_fuente": 48
+      }
+    ],
+    "origen": "fuente",
+    "fuente": {
+      "archivo": "20260116 Anexo 2 Matriz de Riesgos en Derechos Humanos Solgas Consolidada Validada.xlsx",
+      "hoja": "Matriz de riesgos DDHH",
+      "filas": [
+        48
+      ]
+    },
+    "campos_propuestos": [
+      "ambitos"
+    ]
+  },
+  {
+    "id": "riesgo-11",
+    "nombre": "Informalidad en las actividades de distribuidores y proveedores locales pequeños que pueden generar incumplimientos laborales",
+    "derecho_humano": "Derecho al mínimo vital",
+    "localizacion": "1. Alcance nacional",
+    "actividades": "1. Contratación con e pymes con riego nacional de alta informalidad (70%). \n2. Distribuidores pequeños “no formalizados”\n3. Bajo seguimiento de condiciones sociolaborales tras el proceso de contratación",
+    "medidas_control": "1. Controles de condiciones laborales en el proceso de contratación\n2. Capacitaciones y socialización de lineamientos a distribuidores en el proceso de contratación.\n3. Cartas fianza\n4. Clausulas de prohibición para la subcontración.",
+    "analisis_controles": "Los controles en su mayoría son:\n- Documentales (contratos, cláusulas, capacitaciones)\n- Iniciales, no continuos\n- Reactivamente activados, no preventivos\nLa informalidad es un fenómeno:\n- Difícil de detectar\n- Más común en proveedores pequeños\n- Usualmente oculto durante verificaciones iniciales\nLa falta de un sistema de debida diligencia real en DDHH para proveedores y distribuidores incrementa significativamente la probabilidad de que el riesgo se materialice.",
+    "accion_recomendada": "1. Aplicación del procedimiento de debida diligencia para proveedores. Debe incluir:\n- Auditorías sociolaborales presenciales\n- Verificación de cumplimiento laboral real (contratos, planillas, horarios, pagos)\n- Clasificación de proveedores según nivel de informalidad\n- Prohibición operativa de subcontratación no autorizada\n- Validación periódica de nóminas y registros de asistencia\n2. Articulación al mecanismo de medición y reporte",
+    "ambitos": [
+      "cadena-suministro",
+      "cadena-distribucion"
+    ],
+    "responsables": [
+      "Gerencia de Comercialización",
+      "Por definir"
+    ],
+    "evaluaciones": [
+      {
+        "actor_genera": "1. Contratistas\n2. Subcontratistas\n3. Distribuidores",
+        "actor_reporta": "1. Autoridades locales",
+        "escala": 2,
+        "alcance": 2,
+        "irreparable": 1,
+        "vinculacion": "directamente-vinculada",
+        "probabilidad": "alta",
+        "fila_fuente": 51
+      }
+    ],
+    "origen": "fuente",
+    "fuente": {
+      "archivo": "20260116 Anexo 2 Matriz de Riesgos en Derechos Humanos Solgas Consolidada Validada.xlsx",
+      "hoja": "Matriz de riesgos DDHH",
+      "filas": [
+        51
+      ]
+    }
+  },
+  {
+    "id": "riesgo-12",
+    "nombre": "Afectaciones al mínimo vital por problemas en el suministro de GLP a comunidades",
+    "derecho_humano": "Derecho al mínimo vital",
+    "localizacion": "1. Todas las plantas",
+    "actividades": "1. Numero limitado de cilindros para cumplir la demanda de abastecimiento\n2. Incompatibilidad de las válvulas de recarga con cilindros ajenos a SOLGAS",
+    "medidas_control": "1. Comité de abastecimiento que define territorios priorizados de abastecimiento.\n2. Ampliación de la base de proveedores de GLP.\n3. Búsqueda de transporte alternativo.\n4. Habilitación de rutas criticas\n5. Levantamiento de riesgos por manifestaciones sociales.\n6. Controles diarios de dinámicas viales y sociales.\n7. Ampliación de las capacidades de almacenamiento en las plantas del norte.",
+    "analisis_controles": "SOLGAS cuenta con controles operativos fuertes, pero estos no están integrados a un enfoque de debida diligencia en derechos humanos.",
+    "accion_recomendada": "1. Articulación de mecanismos de gestión en empresa y DDHH. En particular:\n- Integrar “abastecimiento esencial” como derecho a garantizar.\n- Identificación de comunidades vulnerables bajo riesgo energético.\n- Priorización de territorios según criterios DDHH.\n2. Articulación al mecanismo de medición y reporte",
+    "ambitos": [
+      "operacion-propia",
+      "cadena-distribucion"
+    ],
+    "responsables": [
+      "Gerencia de Distribución",
+      "Gerencia de Comercialización",
+      "Por definir"
+    ],
+    "evaluaciones": [
+      {
+        "actor_genera": "1. SOLGAS",
+        "actor_reporta": "1. Autoridades locales\n2. Alta dirección",
+        "escala": 3,
+        "alcance": 2,
+        "irreparable": 2,
+        "vinculacion": "causa",
+        "probabilidad": "baja",
+        "fila_fuente": 54
+      }
+    ],
+    "origen": "fuente",
+    "fuente": {
+      "archivo": "20260116 Anexo 2 Matriz de Riesgos en Derechos Humanos Solgas Consolidada Validada.xlsx",
+      "hoja": "Matriz de riesgos DDHH",
+      "filas": [
+        54
+      ]
+    }
+  },
+  {
+    "id": "riesgo-13",
+    "nombre": "Riesgos de afectación comunitaria por tránsito pesado, ruido y restricciones al libre tránsito",
+    "derecho_humano": "Derecho a la movilidad",
+    "localizacion": "1. Zonas aledañas a plantas",
+    "actividades": "1. Alto flujo de unidades pesadas alrededor de plantas y rutas.\n2. Potencial restricción al libre tránsito (aunque plantas en zonas industriales.\n3. Incumplimiento en la entrega del GLP.",
+    "medidas_control": "1. Área de sostenibilidad trabaja con municipalidades.\n2. Capacitaciones comunitarias. Programas como “Mujeres con Energía” como acciones de relacionamiento\n3. Jornadas de tránsito que respetan los horarios permitidos por cada municipalidad.",
+    "analisis_controles": "Se realizan acciones positivas como:\n- Gestión con municipalidades\n- Programas comunitarios\n- Respeto de horarios permitidos\nPero estos controles:\n- No están integrados en un sistema de debida diligencia en DDHH\n- No cuentan con indicadores ni monitoreo verificable",
+    "accion_recomendada": "1. Articulación al mecanismo de medición y reporte.",
+    "ambitos": [
+      "cadena-distribucion"
+    ],
+    "responsables": [
+      "Gerencia de Distribución"
+    ],
+    "evaluaciones": [
+      {
+        "actor_genera": "1. Distribuidores / Operadores Logísticos",
+        "actor_reporta": "1. Autoridades locales",
+        "escala": 1,
+        "alcance": 1,
+        "irreparable": 1,
+        "vinculacion": "contribuye",
+        "probabilidad": "baja",
+        "fila_fuente": 57
+      }
+    ],
+    "origen": "fuente",
+    "fuente": {
+      "archivo": "20260116 Anexo 2 Matriz de Riesgos en Derechos Humanos Solgas Consolidada Validada.xlsx",
+      "hoja": "Matriz de riesgos DDHH",
+      "filas": [
+        57
+      ]
+    }
+  },
+  {
+    "id": "riesgo-14",
+    "nombre": "Discriminación a personas con discapacidad por brechas de accesibilidad e inclusión.",
+    "derecho_humano": "Derecho a condiciones de trabajo dignas",
+    "localizacion": "1. Todas las plantas",
+    "actividades": "1. Infraestructura administrativa “poco amigable” para personas con discapacidad.",
+    "medidas_control": "1. Capacitación y socialización del Código de ética y RIT.\n2. Ejecución de sancionan en caso de presentarse casos de discriminación. \n3. Canal Ético para recepción de denuncias.",
+    "analisis_controles": "Los controles actuales—código de ética, sanciones, canal ético—son útiles, pero:\n- Son reactivos, no preventivos.\n- No abordan accesibilidad física ni ajustes razonables.\n- No incluyen procesos de inclusión laboral.\n- No mitigan barreras estructurales que generan discriminación indirecta.\n- Por ello, el riesgo puede materializarse de forma recurrente y silenciosa, aunque no necesariamente con incidentes reportados.",
+    "accion_recomendada": "1. Fortalecimiento del compromiso organizativo\n2. Articulación de mecanismos de gestión en empresa y DDHH. Debe establecerse:\n- Estándares corporativos de inclusión.\n- Directrices sobre accesibilidad física, digital y comunicacional.\n- Ajustes razonables garantizados en todas las áreas.\n3. Aplicación del procedimiento de debida diligencia en DDHH. Debe incorporar:\n- Identificación de riesgos de exclusión por tipo de discapacidad.\n- Mapeo de puestos que requieren adecuación.\n- Indicadores de inclusión y participación. \n4. Desarrollo de acciones de gestión y manejo del riesgo. Acciones concretas:\n- Implementar ajustes razonables (rampas, señalización, formatos accesibles).\n- Crear protocolos de acompañamiento a personas con discapacidad.",
+    "ambitos": [
+      "operacion-propia"
+    ],
+    "responsables": [
+      "Por definir",
+      "Gerencia de Personas"
+    ],
+    "evaluaciones": [
+      {
+        "actor_genera": "1. SOLGAS",
+        "actor_reporta": "1. Alta dirección",
+        "escala": 1,
+        "alcance": 1,
+        "irreparable": 2,
+        "vinculacion": "causa",
+        "probabilidad": "media",
+        "fila_fuente": 62
+      }
+    ],
+    "origen": "fuente",
+    "fuente": {
+      "archivo": "20260116 Anexo 2 Matriz de Riesgos en Derechos Humanos Solgas Consolidada Validada.xlsx",
+      "hoja": "Matriz de riesgos DDHH",
+      "filas": [
+        62
+      ]
+    }
+  },
+  {
+    "id": "riesgo-15",
+    "nombre": "Riesgos de corrupción o ilícitos corporativos",
+    "derecho_humano": "Derecho a condiciones laborales justas y equitativa",
+    "localizacion": "1. Todas las plantas",
+    "actividades": "1. Contratación de proveedores.\n2. Relacionamiento con autoridades ambientales e instituciones gubernamentales",
+    "medidas_control": "1. Certificación del sistema de gestión Antisoborno ISO 37001.\n2. Mecanismos de denuncia anónima. \n3. Código de ética.\n4. Política y manual de prevención de delitos extendida a la cadena de valor.\n5. Procedimiento de debida diligencia.\n6. Procedimiento de conflicto de interés.\n7. Política de relacionamiento con autoridades.\n8. Procedimiento de denuncias.\n9. Matriz de prevención de delitos.\n10. Capacitación al personal, programa de generación de conciencia.\n11. Programa de trabajo de oficial de cumplimiento.\n12. Clausulas anticorrupción en contratos y ordenes de compra. De la cadena de suministros.",
+    "analisis_controles": "Este es el riesgo mejor controlado dentro de SOLGAS. El sistema antisoborno ISO 37001, la matriz de prevención de delitos, el oficial de cumplimiento, las cláusulas contractuales y los procedimientos de denuncias reducen de manera significativa:\n- la ocurrencia de actos ilícitos\n- la probabilidad de corrupción interna\n- la influencia indebida\n- los riesgos penales en la cadena\nAunque la brecha DDHH sigue existiendo (como en todos los riesgos evaluados), el universo de controles es tan robusto y maduro.",
+    "accion_recomendada": "1. Articulación de mecanismos de gestión en empresa y DDHH. Integrar los sistemas:\n- Antisoborno + Debida Diligencia DDHH\n- Ética + Derechos Humanos\n- Compliance + Sostenibilidad\n2. Articulación de mecanismos de gestión en empresa y DDHH. Integrar los sistemas:\n- Antisoborno + Debida Diligencia DDHH\n- Ética + Derechos Humanos\n- Compliance + Sostenibilidad\n3. Articulación al mecanismo de medición y reporte",
+    "ambitos": [
+      "operacion-propia"
+    ],
+    "responsables": [
+      "Por definir"
+    ],
+    "evaluaciones": [
+      {
+        "actor_genera": "1. Gerentes\n2. Área de compras",
+        "actor_reporta": "1. Alta dirección\n2. Colaboradores",
+        "escala": 3,
+        "alcance": 3,
+        "irreparable": 3,
+        "vinculacion": "causa",
+        "probabilidad": "baja",
+        "fila_fuente": 66
+      }
+    ],
+    "origen": "fuente",
+    "fuente": {
+      "archivo": "20260116 Anexo 2 Matriz de Riesgos en Derechos Humanos Solgas Consolidada Validada.xlsx",
+      "hoja": "Matriz de riesgos DDHH",
+      "filas": [
+        66
+      ]
+    }
+  },
+  {
+    "id": "riesgo-16",
+    "nombre": "Deficiencias en los mecanismos de comunicación con grupos de interés",
+    "derecho_humano": "Derecho al acceso a la información",
+    "localizacion": "1. Alcance nacional",
+    "actividades": "1. Mecanismos de comunicación orientados a la productividad.\n2. Ausencia de mecanismos participativos",
+    "medidas_control": "1. Capacitación sobre canales de denuncia a trabajadores, proveedores y contratistas.",
+    "analisis_controles": "El único control existente se limita a capacitaciones sobre canales de denuncia, lo cual:\n- No sustituye un sistema de comunicación con stakeholders\n- No asegura accesibilidad, comprensión o uso efectivo\n- No incluye mecanismos bidireccionales\nLa falta de comunicación es una brecha crítica que puede producir:\n- Falta de información para identificar riesgos\n- Incapacidad de detectar impactos tempranos\n- Ausencia de retroalimentación\n- Debilidad del mecanismo de remediación",
+    "accion_recomendada": "1. Desarrollo del Plan de acción en DDHH. Debe incluir:\n- Estrategia de comunicación con enfoque de derechos humanos\n- Identificación de barreras de acceso (lenguaje, digital, confianza)\n- Priorización de grupos vulnerables (comunidades, tercerizados, distribuidores)\n2. Desarrollo de acciones de gestión y manejo del riesgo. Acciones concretas:\nCrear un “canal comunitario” accesible para zonas críticas\n- Establecer buzones físicos, WhatsApp corporativo, líneas específicas\n- Implementar protocolos de comunicación anticipatoria en contingencias\n- Formar voceros comunitarios internos\n3. Gestión del Subcomité de DDHH. Debe:\n- Monitorear quejas y comunicaciones relevantes\n- Identificar patrones reiterados\n- Integrar la información en matrices de riesgo\n- Escalar riesgos emergentes\n4. Articulación al mecanismo de medición y reporte",
+    "ambitos": [
+      "operacion-propia"
+    ],
+    "responsables": [
+      "Por definir"
+    ],
+    "evaluaciones": [
+      {
+        "actor_genera": "1. SOLGAS",
+        "actor_reporta": "1. Distribuidores\n2. Proveedores\n3. Autoridades locales",
+        "escala": 3,
+        "alcance": 3,
+        "irreparable": 1,
+        "vinculacion": "causa",
+        "probabilidad": "alta",
+        "fila_fuente": 69
+      }
+    ],
+    "origen": "fuente",
+    "fuente": {
+      "archivo": "20260116 Anexo 2 Matriz de Riesgos en Derechos Humanos Solgas Consolidada Validada.xlsx",
+      "hoja": "Matriz de riesgos DDHH",
+      "filas": [
+        69
+      ]
+    }
+  },
+  {
+    "id": "riesgo-17",
+    "nombre": "Afectaciones a los derechos humanos en las operaciones de SOLGAS, en su cadena de suministros y su cadena de distribución, que no son informados.",
+    "derecho_humano": "Derecho al acceso a la justicia y reparación efectiva",
+    "localizacion": "1. Todas las plantas",
+    "actividades": "1. Mecanismos orientados al cumplimiento de temas de anticorrupción.\n2. Mecanismos de atención a clientes\n3. Desconocimiento y desconfianza de los canales de denuncia",
+    "medidas_control": "1. Clausulas contractuales de respeto a los trabajadores.\n2. Código de ética con extensión a la cadena de valor.\n3. Código de ética con enfoque en proveedores.\n4. Política de derechos humanos.\n5. Referencia a las normas de integridad y derechos humanos en los contratos con proveedores.\n6. Capacitaciones sobre el código de ética.\n7. Difusión del canal denuncias haciendo énfasis en sus características.",
+    "analisis_controles": "Aunque SOLGAS cuenta con códigos, políticas y cláusulas contractuales, estos controles:\n- No aseguran que los impactos en DDHH se informen realmente\n- No incluyen mecanismos de detección proactiva\n- No tienen monitoreo en cadena de suministro\n- No contienen procedimientos claros para registrar, procesar y escalar afectaciones\n- No abordan el miedo a represalias, la desconfianza o las barreras culturales\n- No incluyen indicadores de reporte\nEn consecuencia, es altamente probable que afectaciones en DDHH ocurriendo tanto en operaciones internas como en la cadena de valor no sean informadas.",
+    "accion_recomendada": null,
+    "ambitos": [
+      "operacion-propia",
+      "cadena-distribucion",
+      "cadena-suministro"
+    ],
+    "responsables": [
+      "Por definir",
+      "Gerencia de Comercialización"
+    ],
+    "evaluaciones": [
+      {
+        "actor_genera": "1. SOLGAS",
+        "actor_reporta": "1. Distribuidores\n2. Proveedores\n3. Autoridades locales",
+        "escala": 1,
+        "alcance": 1,
+        "irreparable": 1,
+        "vinculacion": "causa",
+        "probabilidad": null,
+        "fila_fuente": 71
+      }
+    ],
+    "origen": "fuente",
+    "fuente": {
+      "archivo": "20260116 Anexo 2 Matriz de Riesgos en Derechos Humanos Solgas Consolidada Validada.xlsx",
+      "hoja": "Matriz de riesgos DDHH",
+      "filas": [
+        71
+      ]
+    }
+  },
+  {
+    "id": "riesgo-18",
+    "nombre": "Limitaciones a la libertad sindical en la cadena de distribución y en las operaciones de los proveedores",
+    "derecho_humano": "Derecho de asociación, libertad sindical, negociación colectiva",
+    "localizacion": "1. Alcance nacional",
+    "actividades": "1. Ausencia de mecanismos de validación de practicas laborales entre los proveedores y la cadena de suministros\n2. Canales de denuncia limitados o desconocidos\n3. Ausencia de medidas contractuales para la protección de los derechos de los trabajadores",
+    "medidas_control": "1. Cuentan con un consultor y comité de crisis\n2. Clausulas de recesión de contrato por los incumplimientos.",
+    "analisis_controles": "Este riesgo tiene una probabilidad media de materialización porque:\n- Las empresas pequeñas de la cadena carecen de estructuras laborales formales, lo que en sí mismo es un factor de riesgo.\n- No existen mecanismos para evaluar o monitorear el respeto a la libertad sindical.\n- Los controles no están diseñados para detectar prácticas antisindicales ni para fortalecer el trabajo digno.\n- Existe informalidad laboral en parte de la cadena de distribución.\n- No se han implementado herramientas de debida diligencia sociolaboral ni mecanismos de reporte específicos.\nAdemás, los controles existentes son reactivos y no preventivos, y dependen de que el incumplimiento sea detectado y reportado, lo cual es poco probable.",
+    "accion_recomendada": "1. Fortalecimiento del compromiso organizacional:\n2. reticulación de mecanismos de gestión en empresa y DDHH. Incluir procedimientos que permitan:\n- Identificación de riesgos laborales colectivos\n- Indicadores sociolaborales mínimos\n3. Aplicación del procedimiento de debida diligencia en DDHH\n- Evaluación sociolaboral periódica de proveedores\n- Auditorías documentales y en campo\n- Encuestas a trabajadores tercerizados\n4. Gestión del Subcomité de DDHH. El subcomité debe:\n- Monitorear riesgos sociolaborales\n- Hacer seguimiento a proveedores críticos\n- Integrar en la matriz los factores de informalidad y vulnerabilidad\n5. Aplicación del mecanismo de debida diligencia para proveedores",
+    "ambitos": [
+      "cadena-distribucion",
+      "cadena-suministro"
+    ],
+    "responsables": [
+      "Por definir",
+      "Gerencia de Comercialización"
+    ],
+    "evaluaciones": [
+      {
+        "actor_genera": "1. Distribuidores\n2. Proveedores",
+        "actor_reporta": "1. Proveedores\n2. Distribuidores",
+        "escala": 2,
+        "alcance": 1,
+        "irreparable": 1,
+        "vinculacion": "directamente-vinculada",
+        "probabilidad": "media",
+        "fila_fuente": 73
+      }
+    ],
+    "origen": "fuente",
+    "fuente": {
+      "archivo": "20260116 Anexo 2 Matriz de Riesgos en Derechos Humanos Solgas Consolidada Validada.xlsx",
+      "hoja": "Matriz de riesgos DDHH",
+      "filas": [
+        73
+      ]
+    }
+  }
+]
