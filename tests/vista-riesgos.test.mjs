@@ -66,6 +66,6 @@ test('las funciones nuevas no mutan datos, filtros ni configuración', () => {
 test('index carga scripts locales diferidos y en orden válido', () => {
   const html = readFileSync(new URL('../public/index.html',import.meta.url),'utf8');
   const scripts = [...html.matchAll(/<script\b([^>]*)src="([^"]+)"[^>]*>/g)];
-  assert.deepEqual(scripts.map(m=>m[2]),['config.js','api-supabase.js','riesgos.js','app.js','vista-riesgos.js','vista-estandares.js','vista-plan.js']);
+  assert.deepEqual(scripts.map(m=>m[2]),['config.js','api-supabase.js','riesgos.js','estandares.js','plan.js','app.js','vista-riesgos.js','vista-estandares.js','vista-plan.js']);
   assert.ok(scripts.every(m=>m[1].includes('defer')));
 });
