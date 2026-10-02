@@ -9,7 +9,12 @@
   const normalizar = texto => String(texto || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
   function combinar(estaticas, deBase) {
     const registros = new Map(estaticas.map(a => [a.id, copiar(a)]));
-    (deBase || []).forEach(a => registros.set(a.id, {...registros.get(a.id), ...copiar(a)}));
+    (deBase || []).forEach(a => {
+      const combinada = {...registros.get(a.id), ...copiar(a)};
+      // Un seguimiento guardado sin marca no debe heredar el ejemplo estático al recargar.
+      if (!Object.hasOwn(a, 'seguimiento_ejemplo') && (Object.hasOwn(a, 'estado') || Object.hasOwn(a, 'avance'))) delete combinada.seguimiento_ejemplo;
+      registros.set(a.id, combinada);
+    });
     return [...registros.values()];
   }
   function fechaValida(valor) {
@@ -29,6 +34,7 @@
     });
     if (errores.length) return {ok: false, accion: original, errores};
     const accion = {...copiar(original), ...cambios};
+    if (Object.hasOwn(cambios, 'estado') || Object.hasOwn(cambios, 'avance')) delete accion.seguimiento_ejemplo;
     // Un estado explícito tiene prioridad si se envían ambos campos a la vez.
     if (cambios.estado === 'pendiente') accion.avance = 0;
     else if (cambios.estado === 'cumplida') accion.avance = 100;
@@ -57,9 +63,13 @@
       })
     };
   }
-  function filtrar(acciones, filtros) {
+  function filtrar(acciones, filtros, hoy) {
+    if (!hoy) {
+      const fecha = new Date();
+      hoy = [fecha.getFullYear(), String(fecha.getMonth() + 1).padStart(2, '0'), String(fecha.getDate()).padStart(2, '0')].join('-');
+    }
     const f = filtros instanceof URLSearchParams ? Object.fromEntries(filtros) : filtros;
-    return acciones.filter(a => (!f.componente || a.componente === f.componente) && (!f.estado || a.estado === f.estado) &&
+    return acciones.filter(a => (String(f.vencidas) !== '1' || vencida(a, hoy)) && (!f.componente || a.componente === f.componente) && (!f.estado || a.estado === f.estado) &&
       (!f.riesgo || (a.riesgos || []).includes(f.riesgo)) && (!f.eje || (a.ejes || []).includes(f.eje)) &&
       (!f.q || normalizar(a.titulo + ' ' + a.descripcion).includes(normalizar(f.q).trim())));
   }

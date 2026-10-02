@@ -53,3 +53,18 @@
   .e3-tabla td::before { content:attr(data-etiqueta); font-weight:600; }
   .e3-dialogo { padding:16px; }
 }
+
+/* E6: diámetro útil de 440 px a 1440 px y tablas desplegables. */
+.e3-controles { gap:12px; margin:14px 0; }
+.e3-grafico { padding:12px; margin:10px 0; }
+.e3-grafico h2 { min-height:2.6em; }
+.e3-etiqueta,.e3-nivel { font-size:16px; }
+.e3-puntaje { font-size:17px; }
+.e3-lectura { min-height:0; margin:6px 0; padding:8px; }
+.e3-leyenda-principal,.e3-leyenda-comparada { margin:6px 0; font-size:14px; }
+.e3-datos summary { cursor:pointer; color:var(--principal); padding:8px 0; font-weight:600; }
+.e3-detalle { margin-top:8px; }
+.e3-dialogo button:disabled { opacity:1; color:var(--secundario); background:#f1f2ed; }
+@media(min-width:1200px) and (max-width:1350px) {
+  .e3-etiqueta,.e3-nivel,.e3-puntaje { font-size:18px; }
+}

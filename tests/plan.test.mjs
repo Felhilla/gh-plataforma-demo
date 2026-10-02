@@ -101,3 +101,47 @@ test('App usa respaldo ante error o espera agotada y bloquea escrituras', async 
     await assert.rejects(app.guardarAccion('accion-01', {avance: 10}), /No hay conexión/);
   }
 });
+
+test('vencidas=1 combina filtros y excluye cumplidas, plazo de hoy y fechas inválidas', () => {
+  const muestra = [
+    {...pendiente0, id: 'vencida', plazo: '2026-10-01'},
+    {...pendiente0, id: 'hoy', plazo: '2026-10-02'},
+    {...pendiente0, id: 'futura', plazo: '2026-10-03'},
+    {...pendiente0, id: 'cumplida', plazo: '2026-10-01', estado: 'cumplida'},
+    {...pendiente0, id: 'invalida', plazo: '2026-02-30'}
+  ];
+  const antes = structuredClone(muestra);
+  assert.deepEqual(Plan.filtrar(muestra, new URLSearchParams('vencidas=1'), '2026-10-02'), [muestra[0]]);
+  assert.deepEqual(Plan.filtrar(muestra, {vencidas: '1', estado: 'cumplida'}, '2026-10-02'), []);
+  assert.deepEqual(Plan.filtrar(muestra, {vencidas: '0'}, '2026-10-02'), muestra);
+  assert.deepEqual(Plan.filtrar(acciones, {vencidas: '1'}, '2026-10-02').map(a => a.id), ['accion-45']);
+  assert.deepEqual(muestra, antes);
+});
+
+test('confirmar estado o avance retira seguimiento_ejemplo sin mutar el original', () => {
+  const original = {...pendiente0, seguimiento_ejemplo: true};
+  for (const cambios of [{estado: 'pendiente'}, {avance: 0}, {avance: 30}, {estado: 'cumplida'}]) {
+    const r = cambiar(cambios, original);
+    assert.equal(r.ok, true);
+    assert.equal(Object.hasOwn(r.accion, 'seguimiento_ejemplo'), false);
+    assert.equal(original.seguimiento_ejemplo, true);
+    assert.equal(Plan.combinar([original], [r.accion])[0].seguimiento_ejemplo, undefined);
+  }
+  assert.equal(cambiar({responsable: 'Área responsable'}, original).accion.seguimiento_ejemplo, true);
+  assert.equal(cambiar({avance: -1}, original).accion.seguimiento_ejemplo, true);
+});
+
+test('App.listaNumerada limpia enumeraciones sin alterar texto, decimales ni continuaciones', async () => {
+  const app = await iniciar();
+  const casos = [
+    [null, []], ['', []], ['  1. Colaboradores  ', ['Colaboradores']],
+    ['1. Colaboradores\n2. Jefes de planta', ['Colaboradores', 'Jefes de planta']],
+    ['1. Colaboradores\\n2. Jefes de planta', ['Colaboradores', 'Jefes de planta']],
+    ['1. Primera\ncontinuación\n\n2. Segunda', ['Primera\ncontinuación', 'Segunda']],
+    ['Texto sin numeración\nOtra línea', ['Texto sin numeración\nOtra línea']],
+    ['1. Valor 1.5 y 12 h\n2. <script>texto</script>', ['Valor 1.5 y 12 h', '<script>texto</script>']],
+    ['1. Una\n2. Dos\n\n1. Tres', ['Una', 'Dos', 'Tres']]
+  ];
+  for (const [texto, esperado] of casos) assert.deepEqual(Array.from(app.listaNumerada(texto)), esperado);
+  assert.equal(app.numero(1.5), '1,5');
+});

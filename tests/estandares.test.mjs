@@ -106,6 +106,10 @@ test('vista: dos SVG, tablas equivalentes, URL, plan asíncrono y respaldo visib
   const v = await montar({estado:'respaldo', plan:[{id:'accion-01', titulo:'Acción vinculada', componente:'componente-1', estado:'pendiente', ejes:['etapa-ocde-1'], vinculos_estimados:true}]});
   assert.equal(v.todos.filter(n => n.isConnected && n.tag === 'svg').length, 2);
   assert.equal(v.todos.filter(n => n.isConnected && n.tag === 'table').length, 2);
+  assert.equal(v.todos.filter(n => n.isConnected && n.className === 'e3-datos' && !n.open).length, 2);
+  const opciones = v.buscar(n => n.id === 'e3-eval').children.map(n => n.textContent);
+  assert.ok(opciones.includes('Evaluación de brechas · dic de 2025') || opciones.includes('Evaluación de brechas · dic. 2025') || opciones.includes('Evaluación de brechas · dic 2025'));
+  assert.ok(opciones.some(t => /^Evaluación de ejemplo · dic\.? (?:de )?2026 \(ejemplo\)$/.test(t)));
   assert.match(v.ruta(), /eval=eval-ejemplo-2026&vs=eval-2025-12/);
   assert.match(v.contenedor.textContent, /No hay conexión con la base de datos/);
   assert.match(v.contenedor.textContent, /Esta evaluación solo registra puntajes/);

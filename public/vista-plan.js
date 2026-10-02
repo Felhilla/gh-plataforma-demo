@@ -22,11 +22,12 @@
     const pendientes = new Set();
     const mensajes = new Map();
     const raiz = el('section', null, 'vista-plan');
-    const resumen = el('section', null, 'superficie');
+    const resumen = el('section', null, 'superficie plan-resumen');
+    const ejemplo = el('p', 'El avance que se muestra es ilustrativo: simula el seguimiento del plan para mostrar cómo funciona la herramienta.', 'plan-ejemplo');
     const lista = el('section');
     const aviso = el('p', 'No hay conexión con la base de datos: se muestran los datos de respaldo y no se pueden guardar cambios ahora.', 'plan-conexion');
     aviso.setAttribute('role', 'status'); aviso.hidden = App.estadoBase() === 'base';
-    raiz.append(el('h1', 'Plan de acción'), aviso, el('p', 'Demostración pública: los cambios se guardan y los ve cualquiera con el enlace.', 'ayuda'), resumen);
+    raiz.append(el('h1', 'Plan de acción'), ejemplo, aviso, el('p', 'Demostración pública: los cambios se guardan y los ve cualquiera con el enlace.', 'ayuda'), resumen);
     contenedor.append(raiz);
     function ruta(cambios) {
       const q = new URLSearchParams(filtros);
@@ -83,38 +84,50 @@
     function editarControl(control, a) { control.dataset.edita = a.id; control.disabled = App.estadoBase() !== 'base' || pendientes.has(a.id); return control; }
     function dibujar() {
       const acciones = App.obtenerPlan(); const r = Plan.resumen(acciones, cfg, dia);
+      ejemplo.hidden = !acciones.some(a => a.seguimiento_ejemplo);
       resumen.replaceChildren(el('h2', 'Avance global'), barra(r.avanceGlobal, 'Avance global'));
-      const cuentas = el('p', cfg.estados.map(e => nombres[e] + ': ' + r.porEstado[e]).join(' · ') + ' · Vencidas: ' + r.vencidas); resumen.append(cuentas);
+      const cuentas = el('div', null, 'plan-estados');
+      cfg.estados.forEach(e => cuentas.append(el('span', nombres[e] + ': ' + r.porEstado[e], 'plan-estado estado-' + e)));
+      const vencidas = el('a', 'Vencidas: ' + r.vencidas, 'boton plan-vencidas');
+      vencidas.href = ruta({vencidas: filtros.get('vencidas') === '1' ? '' : '1'});
+      vencidas.setAttribute('aria-label', filtros.get('vencidas') === '1' ? 'Quitar filtro de vencidas' : 'Filtrar acciones vencidas');
+      if (filtros.get('vencidas') === '1') vencidas.setAttribute('aria-current', 'true');
+      cuentas.append(vencidas); resumen.append(cuentas);
       const componentes = el('div', null, 'plan-componentes');
       r.porComponente.forEach(c => {
         const b = el('button'); b.type = 'button'; b.setAttribute('aria-pressed', String(filtros.get('componente') === c.componente));
         b.append(el('strong', c.nombre), el('span', c.n + ' acciones'), barra(c.avance, c.nombre)); b.onclick = () => { location.hash = ruta({componente: c.componente}); }; componentes.append(b);
       }); resumen.append(componentes);
-      const visibles = Plan.filtrar(acciones, Object.fromEntries(filtros));
+      const visibles = Plan.filtrar(acciones, Object.fromEntries(filtros), dia);
       lista.replaceChildren(el('p', visibles.length + ' acciones', 'resultado'));
       if (!visibles.length) lista.append(el('p', 'No hay acciones que coincidan con los filtros.'));
       cfg.componentes.forEach(c => {
         const grupo = visibles.filter(a => a.componente === c.id); if (!grupo.length) return;
         const d = el('details', null, 'superficie plan-grupo'); d.open = !cerrados.has(c.id);
         d.ontoggle = () => { if (d.isConnected) d.open ? cerrados.delete(c.id) : cerrados.add(c.id); };
-        const cabecera = el('summary', c.nombre + ' · ' + grupo.length + ' acciones'); cabecera.append(barra(Plan.resumen(grupo, cfg, dia).avanceGlobal, 'Avance del grupo')); d.append(cabecera);
+        const estadoGrupo = Plan.resumen(grupo, cfg, dia).porEstado;
+        const cabecera = el('summary');
+        cabecera.append(el('span', c.nombre + ' · ' + grupo.length + ' acciones'), el('span', estadoGrupo.cumplida + ' cumplidas · ' + estadoGrupo['en-curso'] + ' en curso', 'plan-conteo')); cabecera.append(barra(Plan.resumen(grupo, cfg, dia).avanceGlobal, 'Avance del grupo')); d.append(cabecera);
         grupo.forEach(a => {
-          const tarjeta = el('article', null, 'accion');
+          const tarjeta = el('article', null, 'accion plan-fila');
+          tarjeta.append(el('strong', 'A-' + Number(a.id.replace('accion-', '')), 'plan-numero'));
           const titulo = el('h3'); const enlace = el('a', a.titulo); enlace.href = ruta({accion: a.id}); enlace.id = 'plan-abrir-' + a.id;
-          titulo.append(enlace); tarjeta.append(propuesta(a, 'titulo', titulo));
-          tarjeta.append(propuesta(a, 'estado', el('span', nombres[a.estado] || a.estado, 'criticidad')), propuesta(a, 'avance', barra(a.avance, 'Avance de ' + a.titulo)));
-          tarjeta.append(propuesta(a, 'responsable', el('p', 'Responsable: ' + a.responsable)), propuesta(a, 'plazo', el('p', 'Plazo: ' + fecha(a.plazo) + (Plan.vencida(a, dia) ? ' · Vencida' : ''), Plan.vencida(a, dia) ? 'alta' : '')));
-          tarjeta.append(propuesta(a, 'indicador', el('p', 'Indicador: ' + a.indicador)));
-          const vinculos = el('div', null, 'plan-vinculos');
-          (a.riesgos || []).forEach(id => { const r = datos.riesgos.find(r => r.id === id); const l = el('a', id.replace('riesgo-', '') + ' · ' + (r?.nombre || id).slice(0, 85)); l.href = '#/ddhh/riesgos/' + encodeURIComponent(id); l.title = r?.nombre || id; vinculos.append(l); });
-          (a.ejes || []).forEach(id => { const eje = datos.estandares.ejes.find(e => e.id === id); const l = el('a', eje?.nombre || id); l.href = '#/ddhh/estandares?eje=' + encodeURIComponent(id); vinculos.append(l); });
-          if (a.vinculos_estimados) vinculos.append(el('span', 'Vínculo estimado', 'aviso')); tarjeta.append(vinculos);
-          if (a.actualizado) tarjeta.append(el('small', 'Actualizado el ' + fecha(a.actualizado)));
-          const rapida = el('div', null, 'plan-rapida'); const label = el('label', 'Estado');
-          const s = editarControl(selector(cfg.estados.map(e => [e, nombres[e]]), a.estado), a); s.id = 'plan-estado-' + a.id; s.onchange = () => guardar(a.id, 'estado', s.value, s); label.append(s); rapida.append(label);
-          const avance = el('label', 'Avance (pasos de 10 %)'); const rango = editarControl(el('input'), a); rango.type = 'range'; rango.min = 0; rango.max = 100; rango.step = 10; rango.value = a.avance; rango.id = 'plan-avance-' + a.id;
-          rango.setAttribute('aria-valuetext', porcentaje(a.avance)); rango.oninput = () => rango.setAttribute('aria-valuetext', porcentaje(Number(rango.value))); rango.onchange = () => guardar(a.id, 'avance', Number(rango.value), rango);
-          avance.append(rango); rapida.append(avance); tarjeta.append(rapida, estadoGuardado(a.id)); d.append(tarjeta);
+          titulo.append(enlace);
+          if (a.seguimiento_ejemplo) titulo.append(el('span', 'Ejemplo', 'aviso'));
+          else if (a.campos_propuestos?.length) titulo.append(el('span', 'Propuesta', 'aviso'));
+          tarjeta.append(titulo, el('span', nombres[a.estado] || a.estado, 'plan-estado estado-' + a.estado), barra(a.avance, 'Avance de ' + a.titulo));
+          const responsable = el('span', a.responsable, 'plan-responsable'); responsable.title = a.responsable;
+          const plazo = el('span', new Date(a.plazo + 'T12:00:00').toLocaleDateString('es-CO') + (Plan.vencida(a, dia) ? ' · Vencida' : ''), 'plan-plazo' + (Plan.vencida(a, dia) ? ' alta' : ''));
+          tarjeta.append(responsable, plazo);
+          const rapida = el('div', null, 'plan-rapida');
+          const s = editarControl(selector(cfg.estados.map(e => [e, nombres[e]]), a.estado), a); s.id = 'plan-estado-' + a.id;
+          s.setAttribute('aria-label', 'Estado de ' + a.titulo); s.onchange = () => guardar(a.id, 'estado', s.value, s); rapida.append(s);
+          [-10, 10].forEach(paso => {
+            const boton = editarControl(el('button', paso < 0 ? '−' : '+'), a); boton.type = 'button'; boton.id = 'plan-avance-' + a.id + (paso < 0 ? '-menos' : '-mas');
+            boton.setAttribute('aria-label', (paso < 0 ? 'Reducir' : 'Aumentar') + ' avance de ' + a.titulo + ' en 10 puntos');
+            boton.onclick = () => guardar(a.id, 'avance', Math.max(0, Math.min(100, a.avance + paso)), boton); rapida.append(boton);
+          });
+          tarjeta.append(rapida, estadoGuardado(a.id)); d.append(tarjeta);
         }); lista.append(d);
       });
     }
@@ -141,7 +154,14 @@
       else {
         fondo = el('div', null, 'fondo-dialogo'); detalle = el('section', null, 'panel plan-panel'); detalle.setAttribute('role', 'dialog'); detalle.setAttribute('aria-modal', 'true'); detalle.setAttribute('aria-labelledby', 'plan-detalle-titulo');
         const cerrar = el('button', 'Cerrar'); cerrar.className = 'cerrar'; cerrar.onclick = () => { location.hash = ruta({accion: ''}); };
-        tituloDetalle = el('h2', a.titulo); tituloDetalle.id = 'plan-detalle-titulo'; detalle.append(cerrar, tituloDetalle, el('p', a.descripcion, 'texto-dato'));
+        tituloDetalle = el('h2', a.titulo); tituloDetalle.id = 'plan-detalle-titulo'; detalle.append(cerrar, propuesta(a, 'titulo', tituloDetalle), propuesta(a, 'descripcion', el('p', a.descripcion, 'texto-dato')));
+        detalle.append(propuesta(a, 'indicador', el('p', 'Indicador: ' + a.indicador)));
+        const vinculos = el('div', null, 'plan-vinculos');
+        (a.riesgos || []).forEach(id => { const r = datos.riesgos.find(r => r.id === id); const l = el('a', r?.nombre || id); l.href = '#/ddhh/riesgos/' + encodeURIComponent(id); vinculos.append(l); });
+        (a.ejes || []).forEach(id => { const eje = datos.estandares.ejes.find(e => e.id === id); const l = el('a', eje?.nombre || id); l.href = '#/ddhh/estandares?eje=' + encodeURIComponent(id); vinculos.append(l); });
+        if (a.vinculos_estimados) vinculos.append(el('span', 'Vínculo estimado', 'aviso'));
+        detalle.append(vinculos);
+        if (a.actualizado) detalle.append(el('small', 'Actualizado el ' + fecha(a.actualizado)));
         detalle.append(el('small', 'Fuente: ' + (a.fuente?.archivo || 'Sin referencia') + (a.fuente?.tabla !== undefined ? ' · Tabla ' + a.fuente.tabla : '') + (a.fuente?.fila !== undefined ? ' · Fila ' + a.fuente.fila : '')));
         formulario = el('div', null, 'plan-formulario');
         formulario.append(el('p', 'Confirma cada campo para guardarlo. Usa áreas responsables y evita incluir datos personales.', 'ayuda'));

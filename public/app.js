@@ -5,6 +5,12 @@
   let estadoPlan = 'respaldo';
   const App = window.App = {
     datos: null,
+    numero(valor, opciones = {}) { return new Intl.NumberFormat('es-CO', opciones).format(valor); },
+    listaNumerada(texto) {
+      const limpio = String(texto ?? '').replace(/\\n/g, '\n').trim();
+      if (!limpio) return [];
+      return limpio.split(/(?:^|\n)\s*\d+\.\s+/).map(t => t.trim()).filter(Boolean);
+    },
     registrarVista(nombre, vista) { vistas.set(nombre, vista); },
     obtenerPlan() { return App.datos.plan; },
     estadoBase() { return estadoPlan; },
@@ -42,7 +48,9 @@
     activo.append(el('span', 'D1 · Disponible', 'eyebrow'), el('h2', 'Debida diligencia y DDHH'), el('p', 'Del riesgo identificado a la acción que lo gestiona.'));
     const resumen = Riesgos.resumen(datos.riesgos, datos.criticidad);
     const cifras = el('div', null, 'cifras');
-    [[datos.riesgos.length, 'riesgos'], [`${resumen.Alta} alta · ${resumen.Media} media`, 'criticidad'], [App.obtenerPlan().length, 'acciones del plan']].forEach(([n, t]) => {
+    const plan = App.obtenerPlan();
+    const avance = Plan.resumen(plan, datos.planConfig).avanceGlobal;
+    [[datos.riesgos.length, 'riesgos'], [`${resumen.Alta} alta · ${resumen.Media} media`, 'criticidad'], [plan.length, 'acciones del plan'], [App.numero(avance, {maximumFractionDigits: 1}) + ' %', plan.some(a => a.seguimiento_ejemplo) ? 'avance del plan (ejemplo)' : 'avance del plan']].forEach(([n, t]) => {
       const c = el('div'); c.append(el('strong', n), el('span', t)); cifras.append(c);
     });
     activo.append(cifras, el('span', 'Explorar el módulo →', 'entrada')); modulos.append(activo);

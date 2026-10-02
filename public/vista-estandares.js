@@ -6,7 +6,11 @@
   const formato = new Intl.NumberFormat('es-CO', {minimumFractionDigits: 1, maximumFractionDigits: 1});
   const numero = n => n === null || n === undefined ? 'Sin información' : formato.format(n);
   const delta = n => n === null ? '—' : `${Math.abs(n) < 0.05 ? '=' : n > 0 ? '▲' : '▼'} ${n > 0.049 ? '+' : ''}${numero(Math.abs(n) < 0.05 ? 0 : n)}`;
-  const etiqueta = e => `${e.nombre} · ${e.fecha}${e.origen === 'ejemplo' ? ' · Ejemplo' : e.origen === 'cargada' ? ' · Cargada en la plataforma' : ''}`;
+  const etiqueta = e => {
+    const nombre = e.nombre.replace(e.fecha, '').replace(new RegExp('\\s+' + e.fecha.slice(0, 4) + '$'), '').replace(/\s*\(ejemplo\)\s*/gi, '').trim();
+    const fecha = new Intl.DateTimeFormat('es-CO', {month: 'short', year: 'numeric'}).format(new Date(e.fecha + '-01T12:00:00')).replace(' de ', ' ');
+    return `${nombre} · ${fecha}${e.origen === 'ejemplo' ? ' (ejemplo)' : e.origen === 'cargada' ? ' · Cargada en la plataforma' : ''}`;
+  };
   function svg(tag, attrs, texto) {
     const n = document.createElementNS('http://www.w3.org/2000/svg', tag);
     Object.entries(attrs || {}).forEach(([k, v]) => n.setAttribute(k, v));
@@ -46,16 +50,16 @@
     function grafico(tipo, titulo) {
       const ejes = E.ejesDe(tipo, datos.estandares), filas = E.comparar(principal, comparada, ejes);
       const seccion = el('section', null, 'superficie e3-grafico'); seccion.append(el('h2', titulo));
-      const dibujo = svg('svg', {viewBox: '0 0 720 650', role: 'group', 'aria-label': titulo});
-      const centro = [360, 325], radio = 170;
+      const dibujo = svg('svg', {viewBox: '0 0 720 700', role: 'group', 'aria-label': titulo});
+      const centro = [360, 350], radio = 240;
       const puntos = valores => E.puntosPoligono(valores, radio, centro);
       const cadena = ps => ps.map(p => p.map(n => n.toFixed(2)).join(',')).join(' ');
       for (let nivel = 0; nivel <= 5; nivel++) {
         dibujo.append(svg('polygon', {points: cadena(puntos(ejes.map(() => nivel))), class: 'e3-anillo'}));
-        dibujo.append(svg('text', {x: 366, y: 325 - radio * nivel / 5 - 4, class: 'e3-nivel'}, String(nivel)));
+        dibujo.append(svg('text', {x: 366, y: 350 - radio * nivel / 5 - 4, class: 'e3-nivel'}, String(nivel)));
       }
       const extremos = puntos(ejes.map(() => 5));
-      extremos.forEach(([x, y]) => dibujo.append(svg('line', {x1: 360, y1: 325, x2: x, y2: y, class: 'e3-anillo'})));
+      extremos.forEach(([x, y]) => dibujo.append(svg('line', {x1: 360, y1: 350, x2: x, y2: y, class: 'e3-anillo'})));
       if (filas.every(f => f.a !== null)) dibujo.append(svg('polygon', {points: cadena(puntos(filas.map(f => f.a))), class: 'e3-principal'}));
       if (comparada && filas.every(f => f.b !== null)) dibujo.append(svg('polygon', {points: cadena(puntos(filas.map(f => f.b))), class: 'e3-comparada'}));
       const posiciones = puntos(filas.map(f => f.a ?? 0));
@@ -65,10 +69,10 @@
         const texto = comparada ? `${f.eje.nombre}: ${numero(f.b)} → ${numero(f.a)}${diferencia}` : `${f.eje.nombre}: ${numero(f.a)}`;
         const grupo = svg('g', {tabindex: 0, role: 'button', 'aria-label': texto, 'aria-pressed': String(ejeSeleccionado.id === f.eje.id), class: 'e3-vertice'});
         grupo.append(svg('title', {}, texto), svg('circle', {cx: x, cy: y, r: 6, fill: E.colorPara(f.a, datos.umbrales) || 'var(--secundario)'}), svg('text', {x: x + 10, y: y - 9, class: 'e3-puntaje'}, numero(f.a)));
-        const lx = 360 + (ex - 360) * 1.23, ly = 325 + (ey - 325) * 1.23;
-        const partes = lineas(f.eje.nombre, 23), anchor = Math.abs(ex - 360) < 5 ? 'middle' : ex > 360 ? 'start' : 'end';
-        const label = svg('text', {x: lx, y: ly - (partes.length - 1) * 8, 'text-anchor': anchor, class: 'e3-etiqueta'});
-        partes.forEach((p, j) => label.append(svg('tspan', {x: lx, dy: j ? 16 : 0}, p))); grupo.append(label);
+        const lx = 360 + (ex - 360) * 1.18, ly = 350 + (ey - 350) * 1.18;
+        const partes = lineas(f.eje.nombre, 16), anchor = 'middle';
+        const label = svg('text', {x: lx, y: ly - (partes.length - 1) * 9, 'text-anchor': anchor, class: 'e3-etiqueta'});
+        partes.forEach((p, j) => label.append(svg('tspan', {x: lx, dy: j ? 18 : 0}, p))); grupo.append(label);
         grupo.addEventListener('click', () => seleccionar(f.eje));
         grupo.addEventListener('keydown', ev => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); seleccionar(f.eje); } });
         grupo.addEventListener('focus', () => { lectura.textContent = texto; });
@@ -85,7 +89,7 @@
         const fila = el('tr'), celda = el('th'), boton = el('button', f.eje.nombre); celda.scope = 'row';
         boton.setAttribute('aria-pressed', String(ejeSeleccionado.id === f.eje.id)); boton.onclick = () => seleccionar(f.eje); celda.append(boton); fila.append(celda);
         [numero(f.a), comparada ? numero(f.b) : '—', delta(f.diferencia)].forEach((t, j) => { const td = el('td', t); td.dataset.etiqueta = ['Puntaje', 'Comparación', 'Diferencia'][j]; fila.append(td); }); body.append(fila);
-      }); tabla.append(body); seccion.append(tabla); return seccion;
+      }); tabla.append(body); const detalleTabla = el('details', null, 'e3-datos'); detalleTabla.append(el('summary', 'Ver puntajes por eje'), tabla); seccion.append(detalleTabla); return seccion;
     }
     function dibujar() {
       cuerpo.replaceChildren();

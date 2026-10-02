@@ -8,6 +8,12 @@
     'Baja|baja': 'bajo', 'Baja|media': 'bajo', 'Baja|alta': 'medio'
   };
   const etiqueta = valor => valor ? valor.charAt(0).toUpperCase() + valor.slice(1).replaceAll('-', ' ') : 'Sin asignar';
+  function textoLista(texto) {
+    const items = App.listaNumerada(texto);
+    const nodo = el(items.length > 1 ? 'ol' : 'p', items.length === 1 ? items[0] : undefined, 'texto-dato');
+    if (items.length > 1) items.forEach(t => nodo.append(el('li', t)));
+    return nodo;
+  }
   const numero = r => r.id.split('-').at(-1);
   const badge = nivel => el('span', nivel, 'criticidad ' + nivel.toLowerCase());
   function aviso(texto, detalle) {
@@ -55,7 +61,7 @@
     const limpiar = el('a', 'Limpiar filtros', 'boton secundario'); limpiar.id = 'limpiar-filtros'; limpiar.href = '#/ddhh/riesgos'; form.append(limpiar); contenedor.append(form);
     const estado = el('p', `${visibles.length} de ${datos.riesgos.length} riesgos coinciden con los filtros.`, 'resultado'); estado.setAttribute('role', 'status'); contenedor.append(estado);
     const seccion = el('section', null, 'superficie');
-    seccion.append(el('h2', 'Mapa de riesgos'), el('p', 'Gravedad ↑ · Probabilidad de ocurrencia según controles →', 'ejes'), el('p', 'Los riesgos atenuados no coinciden con los filtros. El fondo es orientativo; la etiqueta expresa la criticidad.', 'ayuda'));
+    seccion.append(el('h2', 'Mapa de riesgos'), el('p', 'Los riesgos atenuados no coinciden con los filtros. El fondo es orientativo; la etiqueta expresa la criticidad.', 'ayuda'));
     const ubicacion = Riesgos.ubicar(datos.riesgos, cfg);
     function fichaPequena(id) {
       const r = datos.riesgos.find(r => r.id === id); const a = el('a', null, 'ficha-mini' + (ids.has(id) ? '' : ' atenuado'));
@@ -66,13 +72,21 @@
       return a;
     }
     const matriz = el('div', null, 'matriz');
-    ['Alta', 'Media', 'Baja'].forEach(g => ['baja', 'media', 'alta'].forEach(p => {
-      const celda = el('section', null, 'celda calor-' + MAPA_CALOR[g + '|' + p]);
-      celda.append(el('h3', `Gravedad ${g} · Probabilidad ${etiqueta(p)}`));
-      ubicacion.celdas[g + '|' + p].forEach(id => celda.append(fichaPequena(id)));
-      if (!ubicacion.celdas[g + '|' + p].length) celda.append(el('span', 'Sin riesgos', 'ayuda'));
-      matriz.append(celda);
-    })); seccion.append(matriz);
+    matriz.append(el('span', 'Gravedad', 'eje-gravedad'));
+    ['Alta', 'Media', 'Baja'].forEach(g => {
+      matriz.append(el('span', g, 'eje-fila'));
+      ['baja', 'media', 'alta'].forEach(p => {
+        const celda = el('section', null, 'celda calor-' + MAPA_CALOR[g + '|' + p]);
+        celda.setAttribute('aria-label', `Gravedad ${g} · Probabilidad ${etiqueta(p)}`);
+        ubicacion.celdas[g + '|' + p].forEach(id => celda.append(fichaPequena(id)));
+        if (!ubicacion.celdas[g + '|' + p].length) celda.append(el('span', 'Sin riesgos', 'ayuda'));
+        matriz.append(celda);
+      });
+    });
+    const columnas = el('div', null, 'eje-columnas');
+    ['Baja', 'Media', 'Alta'].forEach(t => columnas.append(el('span', t)));
+    matriz.append(columnas, el('p', 'Probabilidad de ocurrencia según controles', 'eje-probabilidad'));
+    seccion.append(matriz);
     const sin = el('section', null, 'sin-probabilidad'); sin.append(el('h3', 'Sin probabilidad asignada'));
     ubicacion.sinProbabilidad.forEach(id => sin.append(fichaPequena(id))); seccion.append(sin); contenedor.append(seccion);
     const listado = el('section', null, 'superficie listado'); listado.append(el('h2', 'Detalle de riesgos'));
@@ -99,7 +113,7 @@
     const cerrar = el('button', 'Cerrar ficha ×', 'cerrar'); cerrar.onclick = () => {location.hash = rutaCerrar;};
     const titulo = el('h2', `${numero(r)} · ${r.nombre}`); titulo.id = 'titulo-riesgo';
     panel.append(cerrar, titulo, badge(Riesgos.criticidad(r, cfg).nivel), el('h3', 'Ámbitos'), ambitos(r, cfg));
-    function bloque(titulo, texto) {panel.append(el('h3', titulo), el('p', texto || 'Sin información en la fuente', 'texto-dato'));}
+    function bloque(titulo, texto) {panel.append(el('h3', titulo), textoLista(texto || 'Sin información en la fuente'));}
     bloque('Estándar asociado', r.derecho_humano);
     panel.append(el('h3', 'Calificación'));
     const dominante = Riesgos.criticidad(r, cfg).evaluacionDominante;
@@ -110,12 +124,15 @@
     const cuerpo = el('tbody');
     r.evaluaciones.forEach(e => {
       const g = Riesgos.gravedad(e, cfg); const tr = el('tr');
-      [e.actor_genera, e.escala, e.alcance, e.irreparable, g.promedio.toLocaleString('es', {maximumFractionDigits: 2}), g.nivel, etiqueta(e.vinculacion), etiqueta(e.probabilidad), e === dominante ? 'Dominante' : 'No dominante'].forEach((v, i) => {const td = el('td', v); td.dataset.etiqueta = columnas[i]; tr.append(td);}); cuerpo.append(tr);
+      [e.actor_genera, e.escala, e.alcance, e.irreparable, App.numero(g.promedio, {maximumFractionDigits: 2}), g.nivel, etiqueta(e.vinculacion), etiqueta(e.probabilidad), e === dominante ? 'Dominante' : 'No dominante'].forEach((v, i) => {const td = el('td'); td.append(i === 0 ? textoLista(v) : typeof v === 'number' ? App.numero(v) : v); td.dataset.etiqueta = columnas[i]; tr.append(td);}); cuerpo.append(tr);
     }); tabla.append(cuerpo); panel.append(tabla);
     const nombres = {escala: 'escala', alcance: 'alcance', irreparable: 'irremediabilidad'};
-    const reglas = cfg.gravedad.cortes.map((c, i) => `${c.nivel}: ${c.menor_que === null ? 'desde ' + cfg.gravedad.cortes[i - 1].menor_que : 'menor que ' + c.menor_que}`).join('; ');
-    bloque('Cómo se calcula', `Gravedad = ${cfg.gravedad.agregacion} de ${cfg.gravedad.criterios.map(c => nombres[c] || c).join(', ')}. Escala de ${cfg.gravedad.escala.minimo} a ${cfg.gravedad.escala.maximo}. ${reglas}. Criticidad del riesgo: ${cfg.agregacion_riesgo} entre evaluaciones. La probabilidad y la vinculación son dimensiones independientes.`);
+    const reglas = cfg.gravedad.cortes.map((c, i) => `${c.nivel}: ${c.menor_que === null ? 'desde ' + App.numero(cfg.gravedad.cortes[i - 1].menor_que) : 'menor que ' + App.numero(c.menor_que)}`).join('; ');
+    bloque('Cómo se calcula', `Gravedad = ${cfg.gravedad.agregacion.replace('maximo', 'máximo')} de ${cfg.gravedad.criterios.map(c => nombres[c] || c).join(', ')}. Escala de ${App.numero(cfg.gravedad.escala.minimo)} a ${App.numero(cfg.gravedad.escala.maximo)}. ${reglas}. Criticidad del riesgo: ${cfg.agregacion_riesgo.replace('maximo', 'máximo')} entre evaluaciones. La probabilidad y la vinculación son dimensiones independientes.`);
     if (cfg.campos_propuestos?.includes('gravedad.cortes')) panel.append(aviso('Propuesta', 'Los cortes de gravedad están definidos por el encargo y corrigen el límite exacto de la fuente.'));
+    bloque('Localización', r.localizacion); bloque('Actividades', r.actividades);
+    bloque('Actores que reportan', r.evaluaciones.map(e => e.actor_reporta).join('\n'));
+    bloque('Acción recomendada', r.accion_recomendada);
     bloque('Medidas de control actuales', r.medidas_control); bloque('Análisis de controles', r.analisis_controles); bloque('Responsables', r.responsables.join(' · '));
     panel.append(el('h3', 'Acciones del plan'));
     Riesgos.accionesDe(r.id, App.obtenerPlan()).forEach(a => {

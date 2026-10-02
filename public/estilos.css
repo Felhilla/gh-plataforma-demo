@@ -41,3 +41,59 @@ table { width:100%; border-collapse:collapse; font-size:.87rem; } th { text-alig
 @media(max-width:1100px) { .filtros { grid-template-columns:repeat(2,minmax(0,1fr)); }.contexto { max-width:230px; }.calificaciones thead { display:none; }.calificaciones tr { display:block; border:1px solid var(--borde); margin:12px 0; }.calificaciones td { display:grid; grid-template-columns:40% 1fr; padding:8px; }.calificaciones td::before { content:attr(data-etiqueta); font-weight:600; } }
 @media(max-width:767px) { header { padding:20px 16px; gap:16px; }.marca { gap:12px; font-size:.82rem; }.marca img { width:100px; }.marca span { padding-left:12px; }.contexto { margin:0; max-width:none; } #pestanas { flex-direction:column; gap:4px; } main { padding:28px 16px; }.hero { padding-top:8px; }.modulos,.matriz,.filtros { grid-template-columns:1fr; }.modulo { padding:20px; }.cifras { flex-direction:column; gap:16px; }.resumen { grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }.resumen-item { padding:14px; font-size:.85rem; }.superficie { padding:16px; }.panel { width:100%; padding:20px; }.listado thead { display:none; }.listado tr { display:block; border-bottom:2px solid var(--borde); margin-bottom:18px; }.listado td,.listado td:nth-child(2) { width:100%; display:grid; grid-template-columns:30% minmax(0,1fr); gap:12px; }.listado td::before { content:attr(data-etiqueta); font-weight:600; }.listado .criticidad { justify-self:start; }.celda { min-height:100px; } }
 @media(prefers-reduced-motion:reduce) { * { transition:none!important; } }
+
+/* E6: lectura en reuniones y proyección. */
+header { padding:10px 24px; gap:12px 20px; flex-wrap:nowrap; min-height:68px; }
+.marca { gap:12px; font-size:14px; flex-shrink:0; }
+.marca img { height:46px; width:auto; }
+.marca span { padding-left:12px; }
+.contexto { font-size:14px; max-width:290px; }
+#pestanas { flex-basis:auto; border:0; padding:0; gap:4px; margin-left:auto; order:1; }
+#pestanas a { padding:8px 10px; font-size:14px; white-space:nowrap; }
+main { padding:20px 24px 32px; }
+h1 { font-size:clamp(1.8rem,2.5vw,2.5rem); margin:8px 0 12px; }
+.hero { padding:8px 0 16px; }
+.hero h1 { font-size:clamp(2rem,3vw,3rem); }
+.modulos { gap:16px; }
+.modulo { padding:20px; }
+.modulo h2 { margin:10px 0; }
+.modulo p { margin:8px 0; }
+.cifras { gap:40px; margin:16px 0; flex-wrap:wrap; }
+.resumen { gap:12px; margin:16px 0; }
+.resumen-item { padding:10px 16px; display:flex; gap:14px; align-items:center; }
+.resumen-item strong { font-size:1.7rem; }
+.filtros { gap:12px; }
+select { padding:8px; }
+.resultado { margin:12px 0; }
+.superficie { padding:16px; margin:16px 0; }
+.superficie h2 { margin-bottom:8px; }
+.matriz { grid-template-columns:24px 54px repeat(3,minmax(0,1fr)); gap:6px; }
+.eje-gravedad { grid-column:1; grid-row:1/4; writing-mode:vertical-rl; transform:rotate(180deg); text-align:center; font-weight:700; }
+.eje-fila { grid-column:2; align-self:center; font-weight:600; }
+.eje-columnas { grid-column:3/-1; display:grid; grid-template-columns:repeat(3,1fr); text-align:center; font-weight:600; }
+.eje-probabilidad { grid-column:3/-1; text-align:center; margin:0; font-weight:700; }
+.celda { padding:6px; min-height:78px; }
+.ficha-mini { padding:5px 7px; margin:4px 0; gap:6px; line-height:1.3; }
+.ficha-mini small { flex-basis:auto; }
+.ficha-mini.atenuado { opacity:1; background:#f3f4f1; border-style:dashed; color:var(--secundario); }
+.sin-probabilidad { margin-top:10px; }
+.sin-probabilidad h3 { margin:8px 0; }
+.texto-dato { padding-inline-start:0; }
+ol.texto-dato { padding-inline-start:24px; }
+.texto-dato li + li { margin-top:6px; }
+.contexto,.eyebrow,footer,.filtros label,.resultado,.ayuda,.ficha-mini,.ficha-mini small,table,.criticidad,.aviso,.calificaciones,small { font-size:14px; }
+@media(max-width:1199px) {
+  header { flex-wrap:wrap; }
+  #pestanas { margin-left:0; }
+}
+@media(max-width:767px) {
+  header { padding:12px 16px; }
+  .marca img { height:44px; }
+  #pestanas { flex-basis:100%; overflow-x:auto; }
+  .contexto { max-width:none; }
+  .resumen-item { display:block; }
+  .matriz { grid-template-columns:20px 42px repeat(3,minmax(0,1fr)); overflow-x:auto; }
+  .celda { min-width:180px; }
+  .eje-columnas { min-width:552px; }
+  .cifras { gap:16px; }
+}
