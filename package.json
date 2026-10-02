@@ -1,0 +1,7 @@
+{
+  "name": "gh-plataforma-demo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Plataforma demostrativa GH Estudios · D1 Debida diligencia y DDHH (Solgas)",
+  "scripts": { "test": "node --test tests/" }
+}

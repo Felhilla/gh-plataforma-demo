@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+*.log
+
+# Credenciales, encargos y respaldos: nunca al repositorio
+privado/
+
+# Documentos internos (plan, inventario con datos de prospectos)
+docs/plan-*.md
