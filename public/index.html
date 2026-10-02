@@ -1,24 +1,29 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" data-paleta="a">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Plataforma GH Estudios</title>
-<style>
-  :root { --verde: #3aaa35; --verde-oscuro: #076633; --texto: #1d2a22; --fondo: #f7f9f7; }
-  body { margin: 0; font-family: system-ui, sans-serif; background: var(--fondo); color: var(--texto);
-         min-height: 100vh; display: grid; place-items: center; text-align: center; padding: 16px; }
-  img { width: 160px; }
-  h1 { color: var(--verde-oscuro); font-size: 1.5rem; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Plataforma de gestión en sostenibilidad · GH Estudios</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+  <script defer src="config.js"></script>
+  <script defer src="api-supabase.js"></script>
+  <script defer src="riesgos.js"></script>
+  <script defer src="app.js"></script>
+  <script defer src="vista-riesgos.js"></script>
+  <script defer src="vista-estandares.js"></script>
+  <script defer src="vista-plan.js"></script>
 </head>
 <body>
-<main>
-  <img src="img/logo-gh.png" alt="GH Studio">
-  <h1>Plataforma GH · en construcción</h1>
-  <p>Módulo 1 · Debida diligencia y derechos humanos</p>
-</main>
-<script src="config.js"></script>
-<script src="api-supabase.js"></script>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <header id="cabecera">
+    <div class="marca"><a href="#/" aria-label="GH Estudios · Inicio"><img src="img/logo-gh.png" alt="GH Estudios" width="150"></a><span>Plataforma de gestión<br>en sostenibilidad</span></div>
+    <p class="contexto">Caso demostrativo con datos reales de Solgas · Análisis 2025</p>
+    <nav id="pestanas" aria-label="Debida diligencia y DDHH" hidden></nav>
+  </header>
+  <main id="contenido" tabindex="-1"><p role="status">Cargando la plataforma…</p></main>
+  <footer>GH Estudios · Gestión en sostenibilidad</footer>
+  <noscript>Activa JavaScript para consultar la plataforma.</noscript>
 </body>
 </html>

@@ -86,5 +86,36 @@
     riesgos.forEach(r => { conteos[calcularCriticidad(r, cfg).nivel] += 1; });
     return conteos;
   }
-  return { gravedad, criticidad, resumen };
+  function filtrar(riesgos, filtros = {}, cfg) {
+    return riesgos.filter(r =>
+      (!filtros.criticidad || criticidad(r, cfg).nivel === filtros.criticidad) &&
+      (!filtros.ambito || r.ambitos.includes(filtros.ambito)) &&
+      (!filtros.vinculacion || r.evaluaciones.some(e => e.vinculacion === filtros.vinculacion)) &&
+      (!filtros.derecho || r.derecho_humano === filtros.derecho));
+  }
+  function ubicar(riesgos, cfg) {
+    const celdas = Object.fromEntries(cfg.gravedad.cortes.flatMap(c =>
+      cfg.probabilidad.map(p => [c.nivel + '|' + p, []])));
+    const sinProbabilidad = [];
+    riesgos.forEach(r => {
+      const c = criticidad(r, cfg);
+      const p = c.evaluacionDominante.probabilidad;
+      if (p === null) sinProbabilidad.push(r.id);
+      else celdas[c.nivel + '|' + p].push(r.id);
+    });
+    return { celdas, sinProbabilidad };
+  }
+  function accionesDe(riesgoId, acciones) {
+    return acciones.filter(a => a.riesgos.includes(riesgoId));
+  }
+  function opcionesFiltro(riesgos, cfg) {
+    const presentes = (valores, orden) => orden.filter(v => valores.includes(v));
+    return {
+      criticidad: presentes(riesgos.map(r => criticidad(r, cfg).nivel), cfg.gravedad.cortes.map(c => c.nivel).reverse()),
+      ambito: presentes(riesgos.flatMap(r => r.ambitos), cfg.ambitos.map(a => a.id)),
+      vinculacion: presentes(riesgos.flatMap(r => r.evaluaciones.map(e => e.vinculacion)), Object.keys(cfg.vinculacion)),
+      derecho: [...new Set(riesgos.map(r => r.derecho_humano).filter(Boolean))].sort()
+    };
+  }
+  return { gravedad, criticidad, resumen, filtrar, ubicar, accionesDe, opcionesFiltro };
 }));
