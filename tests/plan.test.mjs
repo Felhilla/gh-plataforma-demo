@@ -7,7 +7,9 @@ const leer = p => JSON.parse(readFileSync(new URL('../public/' + p, import.meta.
 const acciones = leer('data/plan.json');
 const cfg = leer('config/plan-config.json');
 const ahora = '2026-10-02T12:00:00.000Z';
-const cambiar = (c, a = acciones[0]) => Plan.aplicarCambio(a, c, cfg, ahora);
+// Acción de referencia sin seguimiento: los datos traen avance de ejemplo.
+const pendiente0 = {...acciones[0], estado: 'pendiente', avance: 0};
+const cambiar = (c, a = pendiente0) => Plan.aplicarCambio(a, c, cfg, ahora);
 
 test('combinar conserva 58 estáticas, reemplaza por id e incluye ids nuevos sin mutar', () => {
   const base = [{...acciones[0], responsable: 'Área editada'}, {...acciones[1], id: 'accion-99'}];
@@ -31,12 +33,12 @@ test('consistencia: avanzar una pendiente la pone en curso; pendiente vuelve a c
 });
 test('rechaza valores y campos inválidos', () => {
   [{estado: 'otro'}, {avance: -1}, {avance: 101}, {avance: 33.5}, {avance: '20'}, {plazo: '2026-02-30'}, {plazo: 'mañana'}, {plazo: '2026-2-01'}, {responsable: 'a'.repeat(121)}, {nota_seguimiento: 'a'.repeat(501)}, {titulo: 'nuevo'}, {riesgos: []}].forEach(c => {
-    const r = cambiar(c); assert.equal(r.ok, false, JSON.stringify(c)); assert.ok(r.errores.length); assert.strictEqual(r.accion, acciones[0]);
+    const r = cambiar(c); assert.equal(r.ok, false, JSON.stringify(c)); assert.ok(r.errores.length); assert.strictEqual(r.accion, pendiente0);
   });
   assert.equal(cambiar({plazo: '2028-02-29', responsable: 'a'.repeat(120), nota_seguimiento: 'a'.repeat(500)}).ok, true);
 });
 test('historial, propuestas, fecha y ausencia de mutaciones', () => {
-  const original = structuredClone(acciones[0]); const antes = structuredClone(original);
+  const original = structuredClone(pendiente0); const antes = structuredClone(original);
   const r = cambiar({avance: 10, responsable: 'Equipo'}, original).accion;
   assert.deepEqual(original, antes); assert.equal(r.actualizado, ahora);
   assert.equal(r.historial.length, 3);
@@ -49,15 +51,17 @@ test('historial, propuestas, fecha y ausencia de mutaciones', () => {
 });
 test('resumen y vencimientos con fecha fija, incluye seis componentes vacíos', () => {
   const r = Plan.resumen(acciones, cfg, '2026-01-01');
-  assert.equal(r.avanceGlobal, 0); assert.equal(r.porEstado.pendiente, 58); assert.equal(r.vencidas, 0); assert.equal(r.porComponente.length, 6);
-  const muestra = [{...acciones[0], plazo: '2026-01-01'}, {...acciones[1], avance: 50, estado: 'en-curso', plazo: '2026-01-02'}, {...acciones[2], avance: 100, estado: 'cumplida', plazo: '2025-01-01'}];
+  const promedio = acciones.reduce((s, a) => s + a.avance, 0) / acciones.length;
+  assert.ok(Math.abs(r.avanceGlobal - promedio) < 1e-9); assert.equal(r.porEstado.pendiente, acciones.filter(a => a.estado === 'pendiente').length);
+  assert.equal(r.vencidas, 0); assert.equal(r.porComponente.length, 6);
+  const muestra = [{...pendiente0, plazo: '2026-01-01'}, {...acciones[1], avance: 50, estado: 'en-curso', plazo: '2026-01-02'}, {...acciones[2], avance: 100, estado: 'cumplida', plazo: '2025-01-01'}];
   const s = Plan.resumen(muestra, cfg, '2026-01-02'); assert.equal(s.avanceGlobal, 50); assert.equal(s.vencidas, 1);
   assert.deepEqual(s.porEstado, {pendiente: 1, 'en-curso': 1, cumplida: 1}); assert.equal(s.porComponente[0].avance, 50);
   assert.equal(Plan.resumen([], cfg, '2026-01-01').avanceGlobal, 0);
   assert.equal(Plan.vencida(muestra[1], '2026-01-02'), false);
 });
 test('filtros combinados y búsqueda ignoran mayúsculas y tildes', () => {
-  const a = {...acciones[0], titulo: 'MEDICIÓN', descripcion: 'Comunicación', riesgos: ['riesgo-01'], ejes: ['eje-01']};
+  const a = {...pendiente0, titulo: 'MEDICIÓN', descripcion: 'Comunicación', riesgos: ['riesgo-01'], ejes: ['eje-01']};
   const f = {componente: a.componente, estado: 'pendiente', riesgo: 'riesgo-01', eje: 'eje-01', q: 'medicion', accion: 'otra'};
   assert.deepEqual(Plan.filtrar([a], f), [a]); assert.equal(Plan.filtrar([a], {...f, q: 'COMUNICACION'}).length, 1);
   for (const campo of ['componente', 'estado', 'riesgo', 'eje', 'q']) assert.equal(Plan.filtrar([a], {...f, [campo]: 'inexistente'}).length, 0);

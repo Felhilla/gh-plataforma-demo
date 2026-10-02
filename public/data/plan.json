@@ -8,17 +8,15 @@
     "ejes": [
       "etapa-ocde-1"
     ],
-    "responsable": "Por definir",
+    "responsable": "Área de Sostenibilidad",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "cumplida",
+    "avance": 100,
     "indicador": "Número de políticas y procedimientos actualizados en DDHH",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador",
       "responsable"
     ],
@@ -27,7 +25,10 @@
       "tabla": 47,
       "fila": 1
     },
-    "vinculos_estimados": true
+    "vinculos_estimados": true,
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: acción cerrada y evidenciada ante el subcomité de DDHH.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-02",
@@ -38,17 +39,15 @@
     "ejes": [
       "etapa-ocde-1"
     ],
-    "responsable": "Por definir",
+    "responsable": "Área de Sostenibilidad",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "cumplida",
+    "avance": 100,
     "indicador": "Número de políticas y procedimientos actualizados en DDHH",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador",
       "responsable"
     ],
@@ -57,7 +56,10 @@
       "tabla": 47,
       "fila": 2
     },
-    "vinculos_estimados": true
+    "vinculos_estimados": true,
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: acción cerrada y evidenciada ante el subcomité de DDHH.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-03",
@@ -68,17 +70,15 @@
     "ejes": [
       "etapa-ocde-1"
     ],
-    "responsable": "Por definir",
+    "responsable": "Área de Sostenibilidad",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 60,
     "indicador": "Número de políticas y procedimientos actualizados en DDHH",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador",
       "responsable"
     ],
@@ -87,7 +87,10 @@
       "tabla": 47,
       "fila": 3
     },
-    "vinculos_estimados": true
+    "vinculos_estimados": true,
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-04",
@@ -99,17 +102,15 @@
       "etapa-ocde-1",
       "etapa-ocde-6"
     ],
-    "responsable": "Por definir",
+    "responsable": "Área de Sostenibilidad",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 40,
     "indicador": "Número de políticas y procedimientos actualizados en DDHH",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador",
       "responsable"
     ],
@@ -118,7 +119,10 @@
       "tabla": 47,
       "fila": 4
     },
-    "vinculos_estimados": true
+    "vinculos_estimados": true,
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-05",
@@ -130,17 +134,15 @@
       "etapa-ocde-1",
       "etapa-ocde-6"
     ],
-    "responsable": "Por definir",
+    "responsable": "Área de Sostenibilidad",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 30,
     "indicador": "Número de políticas y procedimientos actualizados en DDHH",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador",
       "responsable"
     ],
@@ -149,7 +151,10 @@
       "tabla": 47,
       "fila": 5
     },
-    "vinculos_estimados": true
+    "vinculos_estimados": true,
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-06",
@@ -160,7 +165,7 @@
     "ejes": [
       "etapa-ocde-2"
     ],
-    "responsable": "Por definir",
+    "responsable": "Área de Sostenibilidad",
     "plazo": "2027-01-01",
     "estado": "pendiente",
     "avance": 0,
@@ -169,8 +174,6 @@
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador",
       "responsable"
     ],
@@ -181,7 +184,8 @@
         772
       ]
     },
-    "vinculos_estimados": true
+    "vinculos_estimados": true,
+    "seguimiento_ejemplo": true
   },
   {
     "id": "accion-07",
@@ -194,7 +198,7 @@
       "etapa-ocde-4",
       "etapa-ocde-5"
     ],
-    "responsable": "Por definir",
+    "responsable": "Área de Sostenibilidad",
     "plazo": "2027-01-01",
     "estado": "pendiente",
     "avance": 0,
@@ -203,8 +207,6 @@
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador",
       "responsable"
     ],
@@ -215,7 +217,8 @@
         776
       ]
     },
-    "vinculos_estimados": true
+    "vinculos_estimados": true,
+    "seguimiento_ejemplo": true
   },
   {
     "id": "accion-08",
@@ -226,17 +229,15 @@
     "ejes": [
       "etapa-ocde-1"
     ],
-    "responsable": "Sostenibilidad",
+    "responsable": "Área de Sostenibilidad",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "cumplida",
+    "avance": 100,
     "indicador": "Subcomité de DDHH constituido y en funcionamiento",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -246,7 +247,10 @@
         785
       ]
     },
-    "vinculos_estimados": true
+    "vinculos_estimados": true,
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: acción cerrada y evidenciada ante el subcomité de DDHH.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-09",
@@ -262,17 +266,15 @@
       "etapa-ocde-5",
       "etapa-ocde-6"
     ],
-    "responsable": "Sostenibilidad",
+    "responsable": "Área de Sostenibilidad",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "cumplida",
+    "avance": 100,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -282,7 +284,10 @@
         797
       ]
     },
-    "vinculos_estimados": true
+    "vinculos_estimados": true,
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: acción cerrada y evidenciada ante el subcomité de DDHH.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-10",
@@ -295,17 +300,15 @@
       "etapa-ocde-4",
       "etapa-ocde-5"
     ],
-    "responsable": "Sostenibilidad",
+    "responsable": "Área de Sostenibilidad",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 70,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -315,7 +318,10 @@
         806
       ]
     },
-    "vinculos_estimados": true
+    "vinculos_estimados": true,
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-11",
@@ -327,17 +333,15 @@
       "etapa-ocde-1",
       "etapa-ocde-5"
     ],
-    "responsable": "Gestión Humana",
+    "responsable": "Gerencia de Personas",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 50,
     "indicador": "Número de empleados, contratistas y proveedores capacitados en DDHH",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -347,7 +351,10 @@
         808
       ]
     },
-    "vinculos_estimados": true
+    "vinculos_estimados": true,
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-12",
@@ -358,17 +365,15 @@
     "ejes": [
       "etapa-ocde-1"
     ],
-    "responsable": "Gerencia general",
+    "responsable": "Gerencia General",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "cumplida",
+    "avance": 100,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -378,7 +383,10 @@
         810
       ]
     },
-    "vinculos_estimados": true
+    "vinculos_estimados": true,
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: acción cerrada y evidenciada ante el subcomité de DDHH.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-13",
@@ -389,17 +397,15 @@
       "riesgo-01"
     ],
     "ejes": [],
-    "responsable": "Por definir / Gerencia de Personas / Gerencia de Comercialización",
+    "responsable": "Gerencia de Operaciones / Gerencia de Personas",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 40,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -407,7 +413,10 @@
       "tabla": 48,
       "fila": 1
     },
-    "actor_genera": "Operadores"
+    "actor_genera": "Operadores",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-14",
@@ -418,17 +427,15 @@
       "riesgo-01"
     ],
     "ejes": [],
-    "responsable": "Por definir / Gerencia de Personas / Gerencia de Comercialización",
+    "responsable": "Gerencia de Operaciones / Gerencia de Personas",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 60,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -436,7 +443,10 @@
       "tabla": 48,
       "fila": 2
     },
-    "actor_genera": "Distribuidores"
+    "actor_genera": "Distribuidores",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-15",
@@ -447,7 +457,7 @@
       "riesgo-02"
     ],
     "ejes": [],
-    "responsable": "Por definir / Gerencia de Personas",
+    "responsable": "Gerencia de Operaciones / Gerencia de Personas",
     "plazo": "2027-07-01",
     "estado": "pendiente",
     "avance": 0,
@@ -456,8 +466,6 @@
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -466,7 +474,8 @@
       "fila": 3
     },
     "vinculos_estimados": true,
-    "actor_genera": "Supervisores"
+    "actor_genera": "Supervisores",
+    "seguimiento_ejemplo": true
   },
   {
     "id": "accion-16",
@@ -477,17 +486,15 @@
       "riesgo-02"
     ],
     "ejes": [],
-    "responsable": "Por definir / Gerencia de Personas",
+    "responsable": "Gerencia de Operaciones / Gerencia de Personas",
     "plazo": "2027-07-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 20,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -496,7 +503,10 @@
       "fila": 4
     },
     "vinculos_estimados": true,
-    "actor_genera": "Colaboradores"
+    "actor_genera": "Colaboradores",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-17",
@@ -507,7 +517,7 @@
       "riesgo-02"
     ],
     "ejes": [],
-    "responsable": "Por definir / Gerencia de Personas",
+    "responsable": "Gerencia de Operaciones / Gerencia de Personas",
     "plazo": "2027-07-01",
     "estado": "pendiente",
     "avance": 0,
@@ -516,8 +526,6 @@
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -526,7 +534,8 @@
       "fila": 5
     },
     "vinculos_estimados": true,
-    "actor_genera": "Operadores"
+    "actor_genera": "Operadores",
+    "seguimiento_ejemplo": true
   },
   {
     "id": "accion-18",
@@ -537,7 +546,7 @@
       "riesgo-02"
     ],
     "ejes": [],
-    "responsable": "Por definir / Gerencia de Personas",
+    "responsable": "Gerencia de Operaciones / Gerencia de Personas",
     "plazo": "2027-07-01",
     "estado": "pendiente",
     "avance": 0,
@@ -546,8 +555,6 @@
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -556,7 +563,8 @@
       "fila": 6
     },
     "vinculos_estimados": true,
-    "actor_genera": "Jefes de planta"
+    "actor_genera": "Jefes de planta",
+    "seguimiento_ejemplo": true
   },
   {
     "id": "accion-19",
@@ -567,17 +575,15 @@
       "riesgo-09"
     ],
     "ejes": [],
-    "responsable": "Gerencia de Comercialización / Por definir",
+    "responsable": "Gerencia de Comercialización / Compras y Abastecimiento",
     "plazo": "2027-07-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 10,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -586,7 +592,10 @@
       "fila": 7
     },
     "vinculos_estimados": true,
-    "actor_genera": "Proveedores"
+    "actor_genera": "Proveedores",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-20",
@@ -597,7 +606,7 @@
       "riesgo-09"
     ],
     "ejes": [],
-    "responsable": "Gerencia de Comercialización / Por definir",
+    "responsable": "Gerencia de Comercialización / Compras y Abastecimiento",
     "plazo": "2027-07-01",
     "estado": "pendiente",
     "avance": 0,
@@ -606,8 +615,6 @@
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -616,7 +623,8 @@
       "fila": 8
     },
     "vinculos_estimados": true,
-    "actor_genera": "Distribuidores"
+    "actor_genera": "Distribuidores",
+    "seguimiento_ejemplo": true
   },
   {
     "id": "accion-21",
@@ -627,17 +635,15 @@
       "riesgo-03"
     ],
     "ejes": [],
-    "responsable": "Área de Sostenibilidad / Por definir / Gerencia de Personas / Gerencia de Comercialización",
+    "responsable": "Área de Sostenibilidad / Seguridad y Salud en el Trabajo",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "cumplida",
+    "avance": 100,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -645,7 +651,10 @@
       "tabla": 48,
       "fila": 9
     },
-    "actor_genera": "Operadores"
+    "actor_genera": "Operadores",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: acción cerrada y evidenciada ante el subcomité de DDHH.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-22",
@@ -656,17 +665,15 @@
       "riesgo-03"
     ],
     "ejes": [],
-    "responsable": "Área de Sostenibilidad / Por definir / Gerencia de Personas / Gerencia de Comercialización",
+    "responsable": "Área de Sostenibilidad / Seguridad y Salud en el Trabajo",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 30,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -674,7 +681,10 @@
       "tabla": 48,
       "fila": 10
     },
-    "actor_genera": "Distribuidores"
+    "actor_genera": "Distribuidores",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-23",
@@ -685,17 +695,15 @@
       "riesgo-04"
     ],
     "ejes": [],
-    "responsable": "Gerencia de Personas / Por definir / Gerencia de Comercialización",
+    "responsable": "Gerencia de Personas / Compras y Abastecimiento",
     "plazo": "2027-07-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 20,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -703,7 +711,10 @@
       "tabla": 48,
       "fila": 11
     },
-    "actor_genera": "Gerentes"
+    "actor_genera": "Gerentes",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-24",
@@ -714,7 +725,7 @@
       "riesgo-04"
     ],
     "ejes": [],
-    "responsable": "Gerencia de Personas / Por definir / Gerencia de Comercialización",
+    "responsable": "Gerencia de Personas / Compras y Abastecimiento",
     "plazo": "2027-07-01",
     "estado": "pendiente",
     "avance": 0,
@@ -723,8 +734,6 @@
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -732,7 +741,8 @@
       "tabla": 48,
       "fila": 12
     },
-    "actor_genera": "Jefes de planta"
+    "actor_genera": "Jefes de planta",
+    "seguimiento_ejemplo": true
   },
   {
     "id": "accion-25",
@@ -743,7 +753,7 @@
       "riesgo-04"
     ],
     "ejes": [],
-    "responsable": "Gerencia de Personas / Por definir / Gerencia de Comercialización",
+    "responsable": "Gerencia de Personas / Compras y Abastecimiento",
     "plazo": "2027-07-01",
     "estado": "pendiente",
     "avance": 0,
@@ -752,8 +762,6 @@
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -761,7 +769,8 @@
       "tabla": 48,
       "fila": 13
     },
-    "actor_genera": "Proveedores"
+    "actor_genera": "Proveedores",
+    "seguimiento_ejemplo": true
   },
   {
     "id": "accion-26",
@@ -772,17 +781,15 @@
       "riesgo-04"
     ],
     "ejes": [],
-    "responsable": "Gerencia de Personas / Por definir / Gerencia de Comercialización",
+    "responsable": "Gerencia de Personas / Compras y Abastecimiento",
     "plazo": "2027-07-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 10,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -790,7 +797,10 @@
       "tabla": 48,
       "fila": 14
     },
-    "actor_genera": "Distribuidores"
+    "actor_genera": "Distribuidores",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-27",
@@ -801,17 +811,15 @@
       "riesgo-05"
     ],
     "ejes": [],
-    "responsable": "Área de Sostenibilidad / Por definir",
+    "responsable": "Área de Sostenibilidad / Seguridad y Salud en el Trabajo",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 50,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -819,7 +827,10 @@
       "tabla": 48,
       "fila": 15
     },
-    "actor_genera": "Operadores"
+    "actor_genera": "Operadores",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-28",
@@ -830,7 +841,7 @@
       "riesgo-05"
     ],
     "ejes": [],
-    "responsable": "Área de Sostenibilidad / Por definir",
+    "responsable": "Área de Sostenibilidad / Seguridad y Salud en el Trabajo",
     "plazo": "2027-01-01",
     "estado": "pendiente",
     "avance": 0,
@@ -839,8 +850,6 @@
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -848,7 +857,8 @@
       "tabla": 48,
       "fila": 16
     },
-    "actor_genera": "Distribuidores"
+    "actor_genera": "Distribuidores",
+    "seguimiento_ejemplo": true
   },
   {
     "id": "accion-29",
@@ -859,17 +869,15 @@
       "riesgo-05"
     ],
     "ejes": [],
-    "responsable": "Área de Sostenibilidad / Por definir",
+    "responsable": "Área de Sostenibilidad / Seguridad y Salud en el Trabajo",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 20,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -877,7 +885,10 @@
       "tabla": 48,
       "fila": 17
     },
-    "actor_genera": "Clientes B2B"
+    "actor_genera": "Clientes B2B",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-30",
@@ -888,7 +899,7 @@
       "riesgo-06"
     ],
     "ejes": [],
-    "responsable": "Por definir / Área de Sostenibilidad",
+    "responsable": "Gerencia de Operaciones / Área de Sostenibilidad",
     "plazo": "2027-07-01",
     "estado": "pendiente",
     "avance": 0,
@@ -897,8 +908,6 @@
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -906,7 +915,8 @@
       "tabla": 48,
       "fila": 18
     },
-    "actor_genera": "Operadores"
+    "actor_genera": "Operadores",
+    "seguimiento_ejemplo": true
   },
   {
     "id": "accion-31",
@@ -917,17 +927,15 @@
       "riesgo-06"
     ],
     "ejes": [],
-    "responsable": "Por definir / Área de Sostenibilidad",
+    "responsable": "Gerencia de Operaciones / Área de Sostenibilidad",
     "plazo": "2027-07-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 20,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -935,7 +943,10 @@
       "tabla": 48,
       "fila": 19
     },
-    "actor_genera": "Proveedores"
+    "actor_genera": "Proveedores",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-32",
@@ -946,7 +957,7 @@
       "riesgo-06"
     ],
     "ejes": [],
-    "responsable": "Por definir / Área de Sostenibilidad",
+    "responsable": "Gerencia de Operaciones / Área de Sostenibilidad",
     "plazo": "2027-07-01",
     "estado": "pendiente",
     "avance": 0,
@@ -955,8 +966,6 @@
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -964,7 +973,8 @@
       "tabla": 48,
       "fila": 20
     },
-    "actor_genera": "Distribuidores"
+    "actor_genera": "Distribuidores",
+    "seguimiento_ejemplo": true
   },
   {
     "id": "accion-33",
@@ -975,7 +985,7 @@
       "riesgo-07"
     ],
     "ejes": [],
-    "responsable": "Gerencia de Comercialización / Por definir",
+    "responsable": "Gerencia de Comercialización / Compras y Abastecimiento",
     "plazo": "2027-07-01",
     "estado": "pendiente",
     "avance": 0,
@@ -984,8 +994,6 @@
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -993,7 +1001,8 @@
       "tabla": 48,
       "fila": 21
     },
-    "actor_genera": "Proveedores"
+    "actor_genera": "Proveedores",
+    "seguimiento_ejemplo": true
   },
   {
     "id": "accion-34",
@@ -1004,17 +1013,15 @@
       "riesgo-07"
     ],
     "ejes": [],
-    "responsable": "Gerencia de Comercialización / Por definir",
+    "responsable": "Gerencia de Comercialización / Compras y Abastecimiento",
     "plazo": "2027-07-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 10,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -1022,7 +1029,10 @@
       "tabla": 48,
       "fila": 22
     },
-    "actor_genera": "Distribuidores"
+    "actor_genera": "Distribuidores",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-35",
@@ -1033,17 +1043,15 @@
       "riesgo-08"
     ],
     "ejes": [],
-    "responsable": "Gerencia de Comercialización / Por definir",
+    "responsable": "Gerencia de Comercialización / Compras y Abastecimiento",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 40,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -1051,7 +1059,10 @@
       "tabla": 48,
       "fila": 23
     },
-    "actor_genera": "Proveedores"
+    "actor_genera": "Proveedores",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-36",
@@ -1062,17 +1073,15 @@
       "riesgo-08"
     ],
     "ejes": [],
-    "responsable": "Gerencia de Comercialización / Por definir",
+    "responsable": "Gerencia de Comercialización / Compras y Abastecimiento",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 60,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -1080,7 +1089,10 @@
       "tabla": 48,
       "fila": 24
     },
-    "actor_genera": "Distribuidores"
+    "actor_genera": "Distribuidores",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-37",
@@ -1091,17 +1103,15 @@
       "riesgo-10"
     ],
     "ejes": [],
-    "responsable": "Gerencia de Comercialización / Por definir",
+    "responsable": "Gerencia de Comercialización / Compras y Abastecimiento",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "cumplida",
+    "avance": 100,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -1109,7 +1119,10 @@
       "tabla": 48,
       "fila": 25
     },
-    "actor_genera": "Contratistas"
+    "actor_genera": "Contratistas",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: acción cerrada y evidenciada ante el subcomité de DDHH.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-38",
@@ -1120,17 +1133,15 @@
       "riesgo-10"
     ],
     "ejes": [],
-    "responsable": "Gerencia de Comercialización / Por definir",
+    "responsable": "Gerencia de Comercialización / Compras y Abastecimiento",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 30,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -1138,7 +1149,10 @@
       "tabla": 48,
       "fila": 26
     },
-    "actor_genera": "Distribuidores"
+    "actor_genera": "Distribuidores",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-39",
@@ -1149,17 +1163,15 @@
       "riesgo-11"
     ],
     "ejes": [],
-    "responsable": "Gerencia de Comercialización / Por definir",
+    "responsable": "Gerencia de Comercialización / Compras y Abastecimiento",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 50,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -1167,7 +1179,10 @@
       "tabla": 48,
       "fila": 27
     },
-    "actor_genera": "Proveedores"
+    "actor_genera": "Proveedores",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-40",
@@ -1178,7 +1193,7 @@
       "riesgo-11"
     ],
     "ejes": [],
-    "responsable": "Gerencia de Comercialización / Por definir",
+    "responsable": "Gerencia de Comercialización / Compras y Abastecimiento",
     "plazo": "2027-01-01",
     "estado": "pendiente",
     "avance": 0,
@@ -1187,8 +1202,6 @@
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -1196,7 +1209,8 @@
       "tabla": 48,
       "fila": 28
     },
-    "actor_genera": "Distribuidores"
+    "actor_genera": "Distribuidores",
+    "seguimiento_ejemplo": true
   },
   {
     "id": "accion-41",
@@ -1207,17 +1221,15 @@
       "riesgo-12"
     ],
     "ejes": [],
-    "responsable": "Gerencia de Distribución / Gerencia de Comercialización / Por definir",
+    "responsable": "Gerencia de Distribución / Gerencia de Comercialización",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 20,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -1225,7 +1237,10 @@
       "tabla": 48,
       "fila": 29
     },
-    "actor_genera": "SOLGAS"
+    "actor_genera": "SOLGAS",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-42",
@@ -1245,8 +1260,6 @@
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -1254,7 +1267,8 @@
       "tabla": 48,
       "fila": 30
     },
-    "actor_genera": "Distribuidores"
+    "actor_genera": "Distribuidores",
+    "seguimiento_ejemplo": true
   },
   {
     "id": "accion-43",
@@ -1265,17 +1279,15 @@
       "riesgo-14"
     ],
     "ejes": [],
-    "responsable": "Por definir / Gerencia de Personas",
+    "responsable": "Gerencia de Operaciones / Gerencia de Personas",
     "plazo": "2027-07-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 20,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -1283,7 +1295,10 @@
       "tabla": 48,
       "fila": 31
     },
-    "actor_genera": "SOLGAS"
+    "actor_genera": "SOLGAS",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-44",
@@ -1294,26 +1309,26 @@
       "riesgo-15"
     ],
     "ejes": [],
-    "responsable": "Por definir",
+    "responsable": "Compras y Abastecimiento / Cumplimiento",
     "plazo": "2026-07-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "cumplida",
+    "avance": 100,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
-      "indicador",
-      "responsable"
+      "indicador"
     ],
     "fuente": {
       "archivo": "20251216Informe de resultados y estrategía.docx",
       "tabla": 48,
       "fila": 32
     },
-    "actor_genera": "Gerentes"
+    "actor_genera": "Gerentes",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: acción cerrada y evidenciada ante el subcomité de DDHH.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-45",
@@ -1324,26 +1339,26 @@
       "riesgo-15"
     ],
     "ejes": [],
-    "responsable": "Por definir",
+    "responsable": "Compras y Abastecimiento / Cumplimiento",
     "plazo": "2026-07-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 80,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
-      "indicador",
-      "responsable"
+      "indicador"
     ],
     "fuente": {
       "archivo": "20251216Informe de resultados y estrategía.docx",
       "tabla": 48,
       "fila": 33
     },
-    "actor_genera": "Áreas de compras"
+    "actor_genera": "Áreas de compras",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-46",
@@ -1354,26 +1369,26 @@
       "riesgo-16"
     ],
     "ejes": [],
-    "responsable": "Por definir",
+    "responsable": "Comunicaciones y Asuntos Corporativos",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 40,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
-      "indicador",
-      "responsable"
+      "indicador"
     ],
     "fuente": {
       "archivo": "20251216Informe de resultados y estrategía.docx",
       "tabla": 48,
       "fila": 34
     },
-    "actor_genera": "SOLGAS"
+    "actor_genera": "SOLGAS",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-47",
@@ -1384,7 +1399,7 @@
       "riesgo-17"
     ],
     "ejes": [],
-    "responsable": "Por definir / Gerencia de Comercialización",
+    "responsable": "Legal / Gerencia de Comercialización",
     "plazo": "2027-07-01",
     "estado": "pendiente",
     "avance": 0,
@@ -1393,8 +1408,6 @@
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -1402,7 +1415,8 @@
       "tabla": 48,
       "fila": 35
     },
-    "actor_genera": "SOLGAS"
+    "actor_genera": "SOLGAS",
+    "seguimiento_ejemplo": true
   },
   {
     "id": "accion-48",
@@ -1413,7 +1427,7 @@
       "riesgo-18"
     ],
     "ejes": [],
-    "responsable": "Por definir / Gerencia de Comercialización",
+    "responsable": "Compras y Abastecimiento / Gerencia de Comercialización",
     "plazo": "2027-07-01",
     "estado": "pendiente",
     "avance": 0,
@@ -1422,8 +1436,6 @@
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -1431,7 +1443,8 @@
       "tabla": 48,
       "fila": 36
     },
-    "actor_genera": "Proveedores"
+    "actor_genera": "Proveedores",
+    "seguimiento_ejemplo": true
   },
   {
     "id": "accion-49",
@@ -1442,17 +1455,15 @@
       "riesgo-18"
     ],
     "ejes": [],
-    "responsable": "Por definir / Gerencia de Comercialización",
+    "responsable": "Compras y Abastecimiento / Gerencia de Comercialización",
     "plazo": "2027-07-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 10,
     "indicador": "Número de medidas de gestión implementadas para esta acción",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -1460,7 +1471,10 @@
       "tabla": 48,
       "fila": 37
     },
-    "actor_genera": "Distribuidores"
+    "actor_genera": "Distribuidores",
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-50",
@@ -1471,17 +1485,15 @@
     "ejes": [
       "etapa-ocde-6"
     ],
-    "responsable": "Por definir",
+    "responsable": "Cumplimiento",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 50,
     "indicador": "Número de medidas de reparación implementadas",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador",
       "responsable"
     ],
@@ -1492,7 +1504,10 @@
         830
       ]
     },
-    "vinculos_estimados": true
+    "vinculos_estimados": true,
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-51",
@@ -1503,17 +1518,15 @@
     "ejes": [
       "etapa-ocde-6"
     ],
-    "responsable": "Por definir",
+    "responsable": "Cumplimiento",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 20,
     "indicador": "Número de reclamos de DDHH recibidos y respondidos",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador",
       "responsable"
     ],
@@ -1524,7 +1537,10 @@
         837
       ]
     },
-    "vinculos_estimados": true
+    "vinculos_estimados": true,
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-52",
@@ -1535,7 +1551,7 @@
     "ejes": [
       "etapa-ocde-6"
     ],
-    "responsable": "Por definir",
+    "responsable": "Cumplimiento",
     "plazo": "2027-01-01",
     "estado": "pendiente",
     "avance": 0,
@@ -1544,8 +1560,6 @@
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador",
       "responsable"
     ],
@@ -1556,7 +1570,8 @@
         839
       ]
     },
-    "vinculos_estimados": true
+    "vinculos_estimados": true,
+    "seguimiento_ejemplo": true
   },
   {
     "id": "accion-53",
@@ -1567,17 +1582,15 @@
     "ejes": [
       "etapa-ocde-4"
     ],
-    "responsable": "Por definir",
+    "responsable": "Área de Sostenibilidad",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 40,
     "indicador": "Porcentaje de indicadores definidos con medición y seguimiento",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador",
       "responsable"
     ],
@@ -1586,7 +1599,10 @@
       "tabla": 49,
       "fila": 1
     },
-    "vinculos_estimados": true
+    "vinculos_estimados": true,
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-54",
@@ -1597,7 +1613,7 @@
     "ejes": [
       "etapa-ocde-4"
     ],
-    "responsable": "Por definir",
+    "responsable": "Área de Sostenibilidad",
     "plazo": "2027-01-01",
     "estado": "pendiente",
     "avance": 0,
@@ -1606,8 +1622,6 @@
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador",
       "responsable"
     ],
@@ -1616,7 +1630,8 @@
       "tabla": 49,
       "fila": 2
     },
-    "vinculos_estimados": true
+    "vinculos_estimados": true,
+    "seguimiento_ejemplo": true
   },
   {
     "id": "accion-55",
@@ -1627,17 +1642,15 @@
     "ejes": [
       "etapa-ocde-5"
     ],
-    "responsable": "Gestión Humana",
+    "responsable": "Gerencia de Personas",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 30,
     "indicador": "Número de espacios de comunicación en DDHH con trabajadores",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -1645,7 +1658,10 @@
       "tabla": 50,
       "fila": 1
     },
-    "vinculos_estimados": true
+    "vinculos_estimados": true,
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-56",
@@ -1656,17 +1672,15 @@
     "ejes": [
       "etapa-ocde-5"
     ],
-    "responsable": "Gestión Humana",
+    "responsable": "Gerencia de Personas",
     "plazo": "2027-01-01",
-    "estado": "pendiente",
-    "avance": 0,
+    "estado": "en-curso",
+    "avance": 10,
     "indicador": "Número de espacios de comunicación en DDHH con proveedores y distribuidores",
     "origen": "fuente",
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -1674,7 +1688,10 @@
       "tabla": 50,
       "fila": 2
     },
-    "vinculos_estimados": true
+    "vinculos_estimados": true,
+    "seguimiento_ejemplo": true,
+    "nota_seguimiento": "Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.",
+    "actualizado": "2026-09-26T15:00:00.000Z"
   },
   {
     "id": "accion-57",
@@ -1685,7 +1702,7 @@
     "ejes": [
       "etapa-ocde-5"
     ],
-    "responsable": "Por definir",
+    "responsable": "Comunicaciones y Asuntos Corporativos",
     "plazo": "2027-01-01",
     "estado": "pendiente",
     "avance": 0,
@@ -1694,8 +1711,6 @@
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador",
       "responsable"
     ],
@@ -1704,7 +1719,8 @@
       "tabla": 50,
       "fila": 3
     },
-    "vinculos_estimados": true
+    "vinculos_estimados": true,
+    "seguimiento_ejemplo": true
   },
   {
     "id": "accion-58",
@@ -1715,7 +1731,7 @@
     "ejes": [
       "etapa-ocde-5"
     ],
-    "responsable": "Sostenibilidad",
+    "responsable": "Área de Sostenibilidad",
     "plazo": "2027-01-01",
     "estado": "pendiente",
     "avance": 0,
@@ -1724,8 +1740,6 @@
     "campos_propuestos": [
       "titulo",
       "plazo",
-      "estado",
-      "avance",
       "indicador"
     ],
     "fuente": {
@@ -1735,6 +1749,7 @@
         868
       ]
     },
-    "vinculos_estimados": true
+    "vinculos_estimados": true,
+    "seguimiento_ejemplo": true
   }
 ]

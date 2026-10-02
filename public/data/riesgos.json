@@ -13,7 +13,7 @@
       "cadena-distribucion"
     ],
     "responsables": [
-      "Por definir",
+      "Gerencia de Operaciones",
       "Gerencia de Personas",
       "Gerencia de Comercialización"
     ],
@@ -62,7 +62,7 @@
       "operacion-propia"
     ],
     "responsables": [
-      "Por definir",
+      "Gerencia de Operaciones",
       "Gerencia de Personas"
     ],
     "evaluaciones": [
@@ -101,8 +101,10 @@
     ],
     "responsables": [
       "Área de Sostenibilidad",
-      "Por definir",
+      "Seguridad y Salud en el Trabajo",
+      "Salud Ocupacional",
       "Gerencia de Personas",
+      "Capacitación y Desarrollo",
       "Gerencia de Comercialización"
     ],
     "evaluaciones": [
@@ -153,7 +155,7 @@
     ],
     "responsables": [
       "Gerencia de Personas",
-      "Por definir",
+      "Compras y Abastecimiento",
       "Gerencia de Comercialización"
     ],
     "evaluaciones": [
@@ -192,7 +194,8 @@
     ],
     "responsables": [
       "Área de Sostenibilidad",
-      "Por definir"
+      "Seguridad y Salud en el Trabajo",
+      "Mantenimiento e Integridad de Activos"
     ],
     "evaluaciones": [
       {
@@ -231,8 +234,10 @@
       "operacion-propia"
     ],
     "responsables": [
-      "Por definir",
-      "Área de Sostenibilidad"
+      "Gerencia de Operaciones",
+      "Área de Sostenibilidad",
+      "Seguridad y Salud en el Trabajo",
+      "Medio Ambiente"
     ],
     "evaluaciones": [
       {
@@ -269,7 +274,7 @@
     ],
     "responsables": [
       "Gerencia de Comercialización",
-      "Por definir"
+      "Compras y Abastecimiento"
     ],
     "evaluaciones": [
       {
@@ -307,7 +312,7 @@
     ],
     "responsables": [
       "Gerencia de Comercialización",
-      "Por definir"
+      "Compras y Abastecimiento"
     ],
     "evaluaciones": [
       {
@@ -345,7 +350,7 @@
     ],
     "responsables": [
       "Gerencia de Comercialización",
-      "Por definir"
+      "Compras y Abastecimiento"
     ],
     "evaluaciones": [
       {
@@ -385,7 +390,7 @@
     ],
     "responsables": [
       "Gerencia de Comercialización",
-      "Por definir"
+      "Compras y Abastecimiento"
     ],
     "evaluaciones": [
       {
@@ -426,7 +431,7 @@
     ],
     "responsables": [
       "Gerencia de Comercialización",
-      "Por definir"
+      "Compras y Abastecimiento"
     ],
     "evaluaciones": [
       {
@@ -465,7 +470,7 @@
     "responsables": [
       "Gerencia de Distribución",
       "Gerencia de Comercialización",
-      "Por definir"
+      "Planeamiento de Suministro"
     ],
     "evaluaciones": [
       {
@@ -537,7 +542,7 @@
       "operacion-propia"
     ],
     "responsables": [
-      "Por definir",
+      "Gerencia de Operaciones",
       "Gerencia de Personas"
     ],
     "evaluaciones": [
@@ -574,7 +579,9 @@
       "operacion-propia"
     ],
     "responsables": [
-      "Por definir"
+      "Compras y Abastecimiento",
+      "Cumplimiento",
+      "Legal"
     ],
     "evaluaciones": [
       {
@@ -610,7 +617,7 @@
       "operacion-propia"
     ],
     "responsables": [
-      "Por definir"
+      "Comunicaciones y Asuntos Corporativos"
     ],
     "evaluaciones": [
       {
@@ -648,7 +655,7 @@
       "cadena-suministro"
     ],
     "responsables": [
-      "Por definir",
+      "Legal",
       "Gerencia de Comercialización"
     ],
     "evaluaciones": [
@@ -686,7 +693,7 @@
       "cadena-suministro"
     ],
     "responsables": [
-      "Por definir",
+      "Compras y Abastecimiento",
       "Gerencia de Comercialización"
     ],
     "evaluaciones": [

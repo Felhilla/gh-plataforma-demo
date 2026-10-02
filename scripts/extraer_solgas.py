@@ -51,6 +51,54 @@ COMPONENTES = [
     'Mecanismo de medición y seguimiento',
     'Modelo de comunicación y reporte',
 ]
+# Responsable propuesto para acciones de cierre de brechas que la fuente no asigna (demo).
+RESPONSABLE_POR_COMPONENTE = {
+    1: 'Área de Sostenibilidad',
+    4: 'Cumplimiento',
+    5: 'Área de Sostenibilidad',
+    6: 'Comunicaciones y Asuntos Corporativos',
+}
+# Una sola etiqueta por área en toda la plataforma.
+ETIQUETAS_AREA = {'Sostenibilidad': 'Área de Sostenibilidad', 'Gestión Humana': 'Gerencia de Personas',
+                  'Gerencia general': 'Gerencia General'}
+
+# Seguimiento ilustrativo: el contrato con Solgas llegó hasta el diseño de la estrategia, no a su
+# implementación. Simula ~9 meses de ejecución desde la fecha base. Patrones fijos por componente
+# (estado, avance), aplicados en orden; el componente 3 se rige por el plazo, que refleja la criticidad.
+FECHA_SEGUIMIENTO = '2026-09-26'
+SEGUIMIENTO_COMPONENTE = {
+    1: [('cumplida', 100), ('cumplida', 100), ('en-curso', 60), ('en-curso', 40), ('en-curso', 30), ('pendiente', 0), ('pendiente', 0)],
+    2: [('cumplida', 100), ('cumplida', 100), ('en-curso', 70), ('en-curso', 50), ('cumplida', 100)],
+    4: [('en-curso', 50), ('en-curso', 20), ('pendiente', 0)],
+    5: [('en-curso', 40), ('pendiente', 0)],
+    6: [('en-curso', 30), ('en-curso', 10), ('pendiente', 0), ('pendiente', 0)],
+}
+SEGUIMIENTO_RIESGOS = {
+    '2026-07-01': [('cumplida', 100), ('en-curso', 80)],  # Alta: una cumplida y una vencida en curso
+    '2027-01-01': [('en-curso', 40), ('en-curso', 60), ('cumplida', 100), ('en-curso', 30), ('en-curso', 50), ('pendiente', 0), ('en-curso', 20)],
+    '2027-07-01': [('pendiente', 0), ('en-curso', 20), ('pendiente', 0), ('pendiente', 0), ('en-curso', 10)],
+}
+NOTAS_EJEMPLO = {
+    'cumplida': 'Seguimiento de ejemplo: acción cerrada y evidenciada ante el subcomité de DDHH.',
+    'en-curso': 'Seguimiento de ejemplo: en implementación; avance reportado en la revisión trimestral.',
+}
+
+
+def aplicar_seguimiento_ejemplo(acciones):
+    contadores = {}
+    for accion in acciones:
+        componente = int(accion['componente'].split('-')[1])
+        clave = accion['plazo'] if componente == 3 else componente
+        patron = SEGUIMIENTO_RIESGOS[clave] if componente == 3 else SEGUIMIENTO_COMPONENTE[componente]
+        i = contadores.get(clave, 0)
+        contadores[clave] = i + 1
+        estado, avance = patron[i % len(patron)]
+        accion.update(estado=estado, avance=avance, seguimiento_ejemplo=True)
+        accion['campos_propuestos'] = [c for c in accion['campos_propuestos'] if c not in ('estado', 'avance')]
+        if estado != 'pendiente':
+            accion.update(nota_seguimiento=NOTAS_EJEMPLO[estado], actualizado=FECHA_SEGUIMIENTO + 'T15:00:00.000Z')
+
+
 # Valores deliberadamente fijos. La fecha mensual no inventa un día de evaluación.
 EJEMPLO = [3.5, 3.5, 3.4, 3.5, 3.3, 4.0, 3.9, 4.0, 4.2, 3.5, 4.2, 4.5, 4.4, 4.4, 4.3, 4.0]
 
@@ -321,11 +369,17 @@ def extraer_plan(doc, riesgos, criticidad_cfg):
             raise ValueError('Título excede 90 caracteres: ' + title)
         proposed = ['titulo', 'plazo', 'estado', 'avance', 'indicador']
         if risk_ids:
-            responsible = ' / '.join(unicos(area for rid in risk_ids for area in by_id[rid]['responsables']))
+            # Máximo dos áreas para que el responsable sea legible en la demo.
+            responsible = ' / '.join(unicos(area for rid in risk_ids for area in by_id[rid]['responsables'])[:2])
+        elif responsible == 'Por definir' and component in RESPONSABLE_POR_COMPONENTE:
+            responsible = RESPONSABLE_POR_COMPONENTE[component]
+            proposed.append('responsable')
+        responsible = ETIQUETAS_AREA.get(responsible, responsible)
+        if risk_ids:
             months = min(cfg['plazo_propuesto']['por_criticidad'][levels[rid]] for rid in risk_ids)
         else:
             months = cfg['plazo_propuesto']['sin_riesgo']
-        if responsible == 'Por definir':
+        if responsible == 'Por definir' and 'responsable' not in proposed:
             proposed.append('responsable')
         action = {'id': 'accion-%02d' % (len(acciones) + 1), 'componente': 'componente-' + str(component),
                   'titulo': title, 'descripcion': description, 'riesgos': list(risk_ids), 'ejes': list(axes),
@@ -419,6 +473,7 @@ def main():
     riesgos = extraer_riesgos(mat, traducciones)
     estandares, evaluaciones = extraer_estandares(bre)
     plan_cfg, plan, ajustes = extraer_plan(doc, riesgos, cfg)
+    aplicar_seguimiento_ejemplo(plan)
     umbrales = {'escala': {'minimo': 0, 'maximo': 5}, 'cortes': [
         {'menor_que': 3.0, 'nombre': 'naranja', 'color': '#9A3412'},
         {'menor_que': 4.0, 'nombre': 'amarillo', 'color': '#806000'},

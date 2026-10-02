@@ -173,9 +173,11 @@ test('plan: componentes, cobertura total, referencias y 37 filas originales', ()
     assert.ok(planCfg.componentes.some(c => c.id === a.componente));
     componentCount[a.componente] = (componentCount[a.componente] || 0) + 1;
     assert.ok(planCfg.estados.includes(a.estado));
-    assert.equal(a.estado, 'pendiente');
     assert.ok(a.avance >= 0 && a.avance <= 100);
-    assert.equal(a.avance, 0);
+    // Todo avance distinto de cero es seguimiento de ejemplo marcado y consistente con el estado.
+    assert.equal(a.seguimiento_ejemplo, true);
+    assert.equal(a.estado === 'cumplida', a.avance === 100);
+    assert.equal(a.estado === 'pendiente', a.avance === 0);
     assert.ok(a.titulo.length > 0 && a.titulo.length <= 90);
     assert.ok(a.descripcion.trim() && a.indicador.trim());
     assert.ok(a.riesgos.length + a.ejes.length > 0);
@@ -185,12 +187,12 @@ test('plan: componentes, cobertura total, referencias y 37 filas originales', ()
       assert.ok(a.riesgos.length > 0);
       assert.equal(a.ejes.length, 0);
       const areas = [...new Set(a.riesgos.flatMap(id => riesgos.find(r => r.id === id).responsables))];
-      assert.equal(a.responsable, areas.join(' / '));
+      assert.equal(a.responsable, areas.slice(0, 2).join(' / ')); // máximo dos áreas
     } else {
       assert.equal(a.riesgos.length, 0);
       assert.equal(a.vinculos_estimados, true);
     }
-    for (const field of ['titulo', 'plazo', 'estado', 'avance', 'indicador']) assert.ok(a.campos_propuestos.includes(field));
+    for (const field of ['titulo', 'plazo', 'indicador']) assert.ok(a.campos_propuestos.includes(field));
     if (a.responsable === 'Por definir') assert.ok(a.campos_propuestos.includes('responsable'));
     assert.ok(!a.descripcion.includes('Nettalco'));
   }
