@@ -1,1 +1,55 @@
-/* Estilos de la pestaña Alineación con estándares (encargo E3). */
+.e3 { min-width:0; }
+.e3-controles { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto; align-items:end; gap:18px; margin:24px 0; }
+.e3-controles label { min-width:0; font-weight:600; }
+.e3-graficos { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; }
+.e3-grafico { min-width:0; padding:18px; margin:16px 0; }
+.e3-grafico svg { display:block; width:100%; height:auto; overflow:visible; }
+.e3-anillo { fill:none; stroke:var(--borde); stroke-width:1; }
+.e3-principal { fill:var(--principal); fill-opacity:.18; stroke:var(--principal); stroke-width:2.5; }
+.e3-comparada { fill:none; stroke:var(--media); stroke-width:3; stroke-dasharray:9 6; }
+.e3-etiqueta { font:14px system-ui,sans-serif; fill:var(--texto); }
+.e3-nivel { font:12px system-ui,sans-serif; fill:var(--secundario); paint-order:stroke; stroke:white; stroke-width:3; }
+.e3-puntaje { font:bold 15px system-ui,sans-serif; fill:var(--texto); paint-order:stroke; stroke:white; stroke-width:4; }
+.e3-vertice { cursor:pointer; }
+.e3-vertice circle { stroke:white; stroke-width:2; }
+.e3-vertice[aria-pressed="true"] circle,.e3-vertice:focus circle { stroke:var(--texto); stroke-width:3; }
+.e3-vertice:focus .e3-etiqueta,.e3-vertice:hover .e3-etiqueta { text-decoration:underline; }
+.e3-lectura { min-height:4.6em; font-size:.9rem; background:var(--suave); border-radius:6px; padding:10px; }
+.e3-leyenda-principal,.e3-leyenda-comparada { font-size:.85rem; padding-left:12px; border-left:5px solid var(--principal); }
+.e3-leyenda-comparada { border-left:5px dashed var(--media); }
+.e3-colores { display:flex; flex-wrap:wrap; gap:10px 24px; font-size:.9rem; }
+.e3-tabla { table-layout:fixed; }
+.e3-tabla caption { text-align:left; color:var(--secundario); padding:12px 0; }
+.e3-tabla th:first-child { width:43%; }
+.e3-tabla th,.e3-tabla td { padding:10px 6px; }
+.e3-tabla button { padding:4px; text-align:left; border:0; background:transparent; font-size:inherit; overflow-wrap:anywhere; }
+.e3-tabla button[aria-pressed="true"] { background:var(--suave); text-decoration:underline; }
+.e3-aviso { background:var(--suave); border-left:4px solid var(--principal); padding:14px; }
+.e3-aviso[hidden] { display:none; }
+.e3-detalle { overflow-wrap:anywhere; }
+.e3-criterio { margin:28px 0; }
+.e3-indicador { padding:16px 0; border-top:1px solid var(--borde); }
+.e3-indicador h4 { margin:0 0 10px; }
+.e3-indicador summary { color:var(--principal); cursor:pointer; }
+.e3-brecha { padding:14px; border-left:4px solid var(--media); background:var(--fondo); }
+.e3-dialogo { width:min(760px,calc(100% - 32px)); max-height:90vh; padding:24px; border:1px solid var(--borde); border-radius:14px; color:var(--texto); background:var(--fondo); }
+.e3-dialogo::backdrop { background:#14292099; }
+.e3-dialogo label { display:block; margin:14px 0; }
+.e3-dialogo input { display:block; width:100%; margin-top:6px; padding:10px; font:inherit; color:var(--texto); border:1px solid var(--borde); border-radius:6px; }
+.e3-dialogo fieldset { min-width:0; margin:20px 0; border:1px solid var(--borde); }
+.e3-dialogo legend { font-weight:600; }
+.e3-dialogo button { margin:6px 10px 6px 0; }
+.e3-dialogo button:disabled { opacity:.6; cursor:wait; }
+.e3-error { color:var(--alta); }
+.e3-dialogo [aria-invalid="true"] { border-color:var(--alta); }
+@media(max-width:1199px) { .e3-graficos { grid-template-columns:1fr; }.e3-grafico svg { max-width:760px; margin:auto; } }
+@media(max-width:767px) {
+  .e3-controles { grid-template-columns:1fr; }
+  .e3-grafico { padding:12px; }
+  .e3-tabla thead { position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%); }
+  .e3-tabla tr { display:block; border-bottom:2px solid var(--borde); margin-bottom:12px; }
+  .e3-tabla th:first-child { display:block; width:100%; }
+  .e3-tabla td { display:grid; grid-template-columns:45% minmax(0,1fr); gap:8px; }
+  .e3-tabla td::before { content:attr(data-etiqueta); font-weight:600; }
+  .e3-dialogo { padding:16px; }
+}

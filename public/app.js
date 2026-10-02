@@ -2,10 +2,26 @@
 (function () {
   'use strict';
   const vistas = new Map();
+  let estadoPlan = 'respaldo';
   const App = window.App = {
     datos: null,
     registrarVista(nombre, vista) { vistas.set(nombre, vista); },
     obtenerPlan() { return App.datos.plan; },
+    estadoBase() { return estadoPlan; },
+    async guardarAccion(id, cambios) {
+      if (estadoPlan !== 'base') throw new Error('No hay conexión con la base de datos. No se guardaron los cambios.');
+      const original = App.datos.plan.find(a => a.id === id);
+      if (!original) throw new Error('No se encontró la acción.');
+      const resultado = Plan.aplicarCambio(original, cambios, App.datos.planConfig, new Date().toISOString());
+      if (!resultado.ok) throw new Error(resultado.errores.join(' '));
+      try {
+        await GHDatos.set('plan-acciones', id, resultado.accion);
+      } catch (error) {
+        throw new Error('No se pudo guardar el cambio. Comprueba la conexión y vuelve a intentarlo.');
+      }
+      App.datos.plan = App.datos.plan.map(a => a.id === id ? resultado.accion : a);
+      return resultado.accion;
+    },
     // Todos los textos, incluidos atributos y datos remotos, se insertan con DOM seguro.
     el(tag, texto, clase) {
       const nodo = document.createElement(tag);
@@ -87,6 +103,19 @@
         if (!respuesta.ok) throw new Error('No se pudo cargar ' + clave);
         return [clave, await respuesta.json()];
       })));
+      const estatico = App.datos.plan;
+      let espera;
+      try {
+        const deBase = await Promise.race([
+          Promise.resolve().then(() => GHDatos.list('plan-acciones')).then(acciones => ({acciones, estado: GHDatos.estado})),
+          new Promise((resolve, reject) => { espera = setTimeout(() => reject(new Error('Tiempo de espera agotado')), 5000); })
+        ]);
+        estadoPlan = deBase.estado === 'base' ? 'base' : 'respaldo';
+        App.datos.plan = Plan.combinar(estatico, estadoPlan === 'base' ? deBase.acciones : []);
+      } catch (error) {
+        estadoPlan = 'respaldo';
+        App.datos.plan = estatico;
+      } finally { clearTimeout(espera); }
       window.addEventListener('hashchange', enrutar); enrutar();
     } catch (error) {
       const aviso = el('section', null, 'error'); aviso.setAttribute('role', 'alert');

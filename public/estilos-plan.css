@@ -1,1 +1,26 @@
-/* Estilos de la pestaña Plan de acción (encargo E4). */
+.vista-plan { overflow-wrap:anywhere; }
+.plan-conexion { border:1px solid var(--media); background:white; padding:16px; border-radius:8px; }
+.plan-componentes { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+.plan-componentes button { text-align:left; min-width:0; }
+.plan-componentes strong,.plan-componentes span { display:block; }
+.plan-componentes [aria-pressed="true"] { border:2px solid var(--principal); background:var(--suave); }
+.plan-avance { display:flex; gap:12px; align-items:center; margin:8px 0; flex-wrap:wrap; }
+.plan-avance progress { flex:1; min-width:80px; max-width:100%; accent-color:var(--principal); }
+.plan-filtros { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; align-items:end; }
+.plan-filtros label,.plan-rapida label,.plan-formulario label { display:block; min-width:0; font-weight:600; font-size:.9rem; }
+.plan-filtros input,.plan-formulario input,.plan-formulario textarea { display:block; width:100%; min-width:0; font:inherit; padding:10px; margin-top:6px; border:1px solid var(--borde); border-radius:6px; color:var(--texto); background:white; }
+.plan-formulario textarea { min-height:110px; resize:vertical; }
+.plan-grupo summary { cursor:pointer; font-weight:700; color:var(--principal); }
+.plan-grupo summary .plan-avance { max-width:420px; font-weight:400; }
+.plan-vinculos { display:flex; gap:12px; flex-wrap:wrap; margin:12px 0; font-size:.85rem; }
+.plan-rapida { display:grid; grid-template-columns:minmax(140px,1fr) minmax(140px,2fr); gap:20px; max-width:640px; margin-top:16px; align-items:center; }
+.plan-rapida input { display:block; width:100%; accent-color:var(--principal); }
+.plan-panel { width:min(780px,90vw); }
+.plan-formulario form { margin:20px 0; }
+.plan-formulario button { margin-top:8px; }
+.plan-guardado { min-height:1.6em; color:var(--principal); font-weight:600; }
+.vista-plan :disabled,.plan-panel :disabled { cursor:not-allowed; opacity:.65; }
+@media(max-width:767px) {
+  .plan-componentes,.plan-filtros,.plan-rapida { grid-template-columns:minmax(0,1fr); }
+  .plan-panel { width:100%; }
+}
